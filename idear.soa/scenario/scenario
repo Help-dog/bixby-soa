@@ -1,0 +1,17 @@
+
+# [목적]
+# 캡슐 목적 적고
+
+#[사용자가 입력할 말]
+# 7 더하기 3은 얼마야?
+# 2 더하기 5가 얼마야?
+
+#[발화함수이름 : Action]
+#plusOperation
+
+#[발화변수이름 : Input Concept]
+# 7 ==> LeftOperation
+# 3 ==> RightOperation
+
+#[발화변수이름 : Output Concept]
+#Results
