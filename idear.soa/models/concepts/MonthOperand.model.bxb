@@ -1,0 +1,3 @@
+text (MonthOperand) {
+  description ('1주차'와 같은 월별 기간을 저장)
+}
