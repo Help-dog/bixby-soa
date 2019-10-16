@@ -1,0 +1,11 @@
+action (Hospital) {
+  description (근처 병원 및 보건소 위치를 위한 action입니다)
+  collect {
+    input (sortOfHospital) {
+      type (SortOfHospital)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (NearHospital)
+}
