@@ -1,0 +1,8 @@
+structure (VaccinationInfo) {
+  //
+  description (검색된 시간에 맞는 예방접종 주사 알림)
+  property (vaccinationName) {
+    type (VaccinationName)
+    min (Optional) max (One)
+  }
+}
