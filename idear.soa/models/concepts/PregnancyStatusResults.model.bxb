@@ -1,3 +1,11 @@
-text (PregnancyStatusResults) {
-  description (임신 주차별 결과 반환)
+structure (PregnancyStatusResults) {
+  description (임신 주 차별 정보를 담는 객체)
+  property (pregnancyStatusResult) {
+    type (PregnancyStatusResult)
+    min (Optional) max (One)
+  }
+  property (weekOperand) {
+    type (WeekOperand)
+    min (Optional) max (One)
+  }
 }
