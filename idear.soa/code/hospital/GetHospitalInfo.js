@@ -19,7 +19,7 @@ function deg2rad(deg) {
 }
 
 module.exports.function = function getRestautantInfo (near, point, self) {
-  const dummyData = require("./data/restaurants.js");
+  const dummyData = require("../data/hospital/hospital.js");
   const console = require('console');
   
   // console.log(near);
