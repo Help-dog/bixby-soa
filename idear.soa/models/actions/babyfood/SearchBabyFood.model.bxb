@@ -7,7 +7,7 @@
 // # Recipes
 
 action (SearchBabyFood) {
-  description (이유식찾기액션)
+  description (이유식 검색)
   collect {
     input (month) { //n개월
       type (Month)
