@@ -1,7 +1,7 @@
 // 결과 화면에 대한 보여주는 방식을 설정 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
 result-view {
   // 결과 화면을 보여주고 싶은 output concept을 지정
-  match: Restaurant(this)
+  match: Hospital(this)
 
   message {
     if(size(this) == 1){
@@ -22,12 +22,12 @@ result-view {
   render {
     if(size(this) == 1){
       layout{
-        layout-macro (RestaurantMap){
+        layout-macro (HospitalMap){
           param(info){
             expression (this)
           }
         }
-        layout-macro (RestaurantInfo){
+        layout-macro (HospitalInfo){
           param(info){
             expression (this)
           }
@@ -37,8 +37,8 @@ result-view {
     }else{
       list-of (this){
         where-each (item){
-          layout-macro (RestaurantList){
-            param(restaurant){
+          layout-macro (HospitalList){
+            param(hospital){
               expression (item)
             }
           }

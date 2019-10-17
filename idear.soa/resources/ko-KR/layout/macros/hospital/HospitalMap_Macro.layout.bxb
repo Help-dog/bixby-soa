@@ -1,8 +1,8 @@
 // map-card UI (https://bixbydevelopers.com/dev/docs/reference/type/layout-macro-def.content.map-card)
-layout-macro-def (RestaurantMap) {
+layout-macro-def (HospitalMap) {
   params {
     param (info) {
-      type (Restaurant)
+      type (Hospital)
       min (Required) max (One)
     }
   }

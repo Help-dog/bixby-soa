@@ -1,4 +1,4 @@
-structure (Restaurant) {
+structure (Hospital) {
   description (레스토랑 정보를 담는 structure입니다)
   property (username) {
     type (UserName)
@@ -6,7 +6,7 @@ structure (Restaurant) {
   }
   
   property (name) {
-    type (RestaurantName)
+    type (HospitalName)
     min (Required) max (One)
   }
   

@@ -1,0 +1,19 @@
+layout-macro-def (HospitalList) {
+  params {
+    param (hospital) {
+      type (Hospital)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+          content {
+              order (PrimarySecondary)
+              primary ("#{value(hospital.name)}")
+              secondary ("[#{value(hospital.location)}]")
+            }
+        }
+     }
+  }
+}
