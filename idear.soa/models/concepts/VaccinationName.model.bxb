@@ -1,0 +1,3 @@
+text (VaccinationName) {
+  description (예방접종 이름)
+}
