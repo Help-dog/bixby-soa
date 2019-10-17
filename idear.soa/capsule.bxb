@@ -10,15 +10,16 @@ capsule {
     concepts-inherit-super-type-features
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
   capsule-imports {
-    import(viv.core) {
-      as(core)
-    }
-    import(viv.geo) {
-      as(geo)
-      version(9.20.3)
-    }
+    import (viv.entity) { version(3.19.8) as (entity) }
+    import (viv.core){ as (core) version-from (entity)}
+    import (viv.common) { as (common) version-from (entity) }
+    import (viv.geo) { as (geo) version-from (entity) }
+    import (viv.self) { version(3.5.122) as (self) }
   }
   permissions {
     user-profile-access
