@@ -9,10 +9,10 @@
 # BeforeStatusOperation
 
 # 4. [ 발화 변수 : Input Concept ]
-# 임신 => statusOperand
-# 1주 => monthOperand 
-# 아기 => targetOperand
-# 나,내 (몸) => targetOperand
+# 임신 => statusOperand (name)
+# 1주 => monthOperand (enum)
+# 아기 => targetOperand (name)
+# 나,내 (몸) => targetOperand (name)
 
 # 5. [ 발화 변수 : Outpup Concept ]
 # Results (여러 정보가 담길 수 있으니 복수로 썼다.)
