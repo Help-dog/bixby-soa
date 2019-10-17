@@ -1,4 +1,0 @@
-enum (sortOfHospital) {
-  description (병원의 종류를 지정)
-  symbol (__SYMBOL__)
-}

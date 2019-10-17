@@ -1,0 +1,5 @@
+train (t-dqtwhwzxy3hq74ijre6ionnur) {
+  utterance ("[g:Restaurant] (주변)[v:Near:Nearby] 병원 찾아줘")
+  plan (Y2BhEMlMSU0s0ivOT9QLSi0uSSwtSswrYZBGiLqnlkAkSoASnnlp+Qx8CEk/IIOBtyyzTK84NSdNLxhIMDAzMDIwAUkGIA2CEMAEwQA=)
+  last-modified (1571294425940)
+}

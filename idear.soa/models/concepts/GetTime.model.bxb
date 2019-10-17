@@ -1,3 +1,3 @@
 integer (GetTime) {
-  description (생후 몇개월차)
+  description (__DESCRIPTION__)
 }
