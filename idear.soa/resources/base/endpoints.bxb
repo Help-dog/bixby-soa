@@ -5,5 +5,9 @@ endpoints {
       accepted-inputs (near, point, self)
       local-endpoint (GetRestautantInfo.js)
     }
+    action-endpoint (PregnancyStatusAction) {
+      accepted-inputs (statusOperand, weekOperand, targetOperand)
+      local-endpoint (pregnancyStatusOperation.js)
+    }
   }
 }
