@@ -10,9 +10,13 @@
 
 # 4. [ 발화 변수 : Input Concept ]
 # 임신 => statusOperand (name)
-# 1주 => monthOperand (enum)
-# 아기 => targetOperand (name)
-# 나,내 (몸) => targetOperand (name)
+# 1 => weekNumOperand (Integer)
+# 주, 주차 => weekOperand (name)
+# 아기,애기,애 => targetOperand (name)
+# 나,내,나의 (몸) => targetOperand (name)
 
 # 5. [ 발화 변수 : Outpup Concept ]
 # Results (여러 정보가 담길 수 있으니 복수로 썼다.)
+
+#임신 / 1주 / 내,나 (아기,애기)
+#추가해줘 -> 추가 -> 더해줘 

@@ -5,10 +5,9 @@ endpoints {
       accepted-inputs (near, point, self)
       local-endpoint (hospital/GetHospitalInfo.js)
     }
-
-     action-endpoint (HospitalMapApi) {
-      accepted-inputs (point, self, hospitalConcept, search)
-      local-endpoint (hospital/HospitalMapApi.js)
+    action-endpoint (PregnancyStatusAction) {
+      accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
+      local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
   }
 }

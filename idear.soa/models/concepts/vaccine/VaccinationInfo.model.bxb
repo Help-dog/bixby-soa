@@ -5,4 +5,8 @@ structure (VaccinationInfo) {
     type (VaccinationName)
     min (Optional) max (One)
   }
+  property (vaccinationDesc) {
+    type (VaccinationDesc)
+    min (Optional) max (One)
+  }
 }

@@ -1,0 +1,4 @@
+enum (Recipe) {
+  description (레시피)
+  symbol (레시피)
+}

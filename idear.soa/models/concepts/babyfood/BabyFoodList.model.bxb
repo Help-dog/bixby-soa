@@ -1,0 +1,24 @@
+structure (BabyFoodList) {
+  description (아이이유식 리스트)
+
+  property (img) {
+    type (viv.core.BaseImage)
+    min (Optional) max (One)
+  }
+  property (href) {
+    type (Href)
+    min (Optional) max (One)
+  }
+  property (title) {
+    type (Title)
+    min (Optional) max (One)
+  }
+  property (content) {
+    type (Content)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (Url)
+    min (Optional) max (One)
+  }
+}
