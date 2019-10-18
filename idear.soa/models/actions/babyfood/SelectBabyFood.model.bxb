@@ -6,8 +6,8 @@
 // # 5. [발화 변수: Output Concept]
 // # Recipes
 
-action (SearchBabyFood) {
-  description (이유식 검색)
+action (SelectBabyFood) {
+  description (레시피 중 하나를 선택했을 때 보여주는 액션)
   collect {
     input (month) { //n개월
       type (Month)
