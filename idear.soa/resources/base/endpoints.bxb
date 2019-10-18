@@ -9,5 +9,9 @@ endpoints {
       accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
       local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
+    action-endpoint (SearchVaccine){
+      accepted-inputs (vaccinationName)
+      local-endpoint (vaccine/searchVaccine.js)
+    }
   }
 }

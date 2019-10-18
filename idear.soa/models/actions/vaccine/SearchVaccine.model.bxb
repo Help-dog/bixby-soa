@@ -3,7 +3,7 @@ action (SearchVaccine) {
   collect {
     input (vaccinationName) {
       type (VaccinationName)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   type(Search)
