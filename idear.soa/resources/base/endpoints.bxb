@@ -7,7 +7,7 @@ endpoints {
     }
     action-endpoint (PregnancyStatusAction) {
       accepted-inputs (statusOperand, weekOperand, targetOperand)
-      local-endpoint (pregnancyStatusOperation.js)
+      local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
   }
 }
