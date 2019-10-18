@@ -10,7 +10,6 @@ function getDistance(lat1,lon1,lat2,lon2) {
     ; 
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   const d = R * c; // Distance in km
-  
   return d;
 }
 
@@ -18,13 +17,13 @@ function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
 
-module.exports.function = function getRestautantInfo (near, point, self) {
+module.exports.function = function getHospitalInfo (near, point, self) {
   const dummyData = require("../data/hospital/hospital.js");
   const console = require('console');
   
   // console.log(near);
   // console.log(point);
-  console.log(self);
+  // console.log(self);
   
   let result = [];
   
@@ -56,6 +55,6 @@ module.exports.function = function getRestautantInfo (near, point, self) {
       result.push(dummyData[i]);
     }
   }
-  
+
   return result;
 }
