@@ -1,0 +1,3 @@
+text (VaccinationDesc) {
+  description (__DESCRIPTION__)
+}
