@@ -4,6 +4,12 @@ structure (PregnancyStatusResults) {
     type (PregnancyStatusResult)
     min (Optional) max (One)
   }
+
+  property (weekNumOperand) {
+    type (WeekNumOperand)
+    min (Optional) max (One)
+  }
+
   property (weekOperand) {
     type (WeekOperand)
     min (Optional) max (One)
