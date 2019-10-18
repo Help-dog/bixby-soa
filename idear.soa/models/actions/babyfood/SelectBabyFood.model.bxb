@@ -1,0 +1,31 @@
+// # 4. [발화변수: Input Concept]
+// # n개월 -> Month
+// # 재료 -> 
+// # 이유식레시피 -> FoodRecipe
+// # 찾아줘 -> Search
+// # 5. [발화 변수: Output Concept]
+// # Recipes
+
+action (SelectBabyFood) {
+  description (레시피 중 하나를 선택했을 때 보여주는 액션)
+  collect {
+    input (month) { //n개월
+      type (Month)
+      min (Optional) max (One)
+    }
+    input (food) { //ex)고구마
+      type (Food)
+      min (Optional) max (One)
+    }
+    input (babyFoondRecipe) { //이유식, 아기이유식
+      type (BabyFoondRecipe)
+      min (Required) max (One)
+    }
+    input (find) { //찾아줘
+      type (Find)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (Results)
+}
