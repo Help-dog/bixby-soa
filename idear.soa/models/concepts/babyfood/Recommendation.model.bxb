@@ -1,4 +1,4 @@
 enum (Recommendation) {
-  description (__DESCRIPTION__)
-  symbol (AddKeyword)
+  description (검색and추천)
+  symbol (검색)
 }

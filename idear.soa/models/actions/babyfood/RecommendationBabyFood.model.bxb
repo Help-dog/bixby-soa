@@ -1,4 +1,4 @@
-action (SearchBabyFoodList) {
+action (RecommendationBabyFood) {
   description (아기이유식 추천 및 검색)
   collect {
     input (month) { //n개월
@@ -9,14 +9,19 @@ action (SearchBabyFoodList) {
       type (Ingredients)
       min (Optional) max (One)
     }
-    input (babyFood) { //이유식, 아기이유식
+    input (babyFood) { //ex)재료: 이유식
       type (BabyFood)
       min (Required) max (One)
+    }
+    input (recipe) { //레시피
+      type (Recipe)
+      min (Optional) max (One)
     }
     input (recommendation) { //추천해줘
       type (Recommendation)
       min (Optional) max (One)
     }
   }
-  output (Results)
+  type(Search)
+  output (BabyFoodList)
 }
