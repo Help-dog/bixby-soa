@@ -1,8 +1,8 @@
-action (SearchVaccination) {
+action (SearchVaccine) {
   description (예방 접종 주사 정보)
   collect {
-    input (getTime) {
-      type (GetTime)
+    input (vaccinationName) {
+      type (VaccinationName)
       min (Optional) max (One)
     }
   }
