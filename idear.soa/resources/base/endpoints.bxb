@@ -6,7 +6,7 @@ endpoints {
       local-endpoint (hospital/GetHospitalInfo.js)
     }
     action-endpoint (PregnancyStatusAction) {
-      accepted-inputs (statusOperand, weekOperand, targetOperand)
+      accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
       local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
   }

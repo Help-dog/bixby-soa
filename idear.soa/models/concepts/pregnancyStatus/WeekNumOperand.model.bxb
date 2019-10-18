@@ -1,0 +1,3 @@
+integer (WeekNumOperand) {
+  description (몇주차인지 숫자로 받음)
+}
