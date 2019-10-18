@@ -5,5 +5,10 @@ endpoints {
       accepted-inputs (near, point, self)
       local-endpoint (hospital/GetHospitalInfo.js)
     }
+
+     action-endpoint (HospitalMapApi) {
+      accepted-inputs (point, self, hospitalConcept, search)
+      local-endpoint (hospital/HospitalMapApi.js)
+    }
   }
 }

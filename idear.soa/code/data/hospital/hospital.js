@@ -22,5 +22,17 @@ module.exports = [
         longitude: 126.8164021
       }
     }
+  },
+  {
+    name: "그린필소아청소년과의원",
+    location: "광주광역시 광산구 장덕동 1044",
+    url: "https://www.google.com/maps/place/%EA%B7%B8%EB%A6%B0%ED%95%84%EC%86%8C%EC%95%84%EC%B2%AD%EC%86%8C%EB%85%84%EA%B3%BC%EC%9D%98%EC%9B%90/@35.199156,126.8095626,17z/data=!3m1!4b1!4m5!3m4!1s0x35718f17b3bf98db:0xf88920bd19ff3972!8m2!3d35.199156!4d126.8117513",
+    flag: false,
+    point:{
+      point:{
+        latitude: 35.199156,
+        longitude: 126.8095626
+      }
+    }
   }
  ]
