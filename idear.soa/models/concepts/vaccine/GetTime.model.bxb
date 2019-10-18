@@ -1,3 +1,0 @@
-integer (GetTime) {
-  description (__DESCRIPTION__)
-}
