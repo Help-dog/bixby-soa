@@ -5,14 +5,9 @@ endpoints {
       accepted-inputs (near, point, self)
       local-endpoint (hospital/GetHospitalInfo.js)
     }
-     action-endpoint (PregnancyStatusAction) {
-       accepted-inputs (statusOperand, weekOperand, targetOperand)
-       local-endpoint (pregnancyStatusOperation.js)
-     }
-
-    action-endpoint (SearchVaccine){
-      accepted-inputs (vaccinationName)
-      local-endpoint (vaccine/SearchVaccine.js)
+    action-endpoint (PregnancyStatusAction) {
+      accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
+      local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
   }
 }

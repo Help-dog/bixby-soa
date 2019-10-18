@@ -15,6 +15,10 @@ action (PregnancyStatusAction) {
       min (Required) max (One)
       // 여러값 받고 싶으면 max(Many),,  max(One)은 여러값 입력해도 첫번째 값만 받을 수 있음
     }
+    input (weekNumOperand) {
+      type (WeekNumOperand)
+      min (Required) max (One)
+    }
     input (weekOperand) {
       type (WeekOperand)
       min (Required) max (One)
@@ -25,5 +29,5 @@ action (PregnancyStatusAction) {
     }
   }
   type(Search)
-  output (PregnancyStatusResults)
+  output (PregnancyStatusResult)
 }
