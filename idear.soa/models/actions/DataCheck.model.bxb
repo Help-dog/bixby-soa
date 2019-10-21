@@ -1,0 +1,27 @@
+action (DataCheck) {
+
+  
+  // [발화변수 Input Concept]
+  // 데이터 - DataOperand  - type 
+  // 받을께 - DataIn
+  // 보낼께 - DataOut
+
+  // [발화변수 Output Concept]
+  // #ResultsData - output
+
+  description (데이터를 주고 받는 액션)
+  collect {
+    input (dataOperand) { //비즈니스 모델에 전달될 이름 
+      type (DataOperand)
+      min (Optional) max (One)
+      //min -optional-있어도 없어도 되는값 , required-필수적으로 받아야하는값 빅스비에서 재요청함(다이얼로그로 설정가능)
+      //max - one - 한개만받기  many- 여러개받기 
+    }
+    input (dataIn) {
+      type (DataIn)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)//이 액션이 무슨일을 하는지 정해줌
+  output (ResultsData)
+}
