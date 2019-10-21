@@ -2,26 +2,24 @@ module.exports.function = function pregnancyStatusOperation (statusOperand, week
   // 자바 스크립트 파일 이름은 무조건 소문자로 시작해야함
 
   const console = require('console');
-  // const momStatusData = require("../data/pregnancyStatus/pregnancyMomStatus.json");
-  // const babyStatusData = require("../data/pregnancyStatus/pregnancyBabyStatus.json");
   const momStatusData = require("../data/pregnancyStatus/pregnancyMomStatus.js");
   const babyStatusData = require("../data/pregnancyStatus/pregnancyBabyStatus.js");
 
   let status = statusOperand;
-  console.log("상태: " + status);
+  // console.log("상태: " + status);
   let weekNum = weekNumOperand;
-  console.log("숫자: " + weekNum);
+  // console.log("숫자: " + weekNum);
   let week = weekOperand; 
-  console.log("한글: " + week);
+  // console.log("한글: " + week);
   let target = targetOperand;
-  console.log("대상: " + target);
+  // console.log("대상: " + target);
 
-  let result = "1주 ~ 40주 범위에서 선택해주세요.";
+  let result = "ex)죄송해요. '임신 x주차 (아기) 또는 (내) 상태 알려줘'라고 다시 말해보세요. (1 ~ 40주)";
 
   if(status == "임신") {
     if(week == "주" || week == "주차" || week == "주 차") {
       if(target == "나" || target == "내" || target == "나의") {
-        
+        target = "산모";
         for(var i=0; i < momStatusData.length; i++) {
           if((weekNum - 1) == i) {
             result = momStatusData[i].content;
@@ -30,13 +28,11 @@ module.exports.function = function pregnancyStatusOperation (statusOperand, week
         }
 
       } else if (target == "아기" || target == "애기" || target == "애") {
-        if(week == "주" || week == "주차" || week == "주 차") {
-        
-          for(var i=0; i < babyStatusData.length; i++) {
-            if((weekNum - 1) == i) {
-              result = babyStatusData[i].content;
-              break;
-            }
+        target = "아기";
+        for(var i=0; i < babyStatusData.length; i++) {
+          if((weekNum - 1) == i) {
+             result = babyStatusData[i].content;
+             break;
           }
         }
       }
@@ -44,25 +40,12 @@ module.exports.function = function pregnancyStatusOperation (statusOperand, week
     }
   }
 
-  // if(status == "임신") { // '임신'이면 시작
-  //   if(target == "나" || target == "내") {
-  //     if(week == "1주") {
-  //       result = momStatusData[0].content;
-  //     } else if (week == "2주") {
-  //       result = momStatusData[1].content;
-  //     }
-  //   }
-  // }
+  return{
+    // 맨앞글자 소문자 고정할 것
+    pregnancyStatusResult : result,
+    weekNumOperand : weekNum,
+    targetOperand : target
+  }
 
-  // return {
-  //   pregnancyStatusResult : result,
-  //   weekOperand : week
-  // }
-
-  // return{
-  //   // 맨앞글자 소문자 고정할 것
-  //   pregnancyStatusResult : result
-  // }
-
-  return result;
+  // return result; // 변수 한개만 return할 때
 }

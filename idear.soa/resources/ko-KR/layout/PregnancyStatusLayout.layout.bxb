@@ -1,0 +1,24 @@
+layout-macro-def (PregnancyStatusLayout) {
+  params {
+    param(resultInfo) {
+      type(PregnancyStatusResults)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card { // bixby developer에서 search해보자
+      slot2 { // 슬롯의 사이즈
+        content {
+          order (PrimarySecondary)
+          primary("#{value(resultInfo.pregnancyStatusResult)}")
+          secondary("#{value(resultInfo.targetOperand)}")
+          // primary("두 가지 숫자를 #{value(resultInfo.operatorName)}한 결과는")
+          // secondary(" #{value(resultInfo.pregnancyStatusResult)} 입니다.")
+        }
+      }
+      
+    }
+
+  }
+
+}

@@ -1,0 +1,19 @@
+result-view {
+  match: PregnancyStatusResults(this) // Results에 대한 변수 이름을 this로 부를거야~ => 그리고 이걸 출력할거야!!
+
+  message {
+    // template ("#{value(this)} 결과 값을 확인해보세요.") { // template은 빅스비에서 Text로 보여줄 결과를 결정
+    template ("결과 값을 확인해보세요.") {
+      speech ("아래에 결과를 확인해보세요.") // speech는 빅스비가 음성으로 해주는 말을 결정
+    }
+  }
+
+  render {
+    layout-macro (PregnancyStatusLayout) {
+      param(resultInfo) {
+        expression (this)
+      }
+    }
+  }
+
+}
