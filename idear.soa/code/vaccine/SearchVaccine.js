@@ -12,4 +12,5 @@ for(let i=0; i<vaccineData.length; i++){
   }
 }
   return result;
+  
 }

@@ -20,11 +20,7 @@ function deg2rad(deg) {
 module.exports.function = function getHospitalInfo (near, point, self) {
   const dummyData = require("../data/hospital/hospital.js");
   const console = require('console');
-  
-  // console.log(near);
-  // console.log(point);
-  // console.log(self);
-  
+
   let result = [];
   
   if(near != undefined){
