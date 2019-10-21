@@ -1,0 +1,5 @@
+train (t-2ecedmpzvz1xmxtxaiolmo7py) {
+  utterance ("[g:BabyFoodList] (2)[v:Month]개월 (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQz8COEffPzSjIYJHCZzsDKwMjAxMDMwAJkMQDZMIgAIHG4CgA=)
+  last-modified (1571637622670)
+}
