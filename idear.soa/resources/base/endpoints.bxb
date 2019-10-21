@@ -11,7 +11,11 @@ endpoints {
     }
     action-endpoint (SearchVaccine){
       accepted-inputs (vaccinationName)
-      local-endpoint (vaccine/searchVaccine.js)
+      local-endpoint (vaccine/SearchVaccine.js)
+    }
+    action-endpoint (RecommendationBabyFood){
+      accepted-inputs (month, ingredients, babyFood, recipe, recommendation)
+      local-endpoint (babyfood/recommendationBabyFood.js)
     }
   }
 }
