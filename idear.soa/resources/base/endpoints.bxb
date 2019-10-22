@@ -3,7 +3,11 @@ endpoints {
   action-endpoints {
     action-endpoint (GetHospitalInfo) {
       accepted-inputs (near, point, self)
-      local-endpoint (hospital/GetHospitalInfo.js)
+      local-endpoint (hospital/getHospitalInfo.js)
+    }
+    action-endpoint (FromHospitalName){
+      accepted-inputs (hospitalName, point, self)
+      local-endpoint (hospital/fromHospitalName.js)
     }
     action-endpoint (PregnancyStatusAction) {
       accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
@@ -19,3 +23,4 @@ endpoints {
     }
   }
 }
+ 

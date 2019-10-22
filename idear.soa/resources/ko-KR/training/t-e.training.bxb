@@ -1,0 +1,5 @@
+train (t-e44tuzkrn3mkk44i2ovbvsvkl) {
+  utterance ("[g:FromHospitalName] (세계로병원)[v:HospitalName] 보여줘")
+  plan (Y2BhEMpMSU0s0ivOT9TzyC8uyCxJzGGQQoi5FeXnwsT9EnNTGcQw1YPFecsyy/SKU3PS9IKBBAMzAyMDE5BkANIgCAFMYFEGAA==)
+  last-modified (1571643239000)
+}
