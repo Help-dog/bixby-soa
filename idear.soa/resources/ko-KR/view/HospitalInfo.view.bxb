@@ -1,0 +1,82 @@
+result-view {
+  match: SearchedHospital(this) 
+
+  message {
+    template ("아래에 결과를 확인해보세요") {
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+            map-card{
+              aspect-ratio(16:9)
+              title-area{
+                 slot1{
+                    text{
+                      value("#{value(this.placeName)}")
+                    style(Title_L)
+                    }
+                }
+                slot2{
+                    single-line{
+                    text{
+                      value("#{value(this.roadAddressName)}")
+                      }
+                    }
+                }
+              }
+              markers{
+                marker{
+                  geo (this.point.point)
+                  icon("/img/red-marker.png")
+                  width (15)
+                  height (20)
+                  anchor-x (5)
+                  anchor-y (15)
+                  rotation (0)
+                }
+              }
+              zoom(15)
+        }
+          partitioned {
+            content {
+                  single-line {
+                   text  {
+                      value ("병원명 : #{value(placeName)}")
+                      style (Detail_L)
+                    }
+                  }
+                  single-line {
+                    text  {
+                      value ("전화번호 : #{value(phone)}")
+                      style (Detail_L)
+                    }
+                  }
+                  single-line {
+                    text  {
+                      value ("주소 : #{value(roadAddressName)}")
+                      style (Detail_L)
+                    }
+                  }
+            }
+          }
+          cell-card{
+            slot2{
+              content{
+                primary("더 많은 정보 보기")
+             }
+          }
+          on-click{
+            intent{
+              goal: OpenBrowser
+              value: $expr(this.url)
+            }
+           }
+         }
+        }
+      }
+    }
+  }
+}
