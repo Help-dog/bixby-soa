@@ -29,5 +29,5 @@ action (PregnancyStatusAction) {
     }
   }
   type(Search)
-  output (PregnancyStatusResult)
+  output (PregnancyStatusResults)
 }
