@@ -17,7 +17,6 @@ for(let i=0; i<vaccineData.length; i++){
     break;
   }
 }
-
-console.log("result"+result);
   return result;
+  
 }

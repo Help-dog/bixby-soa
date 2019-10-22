@@ -1,24 +1,73 @@
 layout-macro-def (PregnancyStatusLayout) {
   params {
-    param(resultInfo) {
+    param(resultData) {
       type(PregnancyStatusResults)
       min (Required) max (One)
     }
   }
   content {
-    cell-card { // bixby developer에서 search해보자
-      slot2 { // 슬롯의 사이즈
-        content {
-          order (PrimarySecondary)
-          primary("#{value(resultInfo.pregnancyStatusResult)}")
-          secondary("#{value(resultInfo.targetOperand)}")
-          // primary("두 가지 숫자를 #{value(resultInfo.operatorName)}한 결과는")
-          // secondary(" #{value(resultInfo.pregnancyStatusResult)} 입니다.")
+    // image-card {
+    //   text-position (Below)
+    //   image-background-color (White)
+    //   image-object-fit (Contain)
+    //   aspect-ratio (16:9)
+    //   image-url {
+    //       template ("img/mom_picto.png")
+    //   }
+    //   title-area {
+    //       halign (Start)
+    //       slot1 {
+    //           text {
+    //               value {
+    //                   template ("Venus Space Spa")
+    //               }
+    //           }
+    //       }
+    //       slot2 {
+    //           paragraph {
+    //               value {
+    //                   template ("Venus • 0.904g")
+    //               }
+    //           }
+    //       }
+    //       slot3 {
+    //           paragraph {
+    //               value {
+    //                   template ("Cryo Spa")
+    //               }
+    //           }
+    //       }
+    //   }
+    // }
+    compound-card {
+      content {
+        single-line {
+          image {
+            background-color (Transparent)
+              shape (Square)
+              style (Title_XXL_Soft)
+              url {
+                template ("img/mom_picto.png")
+              }
+          }
+        }    
+        single-line {
+            text {
+                value {
+                    template ("#{value(resultData.weekNumOperand)}주차 #{value(resultData.targetOperand)}의 상태")
+                }
+                style(Title_S)
+            }
+        }
+        paragraph {
+            value {
+                template ("#{value(resultData.pregnancyStatusResult)}")
+            }
+            style(Detail_M_Soft)
         }
       }
-      
     }
-
+    
   }
 
 }

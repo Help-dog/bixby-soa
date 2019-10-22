@@ -5,8 +5,8 @@ structure (BabyFoodList) {
     type (viv.core.BaseImage)
     min (Optional) max (One)
   }
-  property (href) {
-    type (Href)
+  property (foodIngredients) {
+    type (FoodIngredients)
     min (Optional) max (One)
   }
   property (title) {
@@ -19,6 +19,14 @@ structure (BabyFoodList) {
   }
   property (url) {
     type (Url)
+    min (Optional) max (One)
+  }
+  property (href) {
+    type (Href)
+    min (Optional) max (One)
+  }
+  property (category) {
+    type (Category)
     min (Optional) max (One)
   }
 }
