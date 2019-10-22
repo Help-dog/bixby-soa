@@ -1,12 +1,12 @@
 capsule-info {
-  display-name  (병원검색)
-  developer-name  (병원검색)
+  display-name  (소아)
+  developer-name  (소아)
   icon-asset  (/img/bixby_launcher.png)
-  description ("간단한 병원 검색 capsule 입니다")
+  description ("육아 백과사전 capsule 입니다")
   // website-url  (https://github.com/bixbydevelopers/capsule-sample-restaurants-KR)
   // terms-url  (https://github.com/bixbydevelopers/capsule-sample-restaurants-KR/blob/master/LICENSE)
-  dispatch-name (병원검색)
+  dispatch-name (소아)
   search-keywords{
-    keyword (예제)
+    keyword (소중한 아기)
   }
 }

@@ -5,7 +5,7 @@ action (FromHospitalName) {
       type (HospitalName)
       min (Required) max (One)
     }
-    
+
     input (self) {
       type (self.Self)
       min (Required) max (One)
@@ -17,16 +17,10 @@ action (FromHospitalName) {
       }
     }
     
-    input (near) {
-      type (Near)
-      min (Optional) max (One)
-    }
-    
     computed-input (point){
       type (Point)
       min (Optional) max (One)
       compute{
-        if(exists(near)){
           // 사용자의 위치를 가져오기 위해서는 동의가 필요
           // capsule.bxb의 'user-profile-access' 등록
           // 참조 (https://bixbydevelopers.com/dev/docs/reference/type/capsule.permissions)
@@ -34,10 +28,17 @@ action (FromHospitalName) {
             goal: Point
             route: geo.CurrentLocation
           }         
+      }
+    }
+  }
+  type(Search)
+  output (SearchedHospital){
+    on-empty{
+      halt{
+        dialog{
+          template ("[#{value(self.nameInfo.structuredName)} 님,]현재 주변에 검색되는 병원이 없습니다")
         }
       }
     }
   }
-  
-  output (Hospital)
 }
