@@ -12,13 +12,9 @@ module.exports.function = function fromHospitalName (hospitalName, self, point) 
   }
 })
 
-  // console.log(response.documents[0].category_name);
-  console.log(response.documents[0]);
   if(response.documents[0] === undefined || response.documents[0].category_name.indexOf("병원") == -1) {
-    console.log("실패")
     return null;
   } else {
-     console.log("성공")
     return {
       phone: response.documents[0].phone,
       placeName: response.documents[0].place_name,
