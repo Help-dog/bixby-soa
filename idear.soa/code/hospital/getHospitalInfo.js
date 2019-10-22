@@ -18,9 +18,35 @@ function deg2rad(deg) {
 }
 
 module.exports.function = function getHospitalInfo (near, point, self) {
-  const dummyData = require("../data/hospital/hospital.js");
   const console = require('console');
+  var http = require('http');
+  
+  var response = http.getUrl('https://dapi.kakao.com/v2/local/search/category.json?category_group_code=HP8&y='+point.point.latitude+'&x='+point.point.longitude+'&radius=10000', {
+  format: 'json',
+  headers: {
+    Authorization: "KakaoAK c65e06eafb52d7e6c8724c0991599af8"
+  }
+})
 
+  let datas = [];
+
+  for(let i=0; i<response.documents.length; i++) {
+    var data = {
+      name: response.documents[i].place_name,
+      location: response.documents[i].road_address_name,
+      url: response.documents[i].place_url,
+      flag: false,
+      point: {
+        point: {
+          latitude: response.documents[i].y,
+          longitude: response.documents[i].x
+        }
+      }
+    };
+    datas.push(data);
+  }
+
+  const dummyData = datas;
   let result = [];
   
   if(near != undefined){

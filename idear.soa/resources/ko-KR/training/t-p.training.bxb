@@ -1,3 +1,8 @@
+train (t-p6r05zx8dtew1eegbrahvceb2) {
+  utterance ("[g:BabyFoodList] (4)[v:Month]개월 (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepk4EeI+ebnlWQwSOAyhoGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1571708129846)
+}
 train (t-pjd5nb9ws4nmtqmavrb84bllm) {
   utterance ([g:GetReversePoint] 내 위치 어디야)
   plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZlBOrUjMLchJ1QPyShJLixLzSoqBikqCUstSi4pTA/Iz80oYGIGQAYqBJAA=)

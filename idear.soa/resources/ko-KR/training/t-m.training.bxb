@@ -1,0 +1,5 @@
+train (t-m5az2nmv0o0pby22glox3iw6g) {
+  utterance ("[g:GetHospitalInfo] (근처)[v:Near:Nearby] 병원 찾아줘")
+  plan (Y2BhEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGA29ZZplecWpOml4wkGBgZmBkYAKSDEAaBCGACSzKAAA=)
+  last-modified (1571708190006)
+}
