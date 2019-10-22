@@ -1,0 +1,3 @@
+text (WhatMonth) {
+  description (개월 입력받기)
+}

@@ -47,4 +47,5 @@ module.exports = [
     count:[{st:0,ed:0},{st:30,ed:30},{st:60,ed:180}
     ],
     info:""
-  },
+  }
+]

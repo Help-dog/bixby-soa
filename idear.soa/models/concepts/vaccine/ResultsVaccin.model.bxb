@@ -1,0 +1,11 @@
+structure (ResultsVaccin) {
+  description (X개월에 따른 정보를 담아줌)
+  property (vaccinDate) {
+    type (VaccinDate)
+    min (Optional) max (One)
+  }
+  property (vaccinInfo) {
+    type (VaccinInfo)
+    min (Optional) max (One)
+  }
+}
