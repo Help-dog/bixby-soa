@@ -1,0 +1,5 @@
+train (t-0w93wx8l27bwc11cmoocnod4v) {
+  utterance ("[g:BabyFoodList] (13)[v:Month]개월 (이유식)[v:BabyFood:이유식]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepk4EeI+ebnlWQwMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1571726387996)
+}
