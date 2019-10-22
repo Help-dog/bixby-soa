@@ -15,4 +15,9 @@ structure (PregnancyStatusResults) {
     type (TargetOperand)
     min (Required) max (One)
   }
+
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
 }
