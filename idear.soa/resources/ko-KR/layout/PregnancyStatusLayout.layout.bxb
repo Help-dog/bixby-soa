@@ -47,7 +47,7 @@ layout-macro-def (PregnancyStatusLayout) {
               shape (Square)
               style (Title_XXL_Soft)
               url {
-                template ("img/mom_picto.png")
+                template ("#{value(resultData.imgUrl)}")
               }
           }
         }    
