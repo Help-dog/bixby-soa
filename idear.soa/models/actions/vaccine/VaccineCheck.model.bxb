@@ -1,0 +1,12 @@
+action (VaccineCheck) {
+  description (예방접종 체크)
+
+  collect {
+    input (whatMonth) {
+      type (WhatMonth)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (ResultsVaccin )
+}
