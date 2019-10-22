@@ -21,7 +21,7 @@ module.exports.function = function getHospitalInfo (near, point, self) {
   const console = require('console');
   var http = require('http');
   
-  var response = http.getUrl('https://dapi.kakao.com/v2/local/search/category.json?category_group_code=HP8&y='+point.point.latitude+'&x='+point.point.longitude+'&radius=10000', {
+  var response = http.getUrl('https://dapi.kakao.com/v2/local/search/category.json?category_group_code=HP8&y='+point.point.latitude+'&x='+point.point.longitude+'&radius=2000', {
   format: 'json',
   headers: {
     Authorization: "KakaoAK c65e06eafb52d7e6c8724c0991599af8"
