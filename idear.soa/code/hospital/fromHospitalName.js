@@ -12,16 +12,24 @@ module.exports.function = function fromHospitalName (hospitalName, self, point) 
   }
 })
 
-  return {
-    phone: phone,
-    placeName: place_name,
-    url: place_url,
-    roadAddressName: road_address_name,
-    point: {
+  // console.log(response.documents[0].category_name);
+  console.log(response.documents[0]);
+  if(response.documents[0] === undefined || response.documents[0].category_name.indexOf("병원") == -1) {
+    console.log("실패")
+    return null;
+  } else {
+     console.log("성공")
+    return {
+      phone: response.documents[0].phone,
+      placeName: response.documents[0].place_name,
+      url: response.documents[0].place_url,
+      roadAddressName: response.documents[0].road_address_name,
       point: {
-        latitude: y,
-        longitude: x
+        point: {
+          latitude: response.documents[0].y,
+          longitude: response.documents[0].x
+        }
       }
-    }
+    } 
   }
 }
