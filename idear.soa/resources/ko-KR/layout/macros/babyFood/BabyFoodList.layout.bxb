@@ -9,9 +9,9 @@ layout-macro-def (BabyFoodList) {
            compound-card {
               content {
                image-card {
-                  aspect-ratio (4:3)
-                  // image-url ("#{value(this.img)}")
-                  image-url ("../../../assets/img/bixby_launcher.png")
+                  aspect-ratio (1:1)
+                  image-url ("#{value(babyFood.img)}")
+                  // image-url ("img/babyfood/1.png")
                   title-area {
                     halign (Start)
                     slot1 {

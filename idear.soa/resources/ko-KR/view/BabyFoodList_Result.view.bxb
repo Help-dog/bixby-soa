@@ -7,6 +7,13 @@ result-view {
   }
 
   render {
+    if(size(this) == 1){ 
+        layout-macro (BabyFoodInfo) {
+          param (info){ // GetDetail_Input_Macro.layout의 param명을 기입
+            expression (this) // input으로 들어온 객체들 중 하나를 layout으로 전달
+          }
+        }
+    } else{
       list-of (this){
         where-each (item){
           layout-macro (BabyFoodList){
@@ -16,5 +23,6 @@ result-view {
           }
         }
       }
+    }
   }
 }
