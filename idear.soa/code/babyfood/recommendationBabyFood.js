@@ -61,6 +61,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
      for(var i=0; i<babyfoodlist.length; i++){
       if(ingredients){
        if(babyfoodlist[i].foodIngredients.indexOf(ingredients.toString()) != -1){
+        //  console.log(bab)
          result.push(babyfoodlist[i]);
         }
       }else{
@@ -70,6 +71,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
     }//if문 제외한 모든 예들
  
     if(result.length > 6){
+      console.log("들어왔다.")
       number=randomNum (0, result.length);
       for(var i=0; i<6; i++){
         realresult.push(result[number[i]]);
@@ -82,11 +84,17 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
 function randomNum (lower, upper) {
   var randomNumber = [];
   var console = require('console');
-  for(var i=0; i<6; i++) {
+  for(var i=1; i<7; i++) {
     let myRandom = Math.floor(Math.random() * (upper - lower)) + lower;
+    for(var j=i-1; j>=0; j++){
+      if(myRandom === randomNumber[i]){
+        i--;
+        break;
+      }
+    }
+    console.log("Random Number: "+myRandom);
     randomNumber.push(myRandom);
     }
     return randomNumber;
 }
-
 
