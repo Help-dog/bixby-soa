@@ -6,6 +6,14 @@ action (VaccineCheck) {
       type (WhatMonth)
       min (Required) max (One)
     }
+    input (choiseVaccine) {
+      type (ChoiseVaccine)
+      min (Optional) max (One)
+    }
+    input (recommendation) { //추천해줘
+      type (Recommendation)
+      min (Optional) max (One)
+    }
   }
   type(Search)
   output (ResultsVaccin )

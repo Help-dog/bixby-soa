@@ -1,3 +1,4 @@
-name (WeekOperand) {
+enum (WeekOperand) {
   description (주, 주차 와같은 한글입력)
+  symbol(주)
 }

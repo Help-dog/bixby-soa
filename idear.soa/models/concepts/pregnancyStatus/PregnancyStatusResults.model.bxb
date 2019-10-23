@@ -3,16 +3,21 @@ structure (PregnancyStatusResults) {
   
   property (pregnancyStatusResult) {
     type (PregnancyStatusResult)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (weekNumOperand) {
     type (WeekNumOperand)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (targetOperand) {
     type (TargetOperand)
+    min (Optional) max (One)
+  }
+
+  property (imgUrl) {
+    type (ImgUrl)
     min (Required) max (One)
   }
 }

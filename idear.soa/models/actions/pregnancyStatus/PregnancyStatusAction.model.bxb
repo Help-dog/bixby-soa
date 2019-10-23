@@ -1,32 +1,24 @@
 action (PregnancyStatusAction) {
 
-// # 4. [ 발화 변수 : Input Concept ]
-// # 7 => LeftOperand
-// # 3 => RightOperand
-// # 더하기 => Operator (얘는 빼자~~ )
-
-// # 5. [ 발화 변수 : Outpup Concept ]
-// # Results (여러 정보가 담길 수 있으니 복수로 썼다.)
-
   description (임신중일 때의 정보 액션)
   collect {
-    input (statusOperand) {
-      type (StatusOperand)
-      min (Required) max (One)
-      // 여러값 받고 싶으면 max(Many),,  max(One)은 여러값 입력해도 첫번째 값만 받을 수 있음
-    }
     input (weekNumOperand) {
       type (WeekNumOperand)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (weekOperand) {
       type (WeekOperand)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (targetOperand) {
       type (TargetOperand)
       min (Required) max (One)
     }
+    input (statusOperand) {
+      type (StatusOperand)
+      min (Required) max (One)
+    }
+
   }
   type(Search)
   output (PregnancyStatusResults)
