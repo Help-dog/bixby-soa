@@ -9,9 +9,20 @@ layout-macro-def (BabyFoodInfo) {
   content {
     section {
         content {
-          image-carousel {
-            images (info.img)
-          }
+          image-card {
+                  aspect-ratio (1:1)
+                  image-url ("#{value(info.img)}")
+                  // image-url ("img/babyfood/1.png")
+                  title-area {
+                    halign (Start)
+                    slot1 {
+                      text {
+                        value ("")
+                        style (Title_M)
+                      }
+                    }
+                  }
+              }
   //img, href, category, title, foodIngredients, content, url
                   single-line {
                    text  {
