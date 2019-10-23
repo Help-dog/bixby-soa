@@ -73,7 +73,6 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
       number=randomNum (0, result.length);
       for(var i=0; i<6; i++){
         realresult.push(result[number[i]]);
-        // realresult.push(result[number[i]]));
       }
       return realresult;
     }
