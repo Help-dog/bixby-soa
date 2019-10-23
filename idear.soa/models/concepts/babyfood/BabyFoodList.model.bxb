@@ -3,30 +3,30 @@ structure (BabyFoodList) {
 
   property (img) {
     type (viv.core.BaseImage)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (foodIngredients) {
     type (FoodIngredients)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (title) {
     type (Title)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (content) {
     type (Content)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (url) {
     type (Url)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (href) {
     type (Href)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (category) {
     type (Category)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 }

@@ -1,0 +1,36 @@
+layout-macro-def (babyFood-compound-card) {
+  params {
+    param (this) {
+      type (BabyFoodList)
+      min (Required) max (One)
+    }
+  }
+  content {
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio (4:3)
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("")
+              }
+            }
+          }
+          image-url ("[#{value(this.img)}]")
+        }
+        paragraph {
+          value ("#{value(this.title)}")
+          style (Title_S)
+        }
+        single-line {
+          text {
+            value ("From #{value(this.foodIngredients)}")
+            style (Detail_L_Soft)
+          }
+        }
+      }
+    }
+  }
+}
