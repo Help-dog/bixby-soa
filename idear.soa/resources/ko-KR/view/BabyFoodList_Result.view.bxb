@@ -7,6 +7,13 @@ result-view {
   }
 
   render {
+    if(size(this) == 1){ 
+        layout-macro (BabyFoodInfo) {
+          param (info){ 
+            expression (this) 
+          }
+        }
+    } else{
       list-of (this){
         where-each (item){
           layout-macro (BabyFoodList){
@@ -16,5 +23,6 @@ result-view {
           }
         }
       }
+    }
   }
 }

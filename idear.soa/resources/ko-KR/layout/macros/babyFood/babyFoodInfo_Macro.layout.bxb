@@ -1,0 +1,42 @@
+layout-macro-def (BabyFoodInfo) {
+  params {
+    param (info) {
+      type (BabyFoodList)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    section {
+        content {
+          image-carousel {
+            images (info.img)
+          }
+  //img, href, category, title, foodIngredients, content, url
+                  single-line {
+                   text  {
+                      value ("#{value(info.title)}")
+                      style (Title_S)
+                    }
+                  }
+                  divider
+                  single-line {
+                    text  {
+                      value ("대상 : #{value(info.category)}")
+                      style (Detail_L)
+                    }
+                  }
+                  divider
+                  paragraph {
+                      value ("재료 : #{value(info.foodIngredients)}")
+                      style (Detail_L)
+                  }
+                  divider
+                  paragraph {
+                      value ("#{value(info.content)}")
+                      style (Detail_L)
+                  }
+          }
+        }  
+  }
+}
