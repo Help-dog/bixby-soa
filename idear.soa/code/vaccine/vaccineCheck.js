@@ -1,10 +1,11 @@
-module.exports.function = function vaccineCheck (whatMonth,choiseVaccine) {
+module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recommendation) {
   
 const console = require('console');
 console.log("개월"+ whatMonth);  //2개월
 console.log(choiseVaccine)
 const vaccineInfo = require("../data/vaccine/vaccineData3.js");
 
+var check = recommendation;
 
 var result = {};
 console.log(vaccineInfo[0])

@@ -1,5 +1,0 @@
-train (t-wqzs6p2iuio210n1dwoxs97d7) {
-  utterance ("[g:ResultsVaccin] (2개월)[v:WhatMonth] (예방접종)[v:ChoiseVaccine] 정보 알려줘")
-  plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRmEERLhGYklvvl5JRkMzAyMDExAkgFIgyAEgPhgUQA=)
-  last-modified (1571731828374)
-}
