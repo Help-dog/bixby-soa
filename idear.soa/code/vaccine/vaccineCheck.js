@@ -1,8 +1,8 @@
-module.exports.function = function vaccineCheck (whatMonth) {
+module.exports.function = function vaccineCheck (whatMonth,choiseVaccine) {
   
 const console = require('console');
 console.log("개월"+ whatMonth);  //2개월
-
+console.log(choiseVaccine)
 const vaccineInfo = require("../data/vaccine/vaccineData3.js");
 
 
