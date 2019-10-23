@@ -1,5 +1,5 @@
-train (t-h3mtdw8kmfzjqcsnhtw9n40q9) {
-  utterance ("[g:PregnancyStatusResults] (임신)[v:StatusOperand] (1)[v:WeekNumOperand](주)[v:WeekOperand] 차 (내)[v:TargetOperand] 상태 알려줘")
+train (t-himpq6cujmy286445gujvsk2t) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (내)[v:TargetOperand] (상태)[v:StatusOperand:상태]")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1571638300305)
 }
