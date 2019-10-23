@@ -1,5 +1,5 @@
 train (t-3mzkrqaqu2u42htyxkqegwtzf) {
   utterance ("[g:BabyFoodList] (고구마)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
-  last-modified (1571634275446)
+  last-modified (1571809752642)
 }

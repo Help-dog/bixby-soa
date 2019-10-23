@@ -1,6 +1,6 @@
 module.exports = [
     {
-		img: "/upload/contents/20180212/82111201802121740401518424840837.jpg",
+		img: "img/babyfood/1.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2911&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "바나나단호박 퓨레",
@@ -9,7 +9,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/AF-aTPSoSDM"
 	},
 	{
-		img: "/upload/contents/20171221/98567201712211103511513821831132.jpg",
+		img: "img/babyfood/2.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2691&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "대추닭고기죽",
@@ -18,7 +18,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/CDMK-MInHf0"
 	},
 	{
-		img: "/upload/contents/20171106/85659201711061556071509951367623.jpg",
+		img: "img/babyfood/3.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2391&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "양배추 닭고기 찹쌀 죽",
@@ -27,7 +27,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/DRCDOc0jr_0"
 	},
 	{
-		img : "/upload/contents/20170901/46865201709011933411504262021037.jpg",
+		img: "img/babyfood/4.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2030&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "단호박소고기죽",
@@ -36,7 +36,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/4wKtEAEwXUc"
 	},
 	{
-		img: "/upload/contents/20170727/49514201707272218281501161508486.jpg",
+		img: "img/babyfood/5.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1800&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "사과감자 미음",
@@ -45,7 +45,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/zK-k9nR7lQ0"
 	},
 	{
-		img: "/upload/contents/20170602/21263201706021428081496381288360.jpg",
+		img: "img/babyfood/6.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1206&categoryCd1=8&categoryCd2=1&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "4~6개월 이유식",
 		title: "브로콜리 배 미음",
@@ -54,7 +54,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/qFM5MUn5j20"
 	},
     		{
-		img: "/upload/contents/20171108/61884201711081557051510124225286.jpg",
+		img: "img/babyfood/7.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2431&categoryCd1=8&categoryCd2=2&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "7~9개월 이유식",
 		title: "새송이 비타민 쇠고기 죽",
@@ -63,7 +63,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/ZWZ9YBmWASI"
 	},
 	{
-		img: "/upload/contents/20170901/24194201709012132571504269177459.jpg",
+		img: "img/babyfood/8.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2031&categoryCd1=8&categoryCd2=2&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "7~9개월 이유식",
 		title: "청경채아보카도닭고기죽",
@@ -72,7 +72,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/nIPHhXk85Bo"
 	},
 	{
-		img: "/upload/contents/20170802/57853201708021610111501657811223.jpg",
+		img: "img/babyfood/9.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1840&categoryCd1=8&categoryCd2=2&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "7~9개월 이유식",
 		title: "닭고기 비트 고구마죽",
@@ -81,7 +81,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/YMK0c0UZaks"
 	},
     	{
-		img: "/upload/contents/20170613/31134201706131653011497340381619.jpg",
+		img: "img/babyfood/10.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1157&categoryCd1=8&categoryCd2=2&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "7~9개월 이유식",
 		title: "쇠고기 아욱죽",
@@ -90,7 +90,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/wLyj4y3AYd0"
 	},
     {
-		img: "/upload/contents/20180212/68932201802121803251518426205109.jpg",
+		img: "img/babyfood/11.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2913&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "시금치연근소고기죽",
@@ -99,7 +99,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/qI6CJKCXE9I"
 	},
 	{
-		img: "/upload/contents/20171222/98654201712221544031513925043072.jpg",
+		img: "img/babyfood/12.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2713&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "녹황채소 소고기죽",
@@ -108,7 +108,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/-qnlb_g97Cs"
 	},
 	{
-		img: "/upload/contents/20171120/52865201711201803111511168591032.jpg",
+		img: "img/babyfood/13.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2451&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "브로콜리 닭가슴살 죽",
@@ -117,7 +117,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/5gtzKs3kv5o"
 	},
 	{
-		img: "/upload/contents/20170905/25294201709052131591504614719834.jpg",
+		img: "img/babyfood/14.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2032&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "미역소고기죽",
@@ -126,7 +126,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/bhmuNzbg6XA"
 	},
 	{
-		img: "/upload/contents/20170802/27733201708021827301501666050657.jpg",
+		img: "img/babyfood/15.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1841&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "소고기 완두콩 콜리플라워 진밥",
@@ -135,7 +135,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/8P9bsnMvgTI"
 	},
 	{
-		img: "/upload/contents/20170614/44298201706140952291497401549165.jpg",
+		img: "img/babyfood/16.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1205&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "쇠고기 가지 진밥",
@@ -144,7 +144,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/IQYDhUIPlaU"
 	},
     	{
-		img: "/upload/contents/20180212/91145201802121820471518427247253.jpg",
+		img: "img/babyfood/17.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2914&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 	  category: "13~24개월 이유식",
 		title: "토마토마파두부덮밥",
@@ -153,7 +153,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/0z0pMS3Y1R4"
 	},
 	{
-		img: "/upload/contents/20171222/88494201712221752301513932750992.jpg",
+		img: "img/babyfood/18.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2714&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "표고버섯쇠고기죽",
@@ -162,7 +162,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/-eIHVnRumZo"
 	},
 	{
-		img: "/upload/contents/20171113/53223201711131200341510542034771.jpg",
+		img: "img/babyfood/19.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2471&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "콜라비 쇠고기 감자 죽",
@@ -171,7 +171,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/WdlUVuefjBw"
 	},
 	{
-		img: "/upload/contents/20170905/38388201709052232241504618344805.jpg",
+		img: "img/babyfood/20.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2060&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "가리비 두부 참치죽",
@@ -180,7 +180,7 @@ module.exports = [
 		url: " https://www.youtube.com/embed/hkoI12rFw24"
 	},
 	{
-		img: "/upload/contents/20170803/18787201708031122161501726936223.jpg",
+		img: "img/babyfood/21.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1842&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "파프리카 쇠고기 진밥",
@@ -189,7 +189,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/gsol4BQS7T8"
 	},
 	{
-		img: "/upload/contents/20170614/99559201706141014091497402849334.jpg",
+		img: "img/babyfood/22.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1207&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "불고기 버섯 진밥",
@@ -198,7 +198,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/DaEc1qVWbN8"
 	},
 {
-		img: "/upload/contents/20180212/75765201802121820271518427227512.jpg",
+		img: "img/babyfood/23.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2915&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		title: "계란과자",
@@ -207,7 +207,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/DzvJI8wUKik"
 	},
 {
-		img: "/upload/contents/20171226/13615201712262109041514290144250.jpg",
+		img: "img/babyfood/24.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2733&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		foodIngredients: "쇠고기 20g / 사과 10g / 양파 10g / 당근 10g / 카레가루 5g / 우유 50ml / 밥 60g / 올리브유 한스푼 / 물 50ml",
@@ -216,7 +216,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/jNGuRef7Bf8"
 	},
 {
-		img: "/upload/contents/20171120/98833201711201840361511170836770.jpg",
+		img: "img/babyfood/25.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2571&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		title: "딸기바나나요거트스무디",
@@ -225,7 +225,7 @@ module.exports = [
 		url: "https://www.youtube.com/embed/EwuMwHDCVMk"
 	},
 {
-		img: "/upload/contents/20170906/68164201709061152041504666324527.jpg",
+		img: "img/babyfood/26.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2061&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		title: "쇠고기 밤 대추 영양 진밥",
@@ -234,7 +234,7 @@ module.exports = [
 		url: " https://www.youtube.com/embed/U5nYdesU-8k"
 	},
  {
-		img: "/upload/contents/20170803/67417201708031346281501735588508.jpg",
+		img: "img/babyfood/27.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1844&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		title: "전복 버섯 리조또",
