@@ -1,0 +1,16 @@
+layout-macro-def(VaccinViewLayout) { //메크로 이름
+  params {
+    param (resultData) { //넘겨줄 데아터 네임
+      type (ResultsVaccin) //결괏값 출력하는 컨셉 이름
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+
+    paragraph {
+        value ("#{value(resultData.vaccinInfo)}") 
+    }
+  }
+}

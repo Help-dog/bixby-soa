@@ -1,0 +1,28 @@
+result-view{
+  match: ResultsVaccin(result)
+
+  message{
+    
+    template ("#{value(result.vaccinDate)}") {
+      // speech ("#{value(result.pregnancyStatusResult)}") // speech는 빅스비가 음성으로 해주는 말을 결정
+      //  value ("#{value(resultData.vaccinInfo[0])}") 
+      // value ("#{value(resultData.vaccinInfo[1])}") 
+    }
+  }
+  render {
+      list-of (result){
+        where-each (item){
+          layout-macro (VaccinViewLayout){
+            param(resultData){
+              expression (item)
+            }
+          }
+        }
+      }
+    // layout-macro (VaccinViewLayout) {
+    //   param(resultData) {
+    //     expression (result)
+    //   }
+    // }
+  }
+}
