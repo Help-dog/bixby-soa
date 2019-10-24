@@ -85,7 +85,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1157&categoryCd1=8&categoryCd2=2&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "7~9개월 이유식",
 		title: "쇠고기 아욱죽",
-		foodIngredients: "쌀 20g / 아욱 10g / 쇠고기 15g / 물 1컵 (200ml)",
+		foodIngredients: "쌀 20g / 아욱 10g / 소고기 15g / 물 1컵 (200ml)",
 		content: "중기 이유식을 시작하면서 처음 먹이는 채소인 아욱은  아이의 성장과 발육에 필요한 무기질과 칼슘이 풍부해요.",
 		url: "https://www.youtube.com/embed/wLyj4y3AYd0"
 	},
@@ -130,7 +130,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1841&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "소고기 완두콩 콜리플라워 진밥",
-		foodIngredients: "밥60g / 쇠고기20g / 완두콩10g / 콜리플라워10g / 감자10g / 양파10g / 물1컵(200ml)",
+		foodIngredients: "밥60g / 소고기20g / 완두콩10g / 콜리플라워10g / 감자10g / 양파10g / 물1컵(200ml)",
 		content: "비타민 C가 풍부한 콜리 플라워는 쇠고기에 함유되어 있는 철분의 흡수를 도와줍니다",
 		url: "https://www.youtube.com/embed/8P9bsnMvgTI"
 	},
@@ -139,7 +139,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1205&categoryCd1=8&categoryCd2=3&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "10~12개월 이유식",
 		title: "쇠고기 가지 진밥",
-		foodIngredients: "밥 50g / 애호박 10g / 가지 15g / 양파 10g / 쇠고기 20g / 물 1컵",
+		foodIngredients: "밥 50g / 애호박 10g / 가지 15g / 양파 10g / 소고기 20g / 물 1컵",
 		content: "다양한 채소를 이용한 이유식은 아기의 변비 개선에 많은 도움을 줄 수 있어요.",
 		url: "https://www.youtube.com/embed/IQYDhUIPlaU"
 	},
@@ -148,7 +148,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2914&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 	  category: "13~24개월 이유식",
 		title: "토마토마파두부덮밥",
-		foodIngredients: "밥 60g / 다진쇠고기 20g / 두부 20g / 당근 10g / 방울토마토 5개 / 청경채 5g / 양파 5g / 다시마물 1/4컵 (50ml) /전분물 1ts",
+		foodIngredients: "밥 60g / 다진소고기 20g / 두부 20g / 당근 10g / 방울토마토 5개 / 청경채 5g / 양파 5g / 다시마물 1/4컵 (50ml) /전분물 1ts",
 		content: "아삭아삭한 토마토와 말랑말랑 마파두부가 어루어진 덮밥을 우리 아이들에게도 맛 보여 주세요. ",
 		url: "https://www.youtube.com/embed/0z0pMS3Y1R4"
 	},
@@ -157,7 +157,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2714&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "표고버섯쇠고기죽",
-		foodIngredients: "밥60g / 쇠고기20g / (생)표고버섯 15g / 당근 10g / 양파 10g /  감자10g / 단호박10g / 물1/2컵(100ml) ",
+		foodIngredients: "밥60g / 소고기20g / (생)표고버섯 15g / 당근 10g / 양파 10g /  감자10g / 단호박10g / 물1/2컵(100ml) ",
 		content: "소금이나 다른 조미료를 넣지 못하는 이유식은 표고버섯으로 맛있게 요리해주세요!",
 		url: "https://www.youtube.com/embed/-eIHVnRumZo"
 	},
@@ -166,7 +166,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2471&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "콜라비 쇠고기 감자 죽",
-		foodIngredients: "밥 60g / 쇠고기 20g / 콜라비 15g / 당근 10g / 양파 10g / 감자 10g / 애호박 10g / 물 1/2컵 (100ml)",
+		foodIngredients: "밥 60g / 소고기 20g / 콜라비 15g / 당근 10g / 양파 10g / 감자 10g / 애호박 10g / 물 1/2컵 (100ml)",
 		content: "콜라비는 비타민C, 미네랄이 가득하고 그 맛이 순무보다도 달아 아이들도 잘먹는 야채랍니다.",
 		url: "https://www.youtube.com/embed/WdlUVuefjBw"
 	},
@@ -175,7 +175,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2060&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "가리비 두부 참치죽",
-		foodIngredients: "밥 60g / 쇠고기 20g / 콜라비 15g / 당근 10g / 양파 10g / 감자 10g / 애호박 10g / 물 1/2컵 (100ml)",
+		foodIngredients: "밥 60g / 소고기 20g / 콜라비 15g / 당근 10g / 양파 10g / 감자 10g / 애호박 10g / 물 1/2컵 (100ml)",
 		content: "아미노산이 풍부한 가리비와 DHA가 풍부한 참치는 성장기에 꼭 필요한 영양소랍니다.  ",
 		url: " https://www.youtube.com/embed/hkoI12rFw24"
 	},
@@ -184,7 +184,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1842&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "파프리카 쇠고기 진밥",
-		foodIngredients: "밥 60g / 쇠고기 20g / 노랑 파프리카 5g / 빨강 파프리카 5g / 양파 10g / 애호박10g / 감자10g / 물 1/2컵(100ml)",
+		foodIngredients: "밥 60g / 소고기 20g / 노랑 파프리카 5g / 빨강 파프리카 5g / 양파 10g / 애호박10g / 감자10g / 물 1/2컵(100ml)",
 		content: "알록달록 예쁜 파프리카에는 비타민 A, C  영양성분이 다른 채소에 비해 월등히 많이 함유되어 면역력에 도움을 준답니다.",
 		url: "https://www.youtube.com/embed/gsol4BQS7T8"
 	},
@@ -193,7 +193,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=1207&categoryCd1=8&categoryCd2=4&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "13~24개월 이유식",
 		title: "불고기 버섯 진밥",
-		foodIngredients: "밥 6큰술 80g / 쇠고기 20g / 표고버섯 1개 20g / 팽이버섯 20g / 양파 10g / 당근 10g / 간장 1g / 깨소금 한꼬집 / 물 반 컵(100ml)",
+		foodIngredients: "밥 6큰술 80g / 소고기 20g / 표고버섯 1개 20g / 팽이버섯 20g / 양파 10g / 당근 10g / 간장 1g / 깨소금 한꼬집 / 물 반 컵(100ml)",
 		content: "식구들 메뉴로 불고기를 할 때 따로 조금만 덜어내어 만드는 것도 좋은 방법이에요. ",
 		url: "https://www.youtube.com/embed/DaEc1qVWbN8"
 	},
@@ -210,7 +210,7 @@ module.exports = [
 		img: "img/babyfood/24.png",
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2733&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
-		foodIngredients: "쇠고기 20g / 사과 10g / 양파 10g / 당근 10g / 카레가루 5g / 우유 50ml / 밥 60g / 올리브유 한스푼 / 물 50ml",
+		foodIngredients: "소고기 20g / 사과 10g / 양파 10g / 당근 10g / 카레가루 5g / 우유 50ml / 밥 60g / 올리브유 한스푼 / 물 50ml",
 		title: "아기카레",
 		content: "독특한 카레의 향에 달콤한 사과맛을 첨가해 아기의 오감을 자극해주세요.",
 		url: "https://www.youtube.com/embed/jNGuRef7Bf8"
@@ -229,7 +229,7 @@ module.exports = [
 		href: "https://www.maeili.com/cms/contents/contentsView.do?idx=2061&categoryCd1=8&categoryCd2=5&categoryCd3=0&reCome=1&gubn=0&pageIndex=1",
 		category: "유아식",
 		title: "쇠고기 밤 대추 영양 진밥",
-		foodIngredients: "밥 80g / 밤 1개 / 대추 1개 / 쇠고기 20g / 당근 10g / 양파 10g / 양송이버섯 15g / 물 1/2컵(100ml)",
+		foodIngredients: "밥 80g / 밤 1개 / 대추 1개 / 소고기 20g / 당근 10g / 양파 10g / 양송이버섯 15g / 물 1/2컵(100ml)",
 		content: "아이들이 아프고 나면 한뼘 더 자란다고들 하지요. 아프고 난 뒤에는 영양가득한 쇠고기 밤대추영양진밥으로 우리아이 몸을 보양해주세요. ",
 		url: " https://www.youtube.com/embed/U5nYdesU-8k"
 	},
