@@ -1,7 +1,15 @@
 hints {
   uncategorized {
-    hint (소아에서, 병원 보여줘)
-    hint (소아에서, 주변 병원 찾아줘)
-    hint (소아에서, 내 위치 어디야)
+    utterance  (아기 이유식 추천해줘)
+    utterance  (6세 예방접종 알려줘)
+    utterance  (세계로병원 보여줘)
+    utterance  (10주차 내 상태 알려줘)
+    utterance  (주변 병원 찾아줘)
+    utterance  (내 위치 어디야)
+    utterance  (B형간염 알려줘)
+    utterance  (수두에 대해 알려줘)
+    utterance  (10주차 아기 상태 알려줘)
+    utterance  (4개월 고구마 이유식 추천해줘)
+    utterance  (소고기 이유식 추천해줘)
   }
 }

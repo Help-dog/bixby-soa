@@ -67,26 +67,38 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
          result.push(babyfoodlist[i]);
         }
       }
-    }//if문 제외한 모든 예들
+    }//Month가 입력 없을 때
  
     if(result.length > 6){
-      number=randomNum (0, result.length);
+      number=randomNum (result.length);
       for(var i=0; i<6; i++){
         realresult.push(result[number[i]]);
         // realresult.push(result[number[i]]));
       }
       return realresult;
-    }
+    }//모든 이유식 추천
     return result;
 }
 
-function randomNum (lower, upper) {
-  var randomNumber = [];
-  var console = require('console');
-  for(var i=0; i<6; i++) {
-    let myRandom = Math.floor(Math.random() * (upper - lower)) + lower;
-    randomNumber.push(myRandom);
-    }
-    return randomNumber;
-}
-
+	function randomNum (num) {
+    var console = require('console');
+		let randomNumber = [];
+		let i = 0;
+		while (i < 6) {
+			let n = Math.floor(Math.random() * num);
+			if (! sameNum(n)) {
+        console.log("number: "+n);
+				randomNumber.push(n);
+				i++;
+			}
+		}
+		function sameNum (n) {
+			for (var i = 0; i < randomNumber.length; i++) {
+				if (n === randomNumber[i]) {
+					return true;
+				}
+			}
+			return false;
+		}
+		return randomNumber;
+	}//중북 숫자 제거

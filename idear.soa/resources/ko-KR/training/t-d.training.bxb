@@ -1,3 +1,8 @@
+train (t-d2u07alcay5cz7l05qohbqbha) {
+  utterance ("[g:BabyFoodList] (소고기)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1571896939925)
+}
 train (t-dlufinj48zuw4i28cmb62qkez) {
   utterance ("[g:ResultsVaccin] (2개월)[v:WhatMonth] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
