@@ -15,6 +15,10 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
   // console.log("대상: " + target);
   let imgUrl = "";
 
+  let noBabyImg = [3, 4, 5, 13, 29, 30, 31, 32, 35, 36, 38];
+  let noMomImg = [];
+  let noImg = false;
+
   let result = "죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.";
 
 
@@ -50,7 +54,12 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
       }
     } else {
       target = "아기";
-      imgUrl = "img/pregnancy/pregnancyBaby.jpg";
+
+      if(checkNoImg(weekNum, noBabyImg)) {
+        imgUrl = "img/pregnancy/pregnancyBaby.jpg"; // 이미지 없음
+      } else {
+        imgUrl = "img/pregnancy/babySet/baby_week" + weekNum.toString() + ".jpg";
+      }
 
       for(var i=0; i < babyStatusData.length; i++) {
         if((weekNum - 1) == i) {
@@ -69,4 +78,15 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
     imgUrl : imgUrl
   }
 
+}
+
+function checkNoImg(week, imgList) {
+  let flag = false;
+  for(let i=0; i < imgList.length; i++) {
+    if(imgList[i] == week) { // 기본이미지
+      flag = true; // 이미지 없음 기본이미지로 제공
+      break;
+    }
+  }
+  return flag;
 }
