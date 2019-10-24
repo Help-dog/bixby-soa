@@ -3,17 +3,32 @@ result-view {
 
   message {
     // template ("#{value(this)} 결과 값을 확인해보세요.") { // template은 빅스비에서 Text로 보여줄 결과를 결정
-    template ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태") {
-      speech ("#{value(result.pregnancyStatusResult)}") // speech는 빅스비가 음성으로 해주는 말을 결정
+    if (result.weekNumOperand != null && result.targetOperand != null && result.pregnancyStatusResult != null) {
+      template ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태") {
+        speech ("#{value(result.pregnancyStatusResult)}") // speech는 빅스비가 음성으로 해주는 말을 결정
+      }
+    } else {
+      template ("죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.")
     }
   }
 
+  // render {
+  //   layout-macro (PregnancyStatusLayout) {
+  //     param(resultData) {
+  //       expression (result)
+  //     }
+  //   }
+  // }
+
   render {
-    layout-macro (PregnancyStatusLayout) {
-      param(resultData) {
-        expression (result)
+    if (size(result) >= 1 ) {
+      layout-macro (PregnancyStatusLayout) {
+        param (resultData) {
+          expression(result)
+        }
       }
     }
+
   }
 
 }

@@ -29,7 +29,7 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
       }
     } else {
       target = "산모";
-      imgUrl = "img/mom_picto.png";
+      imgUrl = "img/pregnancy/pregnancyMom.jpg";
 
       for(var i=0; i < momStatusData.length; i++) {
         if((weekNum - 1) == i) {
@@ -50,7 +50,7 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
       }
     } else {
       target = "아기";
-      imgUrl = "img/baby_picto.png";
+      imgUrl = "img/pregnancy/pregnancyBaby.jpg";
 
       for(var i=0; i < babyStatusData.length; i++) {
         if((weekNum - 1) == i) {
