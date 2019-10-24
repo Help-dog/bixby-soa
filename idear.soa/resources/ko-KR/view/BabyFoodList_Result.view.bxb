@@ -13,6 +13,7 @@ result-view {
             expression (this) 
           }
         }
+        
     } else{
       list-of (this){
         where-each (item){
@@ -22,6 +23,14 @@ result-view {
             }
           }
         }
+      }
+    }
+  }
+
+  conversation-drivers {
+    if(size(this) == 1){
+      conversation-driver {
+        template ("뒤로")
       }
     }
   }

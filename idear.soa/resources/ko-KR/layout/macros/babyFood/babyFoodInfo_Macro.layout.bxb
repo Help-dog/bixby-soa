@@ -12,7 +12,6 @@ layout-macro-def (BabyFoodInfo) {
           image-card {
                   aspect-ratio (1:1)
                   image-url ("#{value(info.img)}")
-                  // image-url ("img/babyfood/1.png")
                   title-area {
                     halign (Start)
                     slot1 {
@@ -23,7 +22,6 @@ layout-macro-def (BabyFoodInfo) {
                     }
                   }
               }
-  //img, href, category, title, foodIngredients, content, url
                   single-line {
                    text  {
                       value ("#{value(info.title)}")
@@ -46,6 +44,25 @@ layout-macro-def (BabyFoodInfo) {
                   paragraph {
                       value ("#{value(info.content)}")
                       style (Detail_L)
+                  }
+                   cell-card{
+                    slot1{
+                      image{
+                        url("/img/youtube.png")
+                        shape (Circle)
+                      }
+                    }
+                    slot2{
+                      content{
+                        primary("Youtube에서 동영상 보기")
+                      }
+                    }
+                    on-click {
+                      intent {
+                        goal: OpenBrowser
+                        value: $expr(info.url)
+                      }
+                    }
                   }
           }
         }  
