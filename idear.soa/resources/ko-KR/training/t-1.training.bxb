@@ -1,5 +1,5 @@
 train (t-19au0rmc43b60ga0yz4mzw95x) {
   utterance ("[g:SearchVaccine] (B형간염)[v:VaccinationName] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571809062554)
+  last-modified (1571903343566)
 }
