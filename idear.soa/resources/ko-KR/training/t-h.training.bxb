@@ -8,3 +8,8 @@ train (t-hnjlf6kpzr59u4lge4du1k9oc) {
   plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRmEERLhGYklvvl5JRkMzAyMDExAkgFIgyAEgPhgUQA=)
   last-modified (1571792477726)
 }
+train (t-hpccrxugrgi2l8ddsnnpikzjv) {
+  utterance ([g:GetHospitalInfo] 병원 목록으로 돌아가기)
+  plan (Y2BmEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZeMsyy/SKU3PS9IKBBAMTAyMQMwBJRgYGGA0A)
+  last-modified (1571906155590)
+}
