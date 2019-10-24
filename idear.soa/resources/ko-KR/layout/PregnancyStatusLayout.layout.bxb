@@ -6,51 +6,27 @@ layout-macro-def (PregnancyStatusLayout) {
     }
   }
   content {
-    // image-card {
-    //   text-position (Below)
-    //   image-background-color (White)
-    //   image-object-fit (Contain)
-    //   aspect-ratio (16:9)
-    //   image-url {
-    //       template ("img/mom_picto.png")
-    //   }
-    //   title-area {
-    //       halign (Start)
-    //       slot1 {
-    //           text {
-    //               value {
-    //                   template ("Venus Space Spa")
-    //               }
-    //           }
-    //       }
-    //       slot2 {
-    //           paragraph {
-    //               value {
-    //                   template ("Venus • 0.904g")
-    //               }
-    //           }
-    //       }
-    //       slot3 {
-    //           paragraph {
-    //               value {
-    //                   template ("Cryo Spa")
-    //               }
-    //           }
-    //       }
-    //   }
-    // }
-    compound-card {
+    section {
+    // compound-card {
       content {
-        single-line {
-          image {
-            background-color (Transparent)
-              shape (Square)
-              style (Title_XXL_Soft)
-              url {
-                template ("#{value(resultData.imgUrl)}")
-              }
-          }
-        }    
+        image-card {
+          aspect-ratio (Sixteen_Nine)
+          // column-size (One)
+          // image-object-position (Center)
+          // image-object-fit (Contain)
+          // image-object-fit (Cover)
+          image-object-position (Center)
+            image-url ("#{value(resultData.imgUrl)}")
+            title-area {
+              halign (Start)
+                slot1 {
+                  text {
+                    value ("")
+                    style (Title_M)
+                    }
+                }
+            }
+        }
         single-line {
             text {
                 value {
@@ -65,8 +41,9 @@ layout-macro-def (PregnancyStatusLayout) {
             }
             style(Detail_M_Soft)
         }
-      }
     }
+      }
+    // }
     
   }
 
