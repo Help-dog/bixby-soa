@@ -30,7 +30,7 @@ result-view {
   conversation-drivers {
     if(size(this) == 1){
       conversation-driver {
-        template ("뒤로")
+        template ("이전으로")
       }
     }
   }
