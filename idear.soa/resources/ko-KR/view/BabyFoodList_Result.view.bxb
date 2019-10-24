@@ -30,7 +30,7 @@ result-view {
   conversation-drivers {
     if(size(this) == 1){
       conversation-driver {
-        template ("이전으로")
+        template ("이유식 목록으로 돌아가기")
       }
     }
   }
