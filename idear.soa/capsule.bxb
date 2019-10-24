@@ -3,7 +3,6 @@ capsule {
   version (0.1.0)
   format (3)
   targets {
-    target (bixby-mobile-en-US) {enabled (false)}
     target (bixby-mobile-ko-KR)
   }
   runtime-flags {
@@ -15,7 +14,7 @@ capsule {
     use-input-views-for-selection-list-detail
   }
   capsule-imports {
-    import (viv.entity) { version(3.21.0) as (entity) }
+    import (viv.entity){version(3.21.0) as (entity)}
     import (viv.core){ as (core) version-from (entity)}
     import (viv.common) { as (common) version-from (entity) }
     import (viv.geo) { as (geo) version-from (entity) }
@@ -23,5 +22,16 @@ capsule {
   }
   permissions {
     user-profile-access
+  }
+  store-sections {
+    section (EducationAndReference)
+    section (FoodAndDrink) {
+      visibility-constraints {
+        country-constraints: 
+          allowed-list {
+            allow (KR)
+        }
+      }
+    }
   }
 }
