@@ -1,15 +1,19 @@
 hints {
   uncategorized {
-    utterance  (아기 이유식 추천해줘)
-    utterance  (6세 예방접종 알려줘)
-    utterance  (세계로병원 보여줘)
-    utterance  (10주차 내 상태 알려줘)
-    utterance  (주변 병원 찾아줘)
-    utterance  (내 위치 어디야)
-    utterance  (B형간염 알려줘)
-    utterance  (수두에 대해 알려줘)
-    utterance  (10주차 아기 상태 알려줘)
-    utterance  (4개월 고구마 이유식 추천해줘)
-    utterance  (소고기 이유식 추천해줘)
+    hint ("소아에서 이유식을 추천받고 싶다면") {
+      preferred-hint ("아기 이유식 추천해줘")
+    }
+    hint ("소아에서 예방접종 정보를 얻고 싶다면") {
+      preferred-hint ("6세 예방접종 알려줘")
+    }
+    hint ("소아에서 병원 위치 정보를 얻고 싶다면") {
+      preferred-hint ("10주차 아기 상태 알려줘")
+    }
+    hint ("소아에서 산모, 아기의 정보를 얻고 싶다면") {
+      preferred-hint ("10주차 아기 상태 알려줘")
+    }
+    hint ("소아에서 아기 질병에 대한 정보를 얻고 싶다면") {
+      preferred-hint ("수두에 대해 알려줘")
+    }
   }
 }
