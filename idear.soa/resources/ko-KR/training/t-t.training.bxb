@@ -1,0 +1,10 @@
+train (t-tfystln2bkq9o35ev6ulwyhd3) {
+  utterance ("[g:SearchVaccine] (b형헤모필루스인플루엔자)[v:VaccinationName] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1571985958415)
+}
+train (t-tz2igqdr1hspfvex0ll8x3h0c) {
+  utterance ("[g:SearchVaccine] (백일해)[v:VaccinationName] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1571985868531)
+}

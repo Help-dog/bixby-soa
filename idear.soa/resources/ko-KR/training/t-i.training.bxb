@@ -1,0 +1,5 @@
+train (t-i69fj9l0bwrlsap73fzrkcuc7) {
+  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1571986635664)
+}

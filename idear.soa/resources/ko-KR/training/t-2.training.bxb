@@ -3,3 +3,8 @@ train (t-2ecedmpzvz1xmxtxaiolmo7py) {
   plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQz8COEffPzSjIYJHCZzsDKwMjAxMDMwAJkMQDZMIgAIHG4CgA=)
   last-modified (1571637622670)
 }
+train (t-2zv22bqmad3h44wjlj39mh9k7) {
+  utterance ("[g:SearchVaccine] (디프테리아)[v:idear.soa.VaccinationName] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1571985568114)
+}

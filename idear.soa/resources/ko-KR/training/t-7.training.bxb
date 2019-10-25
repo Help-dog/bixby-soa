@@ -1,5 +1,5 @@
 train (t-76itpgf0dk3urt4nu5l36puh3) {
   utterance ("[g:ResultsVaccin] (만 6세)[v:WhatMonth] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1571811370065)
+  last-modified (1571986733395)
 }

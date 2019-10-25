@@ -1,0 +1,10 @@
+train (t-z32sgimpadla4jlo7hxi8wji1) {
+  utterance ("[g:idear.soa.SearchVaccine] (파상풍)[v:idear.soa.VaccinationName] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1571985611361)
+}
+train (t-zr5ucc5veku8kf3kduvq12ze5) {
+  utterance ("[g:SearchVaccine] (결핵)[v:VaccinationName] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1571986732675)
+}

@@ -3,9 +3,15 @@ result-view{
 
   message{
     
-    template ("#{value(result.vaccinationName)}, #{value(result.vaccinationDesc)}") {
-      // speech ("#{value(result.pregnancyStatusResult)}") // speech는 빅스비가 음성으로 해주는 말을 결정
+    template ("#{value(result.vaccinationName)}") {
     }
-  }
 
+  }
+  render {   
+      layout-macro (VaccinSearch) {
+        param (resultData){ 
+          expression (result) 
+        }    
+  }
+  }
 }
