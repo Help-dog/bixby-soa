@@ -8,4 +8,11 @@ structure (ResultsVaccin) {
     type (VaccinInfo)
     min (Required) max (One)
   }
+    property (vaccinInfo2) {
+    type (VaccinInfo2)
+    min (Required) max (One)
+  }
+
+
+ 
 }
