@@ -18,7 +18,7 @@ structure (BabyFoodList) {
     min (Required) max (One)
   }
   property (url) {
-    type (Url)
+    type (URL)
     min (Required) max (One)
   }
   property (href) {
