@@ -15,14 +15,13 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
   // console.log("대상: " + target);
   let imgUrl = "";
 
-  let noBabyImg = [3, 4, 5, 13, 29, 30, 31, 32, 35, 36, 38];
-  let noMomImg = [];
-  let noImg = false;
+  let noBabyImg = [3, 4, 5, 13, 29, 30, 31, 32, 35, 36, 38]; // 없는 이미지
+  let momImg = [1, 2, 3, 4, 5, 11, 15, 18, 27, 31, 33, 40]; // 있는 이미지
 
   let result = "죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.";
 
 
-  if(target == "나" || target == "내" || target == "나의") {
+  if(target == "나" || target == "내" || target == "나의" || target == "산모" || target == "임산부") {
     if(weekNum == null || week == null) {
       result = "죄송해요. '(1 ~ 40)주차 내 상태 알려줘'라고 다시 말해보세요.";
       return {
@@ -33,7 +32,12 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
       }
     } else {
       target = "산모";
-      imgUrl = "img/pregnancy/pregnancyMom.jpg";
+
+      if(checkNoImg(weekNum, momImg)) {
+        imgUrl = "img/pregnancy/momSet/mom_week" + weekNum.toString() + ".jpg";
+      } else {
+        imgUrl = "img/pregnancy/pregnancyMom.jpg"; // 이미지 없음
+      }
 
       for(var i=0; i < momStatusData.length; i++) {
         if((weekNum - 1) == i) {
@@ -80,11 +84,11 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
 
 }
 
-function checkNoImg(week, imgList) {
+function checkNoImg(week, imgList) { // 산모, 아기는 반대로 작동함 true/false
   let flag = false;
   for(let i=0; i < imgList.length; i++) {
-    if(imgList[i] == week) { // 기본이미지
-      flag = true; // 이미지 없음 기본이미지로 제공
+    if(imgList[i] == week) {
+      flag = true;
       break;
     }
   }
