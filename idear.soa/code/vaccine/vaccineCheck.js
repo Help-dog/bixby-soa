@@ -4,8 +4,8 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,vaccinI
 const console = require('console');
 console.log("개월"+ whatMonth);  //2개월
 console.log(choiseVaccine)
-const datainfo = require("../data/vaccine/vaccineData3.js");
-const nameinfo = require("../data/vaccine/vaccineData2.js");
+const nameinfo = require("../data/vaccine/vaccineData.js");
+const datainfo = require("../data/vaccine/vaccineData2.js");
 
 var check = recommendation;
 var result = [];
@@ -15,7 +15,7 @@ console.log(datainfo[0])
 for(let i=0; i<datainfo.length; i++){
   if(datainfo[i].month.indexOf(whatMonth.toString())>=0){
 
-    var S= datainfo[i].info.split(',')
+    var S= datainfo[i].info.split(',') 
     console.log("스플릿확인"+S)
     // var info = [];
 
@@ -35,7 +35,6 @@ for(let i=0; i<datainfo.length; i++){
         vaccinDate: whatMonth+"에"+" "+"접종해야 할 백신 정보입니다.",
         vaccinInfo: S[s],
         vaccinInfo2: depdata
-        //추가로 액션에 하나더 추가해서 데이터값 가져가서 레이아웃 싱글페이지 하나 만들기 
       };
       result.push(data);
     }
