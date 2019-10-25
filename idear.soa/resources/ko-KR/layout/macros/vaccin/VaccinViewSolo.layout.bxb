@@ -1,0 +1,30 @@
+layout-macro-def(VaccinViewSolo) { //메크로 이름
+  params {
+    param (resultData) { //넘겨줄 데아터 네임
+      type (ResultsVaccin) //결괏값 출력하는 컨셉 이름
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+    paragraph {
+        value {       
+            template ("#{value(resultData.vaccinInfo2)}")   
+        }
+        style(Title_M)
+    }
+    single-line {
+          text {
+            value {
+                template ("출처 - 질병관리본부(어린이예방접종가이드)")
+            }
+            style(Detail_M_Soft)
+        }
+    }
+   }
+  }
+  }
+}

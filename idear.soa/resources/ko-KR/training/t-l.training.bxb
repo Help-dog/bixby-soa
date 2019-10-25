@@ -6,7 +6,7 @@ train (t-l1yhrqt1meluape3cfs4j7dha) {
 train (t-l47xja5vya1e3426wyyn5r1lt) {
   utterance ("[g:SearchVaccine] (수두)[v:VaccinationName] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571809575848)
+  last-modified (1571986734854)
 }
 train (t-l89qijl0prctkp1g1f8udkssy) {
   utterance ("[g:BabyFoodList] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")

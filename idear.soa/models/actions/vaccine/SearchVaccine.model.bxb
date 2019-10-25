@@ -7,5 +7,13 @@ action (SearchVaccine) {
     }
   }
   type(Search)
-  output (VaccinationInfo)
+  output (VaccinationInfo){
+    on-empty{
+      halt{
+        dialog{
+          template ("A형간염 알려줘 라고 말씀해주세요. 병명은 결핵,B형간염,디프테리아등이 있습니다.")
+        }
+      }
+    }
+  }
 }

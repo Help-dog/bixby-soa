@@ -23,5 +23,13 @@ action (RecommendationBabyFood) {
     }
   }
   type(Search)
-  output (BabyFoodList)
+  output (BabyFoodList){
+    on-empty{
+      halt{
+        dialog{
+          template ("검색된 이유식이 없습니다.")
+        }
+      }
+    }
+  }
 }

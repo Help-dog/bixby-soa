@@ -1,0 +1,17 @@
+result-view{
+  match: VaccinationInfo(result)
+
+  message{
+    
+    template ("#{value(result.vaccinationName)}") {
+    }
+
+  }
+  render {   
+      layout-macro (VaccinSearch) {
+        param (resultData){ 
+          expression (result) 
+        }    
+  }
+  }
+}
