@@ -4,10 +4,7 @@ result-view {
   message {
     if (result.weekNumOperand != null && result.targetOperand != null && result.pregnancyStatusResult != null) {
       template ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태에요.") {
-        // speech ("#{value(result.pregnancyStatusResult)}") // speech는 빅스비가 음성으로 해주는 말을 결정
       }
-    } else {
-      template ("죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.")
     }
   }
 

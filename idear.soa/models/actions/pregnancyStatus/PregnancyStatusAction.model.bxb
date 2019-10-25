@@ -21,5 +21,13 @@ action (PregnancyStatusAction) {
 
   }
   type(Search)
-  output (PregnancyStatusResults)
+  output (PregnancyStatusResults) {
+    on-empty{
+      halt{
+        dialog{
+          template ("죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.")
+        }
+      }
+    }
+  }
 }
