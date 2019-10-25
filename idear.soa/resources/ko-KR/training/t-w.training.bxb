@@ -1,5 +1,5 @@
 train (t-wh1h1j7vhd5zgz4tcr4h9yjyl) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (임산부)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
-  last-modified (1571965856088)
+  last-modified (1571980655665)
 }
