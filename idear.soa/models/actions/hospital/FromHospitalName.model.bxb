@@ -30,6 +30,11 @@ action (FromHospitalName) {
           }         
       }
     }
+
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
   }
   type(Search)
   output (SearchedHospital){
