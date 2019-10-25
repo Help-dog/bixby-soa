@@ -34,6 +34,10 @@ action (GetHospitalInfo) {
         }
       }
     }
+    input (recommendation) { 
+      type (Recommendation)
+      min (Optional) max (One)
+    }
   }
   
   output (Hospital){
