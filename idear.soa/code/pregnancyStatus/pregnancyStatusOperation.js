@@ -18,18 +18,15 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
   let noBabyImg = [3, 4, 5, 13, 29, 30, 31, 32, 35, 36, 38]; // 없는 이미지
   let momImg = [1, 2, 3, 4, 5, 11, 15, 18, 27, 31, 33, 40]; // 있는 이미지
 
-  let result = "죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.";
+  // let result = "죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.";
+  let result = null;
 
 
   if(target == "나" || target == "내" || target == "나의" || target == "산모" || target == "임산부") {
     if(weekNum == null || week == null) {
-      result = "죄송해요. '(1 ~ 40)주차 내 상태 알려줘'라고 다시 말해보세요.";
-      return {
-        pregnancyStatusResult : result,
-        weekNumOperand : null,
-        targetOperand : target,
-        imgUrl : "img/question_mark.png"
-      }
+      return null;
+    } else if (weekNum < 1 || weekNum > 40) {
+      return null;
     } else {
       target = "산모";
 
@@ -49,13 +46,9 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
 
   } else if (target == "아기" || target == "애기" || target == "애") {
     if(weekNum == null || week == null) {
-      result = "죄송해요. '(1 ~ 40)주차 아기 상태 알려줘'라고 다시 말해보세요.";
-      return {
-        pregnancyStatusResult : result,
-        weekNumOperand : null,
-        targetOperand : target,
-        imgUrl : "img/question_mark.png"
-      }
+      return null;
+    } else if(weekNum < 1 || weekNum > 40) {
+      return null;
     } else {
       target = "아기";
 
