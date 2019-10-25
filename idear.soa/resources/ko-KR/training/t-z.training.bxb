@@ -1,0 +1,5 @@
+train (t-zzu5a0vuzdo8o4p3h0allviwo) {
+  utterance ("[g:PregnancyStatusResults] (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1571980851049)
+}
