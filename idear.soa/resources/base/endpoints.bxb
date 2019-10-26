@@ -2,7 +2,7 @@ endpoints {
   // action과 그에 맞는 자바스크립트를 매핑
   action-endpoints {
     action-endpoint (GetHospitalInfo) {
-      accepted-inputs (near, point, self)
+      accepted-inputs (near, point, self, recommendation)
       local-endpoint (hospital/getHospitalInfo.js)
     }
     action-endpoint (FromHospitalName){
