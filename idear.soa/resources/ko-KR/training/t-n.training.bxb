@@ -3,6 +3,11 @@ train (t-ni5j960wwmigmiu59j3rigab7) {
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
   last-modified (1571986729254)
 }
+train (t-njtl3o2fzrkbtn7nhef0jgt1j) {
+  utterance ("[g:BabyFoodList] (닭고기 비트 고구마죽)[v:Ingredients] (레시피)[v:BabyFood:이유식] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572085936482)
+}
 train (t-ny7mu35x9yiuhvlc7z4xscibq) {
   utterance ("[g:BabyFoodList] (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)

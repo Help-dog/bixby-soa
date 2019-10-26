@@ -1,0 +1,5 @@
+train (t-qx80jvz12vww5yhkbcsgy2uhz) {
+  utterance ("[g:BabyFoodList] (새송이 비타민 소고기 죽)[v:Ingredients] (이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572085867011)
+}

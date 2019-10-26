@@ -8,3 +8,8 @@ train (t-8puryun1y6lbci4x4iz0adk8c) {
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
   last-modified (1571988921917)
 }
+train (t-8r2ts40gjyghzcew1qrrla9qf) {
+  utterance ("[g:BabyFoodList] (사과감자 미음)[v:Ingredients] (레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572085666733)
+}
