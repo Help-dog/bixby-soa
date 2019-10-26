@@ -22,10 +22,11 @@ for(let i=0; i<datainfo.length; i++){
     var data = [];
     for(var s in S){
       var vaccinInfo2
-      var dataN = S[s].slice(0,3)
+      var dataN = S[s].slice(0,4)
       for(var d in nameinfo){
-        console.log("이름 확인 : "+ d)
-        if(nameinfo[d].name.indexOf(dataN)>=0){
+        console.log("이름 확인 : "+ dataN +":"+ nameinfo[d].name)
+        console.log("결과확인 :"+nameinfo[d].name.indexOf(dataN))
+        if((nameinfo[d].name.indexOf(dataN))>=0){
           depdata = nameinfo[d].info
           console.log("재확인:"+depdata)
           break;
