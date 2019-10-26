@@ -4,11 +4,11 @@ action (PregnancyStatusAction) {
   collect {
     input (weekNumOperand) {
       type (WeekNumOperand)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (weekOperand) {
       type (WeekOperand)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (targetOperand) {
       type (TargetOperand)
