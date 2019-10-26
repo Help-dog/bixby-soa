@@ -6,8 +6,11 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
     let result = [];
     let realresult= [];
     let number=[];
-    ingredients= ingredients.replace(/(\s*)/g, "");
 
+    if(ingredients){
+    ingredients= ingredients.replace(/(\s*)/g, "");
+    }
+    
     if( 4<= month && month <= 6){
       for(var i=0; i<babyfoodlist.length; i++){
         if(ingredients){
@@ -82,7 +85,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
     if(result.length !=0){
       return result;
     }
-    
+
     for(var i=0; i<babyfoodlist.length; i++){
       if(babyfoodlist[i].title.indexOf(ingredients.toString()) != -1){
         realresult.push(babyfoodlist[i]);
