@@ -25,13 +25,6 @@ capsule {
   }
   store-sections {
     section (EducationAndReference)
-    section (FoodAndDrink) {
-      visibility-constraints {
-        country-constraints: 
-          allowed-list {
-            allow (KR)
-        }
-      }
-    }
+    section (HealthAndFitness)
   }
 }
