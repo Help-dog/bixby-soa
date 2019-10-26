@@ -9,7 +9,7 @@ train (t-dlufinj48zuw4i28cmb62qkez) {
   last-modified (1571793869809)
 }
 train (t-dqtwhwzxy3hq74ijre6ionnur) {
-  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원 찾아줘")
-  plan (Y2BhEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGA29ZZplecWpOml4wkGBgZmBkYAKSDEAaBCGACYIB)
-  last-modified (1572077071093)
+  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원 (찾아줘)[v:Recommendation:검색]")
+  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
+  last-modified (1572087599049)
 }
