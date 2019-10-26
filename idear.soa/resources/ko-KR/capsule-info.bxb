@@ -3,10 +3,8 @@ capsule-info {
   developer-name  (I-Dear)
   icon-asset  (/img/bixby_launcher.png)
   description ("아기에 대한 여러가지 정보를 제공하는 아기 백과사전 캡슐입니다.")
-  // website-url  (https://github.com/bixbydevelopers/capsule-sample-restaurants-KR)
-  // terms-url  (https://github.com/bixbydevelopers/capsule-sample-restaurants-KR/blob/master/LICENSE)
   privacy-policy-url(http://my-capsule.com/privacy-policy)
-  dispatch-name (소아)
+  dispatch-name (소아) 
   search-keywords{
     keyword (아기)
     keyword (이유식)

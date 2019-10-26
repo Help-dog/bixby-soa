@@ -1,5 +1,5 @@
-train (t-amv3pw0lth774x47bwnpzffth) {
-  utterance ("[g:GetHospitalInfo] (가까운)[v:Near:Nearby] 병원 (보여줘)[v:Recommendation:검색]")
-  plan (RUlLCoAgFJx+y1q0qkt4jWrTok4g9QRBfZHi+RMqnIH5okGvT5K38CzFzP7SQRqMeZso/PPiFKPL15oChtw3OthacqcMmh3aqKPwZJTYk6BGgRJVcqT08kf1fXgA)
-  last-modified (1572078094173)
+train (t-a5khzt463rzkwxnezzihudc6f) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (아가)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572075589081)
 }
