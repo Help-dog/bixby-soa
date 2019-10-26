@@ -1,4 +1,4 @@
-module.exports.function = function searchBabyFood (month, ingredients, babyFood, recipe, recommendation) {
+module.exports.function = function searchBabyFood (month, ingredients, babyFood, recommendation) {
 
     var console = require('console');
     const babyfoodlist = require("../data/babyfood/babyfoodRecipe.js");
@@ -6,6 +6,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
     let result = [];
     let realresult= [];
     let number=[];
+    ingredients= ingredients.replace(/(\s*)/g, "");
 
     if( 4<= month && month <= 6){
       for(var i=0; i<babyfoodlist.length; i++){
@@ -56,7 +57,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
         } 
       }
     }//Month: 13~24개월 
-
+  
     if(!month){
      for(var i=0; i<babyfoodlist.length; i++){
       if(ingredients){
@@ -68,7 +69,7 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
         }
       }
     }//Month가 입력 없을 때
- 
+    
     if(result.length > 6){
       number=randomNum (result.length);
       for(var i=0; i<6; i++){
@@ -77,7 +78,17 @@ module.exports.function = function searchBabyFood (month, ingredients, babyFood,
       }
       return realresult;
     }//모든 이유식 추천
-    return result;
+
+    if(result.length !=0){
+      return result;
+    }
+    
+    for(var i=0; i<babyfoodlist.length; i++){
+      if(babyfoodlist[i].title.indexOf(ingredients.toString()) != -1){
+        realresult.push(babyfoodlist[i]);
+        return realresult;
+      }
+    }
 }
 
 	function randomNum (num) {
