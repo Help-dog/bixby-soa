@@ -2,8 +2,7 @@ result-view {
   match: BabyFoodList(this) 
 
   message {
-    template ("아래의 이유식은 어떠세요?") {
-    }
+      template ("아래의 이유식은 어떠세요?")
   }
 
   render {
@@ -13,7 +12,6 @@ result-view {
             expression (this) 
           }
         }
-        
     } else{
       list-of (this){
         where-each (item){

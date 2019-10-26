@@ -17,7 +17,7 @@ function deg2rad(deg) {
   return deg * (Math.PI/180)
 }
 
-module.exports.function = function getHospitalInfo (near, point, self) {
+module.exports.function = function getHospitalInfo (near, point, self, recommendation) {
   const console = require('console');
   var http = require('http');
   
