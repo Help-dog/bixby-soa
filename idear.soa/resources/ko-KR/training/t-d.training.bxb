@@ -8,8 +8,3 @@ train (t-dlufinj48zuw4i28cmb62qkez) {
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
   last-modified (1571793869809)
 }
-train (t-dqtwhwzxy3hq74ijre6ionnur) {
-  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원 찾아줘")
-  plan (Y2BhEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGA29ZZplecWpOml4wkGBgZmBkYAKSDEAaBCGACYIB)
-  last-modified (1571358739683)
-}
