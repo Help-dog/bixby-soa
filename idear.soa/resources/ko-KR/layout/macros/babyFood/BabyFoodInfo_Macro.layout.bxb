@@ -45,11 +45,6 @@ layout-macro-def (BabyFoodInfo) {
             value ("#{value(info.content)}")
             style (Detail_L)
           }
-          divider
-          paragraph {
-            value ("#{value(info.url)}")
-            style (Detail_L)
-          }
           cell-card{
             slot1{
               image{

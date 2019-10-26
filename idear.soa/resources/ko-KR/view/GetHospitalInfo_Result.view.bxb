@@ -33,7 +33,6 @@ result-view {
           }
         }
       }
-      
     }else{
       list-of (this){
         where-each (item){
@@ -51,6 +50,13 @@ result-view {
     if(size(this) == 1){
       conversation-driver {
         template ("병원 목록으로 돌아가기")
+      }
+    } else-if(size(this) >=2){
+      conversation-driver {
+        template ("#{value(this[0].name)} 검색해줘 ")
+      }
+      conversation-driver {
+        template ("#{value(this[1].name)} 검색해줘 ")
       }
     }
   }
