@@ -16,6 +16,10 @@ structure (ResultsVaccin) {
     type (URL)
     min (Required) max (One)
   }
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
 
 
  

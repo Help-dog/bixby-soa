@@ -8,3 +8,8 @@ train (t-pjd5nb9ws4nmtqmavrb84bllm) {
   plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpDMTElNLNIrzk8ESpUEpZalFhWnBuRn5pUwMAIhAxQDSQA=)
   last-modified (1572143458219)
 }
+train (t-pymjsbz1sr1bcvoo4n5idv8qq) {
+  utterance ("[g:SearchVaccine] (결핵)[v:VaccinationName:결핵] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1572173886379)
+}

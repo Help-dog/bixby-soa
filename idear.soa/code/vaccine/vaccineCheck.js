@@ -12,8 +12,12 @@ var result = [];
 var depdata = ""
 var http = require('http');
 var site = "https://nip.cdc.go.kr/irgd/index.html"
- 
-console.log(datainfo[0])
+var imgUrl = "img/vaccineBaby.jpg";
+
+
+
+
+console.log(datainfo[0])  
 for(let i=0; i<datainfo.length; i++){
   if(datainfo[i].month.indexOf(whatMonth.toString())>=0){
 
@@ -39,6 +43,7 @@ for(let i=0; i<datainfo.length; i++){
         vaccinInfo: S[s],
         vaccinInfo2: depdata,
         url: site,
+        imgUrl: imgUrl
       };
       result.push(data);
     }
