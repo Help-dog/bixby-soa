@@ -14,7 +14,7 @@ train (t-2g6w5oxzudfairx7a609yeho5) {
   last-modified (1572087632847)
 }
 train (t-2zv22bqmad3h44wjlj39mh9k7) {
-  utterance ("[g:SearchVaccine] (디프테리아)[v:VaccinationName] 알려줘")
+  utterance ("[g:SearchVaccine] (디프테리아)[v:VaccinationName:'디프테리아/파상풍/백일해(DTaP)'] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572143511527)
+  last-modified (1572172798231)
 }

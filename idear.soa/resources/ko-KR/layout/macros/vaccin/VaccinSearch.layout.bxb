@@ -10,16 +10,39 @@ layout-macro-def(VaccinSearch) {
 content {
     section {
       content {
+      image-card {
+        aspect-ratio (Sixteen_Nine)
+        image-background-color (Transparent)
+        image-object-fit (Contain)
+        image-url ("#{value(resultData.imgUrl)}")
+        title-area {
+          halign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+                }
+            }
+        }
+      }
     paragraph {
         value {       
             template ("#{value(resultData.vaccinationDesc)}")
         }
-        style(Title_S)
+        style(Title_XS)
     }
     single-line {
           text {
             value {
-                template ("출처 - 질병관리본부(어린이예방접종가이드)")
+                template ("내용출처 - 질병관리본부(어린이예방접종가이드)")
+            }
+            style(Detail_M_Soft)
+        }
+    }
+    single-line {
+          text {
+            value {
+                template ("Photo by Travis Grossen on Unsplash")
             }
             style(Detail_M_Soft)
         }
