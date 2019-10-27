@@ -1,5 +1,5 @@
 
-module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,vaccinInfo2,recommendation) {
+module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,vaccinInfo2,recommendation,url) {
   
 const console = require('console');
 console.log("개월"+ whatMonth);  //2개월
@@ -10,7 +10,9 @@ const datainfo = require("../data/vaccine/vaccineData2.js");
 var check = recommendation;
 var result = [];
 var depdata = ""
-
+var http = require('http');
+var site = "https://nip.cdc.go.kr/irgd/index.html"
+ 
 console.log(datainfo[0])
 for(let i=0; i<datainfo.length; i++){
   if(datainfo[i].month.indexOf(whatMonth.toString())>=0){
@@ -35,7 +37,8 @@ for(let i=0; i<datainfo.length; i++){
       data = {
         vaccinDate: whatMonth+"에"+" "+"접종해야 할 백신 정보입니다.",
         vaccinInfo: S[s],
-        vaccinInfo2: depdata
+        vaccinInfo2: depdata,
+        url: site,
       };
       result.push(data);
     }

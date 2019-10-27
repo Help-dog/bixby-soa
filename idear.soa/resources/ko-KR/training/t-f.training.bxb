@@ -1,0 +1,5 @@
+train (t-fr29vd4l9u67481px04nxchvm) {
+  utterance ("[g:ResultsVaccin] (만 4세)[v:WhatMonth:'만 4세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572147064470)
+}
