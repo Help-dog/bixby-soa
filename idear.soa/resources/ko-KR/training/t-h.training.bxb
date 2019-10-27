@@ -9,9 +9,9 @@ train (t-himpq6cujmy286445gujvsk2t) {
   last-modified (1571638300305)
 }
 train (t-hnjlf6kpzr59u4lge4du1k9oc) {
-  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (2개월)[v:WhatMonth]")
+  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (2개월)[v:WhatMonth:2개월]")
   plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRmEERLhGYklvvl5JRkMzAyMDExAkgFIgyAEgPhgUQA=)
-  last-modified (1571792477726)
+  last-modified (1572143781301)
 }
 train (t-hpccrxugrgi2l8ddsnnpikzjv) {
   utterance ([g:GetHospitalInfo] 병원 목록으로 돌아가기)

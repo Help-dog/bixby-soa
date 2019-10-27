@@ -14,7 +14,7 @@ content {
         value {       
             template ("#{value(resultData.vaccinationDesc)}")
         }
-        style(Title_M)
+        style(Title_S)
     }
     single-line {
           text {

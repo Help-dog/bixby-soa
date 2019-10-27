@@ -5,6 +5,6 @@ train (t-p6r05zx8dtew1eegbrahvceb2) {
 }
 train (t-pjd5nb9ws4nmtqmavrb84bllm) {
   utterance ([g:GetReversePoint] 내 위치 어디야)
-  plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZlBOrUjMLchJ1QPyShJLixLzSoqBikqCUstSi4pTA/Iz80oYGIGQAYqBJAA=)
-  last-modified (1560831743565)
+  plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpDMTElNLNIrzk8ESpUEpZalFhWnBuRn5pUwMAIhAxQDSQA=)
+  last-modified (1572143458219)
 }

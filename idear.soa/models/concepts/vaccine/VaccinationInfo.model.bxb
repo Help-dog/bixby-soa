@@ -9,4 +9,5 @@ structure (VaccinationInfo) {
     type (VaccinationDesc)
     min (Required) max (One)
   }
+  
 }

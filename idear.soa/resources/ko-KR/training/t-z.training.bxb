@@ -1,3 +1,13 @@
+train (t-z9b06xuhsf0fa3nvhdnklmeas) {
+  utterance ("[g:ResultsVaccin] (만 12세)[v:WhatMonth:'만 12세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572147086125)
+}
+train (t-zj46fmhn0ir1jm4ldiiie0cc8) {
+  utterance ("[g:ResultsVaccin] (만 6세)[v:WhatMonth:'만 6세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572147066769)
+}
 train (t-zzu5a0vuzdo8o4p3h0allviwo) {
   utterance ("[g:PregnancyStatusResults] (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
