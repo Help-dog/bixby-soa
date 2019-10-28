@@ -9,13 +9,9 @@ action (RecommendationBabyFood) {
       type (Ingredients)
       min (Optional) max (One)
     }
-    input (babyFood) { //ex)재료: 이유식
+    input (babyFood) { //ex)재료: 이유식, 레시피 
       type (BabyFood)
       min (Required) max (One)
-    }
-    input (recipe) { //레시피
-      type (Recipe)
-      min (Optional) max (One)
     }
     input (recommendation) { //추천해줘
       type (Recommendation)

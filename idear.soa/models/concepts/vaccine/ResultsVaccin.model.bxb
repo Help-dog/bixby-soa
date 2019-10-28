@@ -12,4 +12,18 @@ structure (ResultsVaccin) {
     type (VaccinInfo2)
     min (Required) max (One)
   }
+<<<<<<< HEAD
+=======
+  property (url) {
+    type (URL)
+    min (Required) max (One)
+  }
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
+
+
+ 
+>>>>>>> 61d4ee2b64dc90a0c7a791f28629da4b4779d794
 }

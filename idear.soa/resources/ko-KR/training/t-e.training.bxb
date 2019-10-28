@@ -3,3 +3,13 @@ train (t-e44tuzkrn3mkk44i2ovbvsvkl) {
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
   last-modified (1571972708249)
 }
+train (t-edbpynivp4l0rv3f3ku3esh8e) {
+  utterance ("[g:ResultsVaccin] (육 새)[v:WhatMonth:'만 6세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572142527732)
+}
+train (t-eobulec2frewkm0xdtddsrqot) {
+  utterance ("[g:ResultsVaccin] (18개월)[v:WhatMonth:18개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572147029884)
+}

@@ -8,8 +8,13 @@ train (t-2ecedmpzvz1xmxtxaiolmo7py) {
   plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQz8COEffPzSjIYJHCZzsDKwMjAxMDMwAJkMQDZMIgAIHG4CgA=)
   last-modified (1571637622670)
 }
+train (t-2g6w5oxzudfairx7a609yeho5) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572087632847)
+}
 train (t-2zv22bqmad3h44wjlj39mh9k7) {
-  utterance ("[g:SearchVaccine] (디프테리아)[v:idear.soa.VaccinationName] 알려줘")
+  utterance ("[g:SearchVaccine] (디프테리아)[v:VaccinationName:'디프테리아/파상풍/백일해(DTaP)'] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571985568114)
+  last-modified (1572172798231)
 }

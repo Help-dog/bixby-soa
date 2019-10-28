@@ -4,12 +4,27 @@ train (t-l1yhrqt1meluape3cfs4j7dha) {
   last-modified (1571795266044)
 }
 train (t-l47xja5vya1e3426wyyn5r1lt) {
-  utterance ("[g:SearchVaccine] (수두)[v:VaccinationName] 알려줘")
+  utterance ("[g:SearchVaccine] (수두)[v:VaccinationName:수두] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571986734854)
+  last-modified (1572172856183)
 }
 train (t-l89qijl0prctkp1g1f8udkssy) {
   utterance ("[g:BabyFoodList] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571637879591)
+}
+train (t-l9a4qi3k0yggy0th6v7hy24af) {
+  utterance ("[g:SearchVaccine] (일본뇌염)[v:VaccinationName:'일본뇌염 불활성화(IJEV)/약독화(LJEV) 백신'] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1572173422280)
+}
+train (t-lkd5f031aewqlpmttgya84ruv) {
+  utterance ("[g:ResultsVaccin] (1개월)[v:WhatMonth:1개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572146671441)
+}
+train (t-lki5wrknlxc5xrq8bocn6d4dj) {
+  utterance ("[g:SearchVaccine] (인플루엔자)[v:VaccinationName:인플루엔자(IIV)] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1572173419995)
 }

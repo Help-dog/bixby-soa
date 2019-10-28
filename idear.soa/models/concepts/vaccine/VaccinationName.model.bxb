@@ -1,3 +1,15 @@
-name (VaccinationName) {
+enum (VaccinationName) {
   description (예방접종 이름)
+  symbol (결핵)
+  symbol (B형간염)
+  symbol (디프테리아/파상풍/백일해(DTaP))
+  symbol (폴리오)
+  symbol (b형헤모필루스인플루엔자(Hib))
+  symbol (폐렴구균(PCV))
+  symbol (홍역/유행성이하선염/풍진(MMR))
+  symbol (수두)
+  symbol (일본뇌염 불활성화(IJEV)/약독화(LJEV) 백신)
+  symbol (A형간염)
+  symbol (사람유두종바이러스감염증(HPV))
+  symbol (인플루엔자(IIV))
 }

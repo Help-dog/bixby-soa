@@ -1,15 +1,20 @@
+train (t-12bgd121rz2yazyyjtb60jmbs) {
+  utterance ("[g:SearchVaccine] (b형헤모필루스인플루엔자)[v:VaccinationName:'b형헤모필루스인플루엔자(Hib)'] 알려줘")
+  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1572173424264)
+}
 train (t-16qybsj2wkkdz263y843kzmic) {
   utterance ("[g:PregnancyStatusResults] (아기)[v:TargetOperand] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1571980688761)
 }
 train (t-19au0rmc43b60ga0yz4mzw95x) {
-  utterance ("[g:SearchVaccine] (B형간염)[v:VaccinationName] 알려줘")
+  utterance ("[g:SearchVaccine] (B형간염)[v:VaccinationName:B형간염] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571903343566)
+  last-modified (1572172779730)
 }
 train (t-1irnduzb58n63ta80grtzxh5h) {
-  utterance ("[g:idear.soa.PregnancyStatusResults] (나의)[v:TargetOperand] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (상태)[v:idear.soa.StatusOperand:상태] 알려줘")
+  utterance ("[g:PregnancyStatusResults] (나의)[v:TargetOperand] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
-  last-modified (1571980641048)
+  last-modified (1572143454822)
 }

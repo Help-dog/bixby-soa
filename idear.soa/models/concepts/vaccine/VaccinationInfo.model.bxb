@@ -9,4 +9,9 @@ structure (VaccinationInfo) {
     type (VaccinationDesc)
     min (Required) max (One)
   }
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
+  
 }

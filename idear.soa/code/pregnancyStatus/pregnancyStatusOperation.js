@@ -21,8 +21,7 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
   // let result = "죄송해요. '(1 ~ 40)주차 아기 또는 내 상태 알려줘'라고 다시 말해보세요.";
   let result = null;
 
-
-  if(target == "나" || target == "내" || target == "나의" || target == "산모" || target == "임산부") {
+  if(target == "나" || target == "내" || target == "나의" || target == "산모" || target == "임산부" || target == "모체") {
     if(weekNum == null || week == null) {
       return null;
     } else if (weekNum < 1 || weekNum > 40) {
@@ -44,7 +43,7 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
       }
     }
 
-  } else if (target == "아기" || target == "애기" || target == "애") {
+  } else if (target == "아기" || target == "애기" || target == "애" || target == "아이" || target == "아가") {
     if(weekNum == null || week == null) {
       return null;
     } else if(weekNum < 1 || weekNum > 40) {
@@ -65,9 +64,10 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
         }
       }
     }
+    
   }
 
-  return{
+  return {
     // 맨앞글자 소문자 고정할 것
     pregnancyStatusResult : result,
     weekNumOperand : weekNum,

@@ -11,7 +11,6 @@ layout-macro-def (BabyFoodList) {
                image-card {
                   aspect-ratio (1:1)
                   image-url ("#{value(babyFood.img)}")
-                  // image-url ("img/babyfood/1.png")
                   title-area {
                     halign (Start)
                     slot1 {
