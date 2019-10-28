@@ -1,21 +1,16 @@
 result-view{
   match: ResultsVaccin(result)
   message{
-    
-    template ("#{value(result.vaccinDate)}") {
-    // speech ("#{value(result.vaccinInfo2)}")
-      
-    }
+    template ("#{value(result.vaccinDate)}")
   }
   render {
-        if(size(result) == 1){ 
-        layout-macro (VaccinViewSolo) {
-          param (resultData){ 
-            expression (result) 
-          }
-          
+    if(size(result) == 1){ 
+      layout-macro (VaccinViewSolo) {
+        param (resultData){ 
+          expression (result) 
         }
-    } else{
+      }  
+    }else{
       list-of (result){
         where-each (item){
           layout-macro (VaccinViewLayout){
@@ -27,7 +22,4 @@ result-view{
       }
     }
   }
-  
-
-
 }
