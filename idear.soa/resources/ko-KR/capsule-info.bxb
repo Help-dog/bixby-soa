@@ -1,10 +1,10 @@
 capsule-info {
-  display-name  (소아)
+  display-name  (소중한아기)
   developer-name  (I-Dear)
   icon-asset  (/img/bixby_launcher.png)
   description ("아기에 대한 여러가지 정보를 제공하는 아기 백과사전 캡슐입니다.")
-  privacy-policy-url(http://my-capsule.com/privacy-policy)
-  dispatch-name (소아) 
+  privacy-policy-url(https://docs.google.com/document/d/e/2PACX-1vQDEcc03V34CL4mzwpxypdog71r3eNW4M1rW6T9IUoopv9k20PhS-7CqwxZpwjp9poCQj5DoI77VMMm/pub)
+  dispatch-name (소중한아기) 
   search-keywords{
     keyword (아기)
     keyword (이유식)
