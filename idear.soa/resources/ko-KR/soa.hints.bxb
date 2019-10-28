@@ -16,7 +16,10 @@ hints {
       preferred-hint ("20주차 산모 정보 알려줘")
     }
     hint ("소중한아기에서 아기 질병에 대한 정보를 얻고 싶다면") {
-      preferred-hint ("수두에 대해 알려줘")
+      preferred-hint ("수두 알려줘")
+    }
+    hint ("소중한아기에서 아기 예방접종에 대한 정보를 얻고 싶다면") {
+      preferred-hint ("4개월 예방접종 알려줘")
     }
   }
 }
