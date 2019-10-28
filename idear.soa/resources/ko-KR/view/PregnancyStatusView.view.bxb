@@ -1,10 +1,9 @@
 result-view {
-  match: PregnancyStatusResults(result) // Results에 대한 변수 이름을 this로 부를거야~ => 그리고 이걸 출력할거야!!
+  match: PregnancyStatusResults(result)
 
   message {
     if (result.weekNumOperand != null && result.targetOperand != null && result.pregnancyStatusResult != null) {
       template ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태에요.") {
-        speech ("#{value(result.pregnancyStatusResult)}")
       }
     }
   }
@@ -17,7 +16,5 @@ result-view {
         }
       }
     }
-
   }
-
 }
