@@ -1,3 +1,8 @@
+train (t-kbftcdu6cphv0vzc67ho0wyy6) {
+  utterance ("[g:BabyFoodList] (아기 이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1572225555010)
+}
 train (t-kge96rdlj48721jde2qvxjw6h) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 우리 (아이)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)

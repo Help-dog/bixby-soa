@@ -1,35 +1,33 @@
 result-view {
-  match: BabyFoodList(this) 
+	match: BabyFoodList(this)
 
-  message {
-      template ("아래의 이유식은 어떠세요?")
-  }
-
-  render {
-    if(size(this) == 1){ 
-        layout-macro (BabyFoodInfo) {
-          param (info){ 
-            expression (this) 
-          }
-        }
-    } else{
-      list-of (this){
-        where-each (item){
-          layout-macro (BabyFoodList){
-            param(babyFood){
-              expression (item)
-            }
-          }
-        }
-      }
-    }
-  }
-
-  conversation-drivers {
-    if(size(this) == 1){
-      conversation-driver {
-        template ("이유식 목록으로 돌아가기")
-      }
-    }
-  }
+	message {
+		template("아래의 이유식은 어떠세요?")
+	}
+	render {
+		if (size(this) == 1) {
+			layout-macro(BabyFoodInfo) {
+				param(info){
+					expression(this)
+				}
+			}
+		} else {
+			list-of(this){
+				where-each(item){
+					layout-macro(BabyFoodList){
+						param(babyFood){
+							expression(item)
+						}
+					}
+				}
+			}
+		}
+	}
+	conversation-drivers {
+		if (size(this) == 1) {
+			conversation-driver {
+				template("이유식 목록으로 돌아가기")
+			}
+		}
+	}
 }

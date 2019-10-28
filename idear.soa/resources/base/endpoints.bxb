@@ -1,5 +1,4 @@
 endpoints {  
-  // action과 그에 맞는 자바스크립트를 매핑
   action-endpoints {
     action-endpoint (GetHospitalInfo) {
       accepted-inputs (near, point, self, recommendation)
@@ -18,7 +17,7 @@ endpoints {
       local-endpoint (vaccine/searchVaccine.js)
     }
     action-endpoint (RecommendationBabyFood){
-      accepted-inputs (month, ingredients, babyFood, title, recommendation)
+      accepted-inputs (month, ingredients, babyFood, recommendation)
       local-endpoint (babyfood/recommendationBabyFood.js)
     }
       action-endpoint (VaccineCheck) {
