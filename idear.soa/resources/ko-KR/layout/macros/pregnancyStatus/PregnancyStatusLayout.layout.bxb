@@ -19,28 +19,28 @@ layout-macro-def (PregnancyStatusLayout) {
                 text {
                   value ("")
                   style (Title_M)
-                  }
+                }
               }
           }
         }
         spacer
         single-line {
-            text {
-                value {
-                  if (resultData.weekNumOperand != null && resultData.targetOperand != null) {
-                    template ("#{value(resultData.weekNumOperand)}주차 #{value(resultData.targetOperand)}의 상태")
-                  }
+          text {
+              value {
+                if (resultData.weekNumOperand != null && resultData.targetOperand != null) {
+                  template ("#{value(resultData.weekNumOperand)}주차 #{value(resultData.targetOperand)}의 상태")
                 }
-                style(Title_S)
-            }
+              }
+              style(Title_S)
+          }
         }
         spacer
         paragraph {
-            value {
-              if(resultData.pregnancyStatusResult != null) {
-                template ("#{value(resultData.pregnancyStatusResult)}")
-              }
+          value {
+            if(resultData.pregnancyStatusResult != null) {
+              template ("#{value(resultData.pregnancyStatusResult)}")
             }
+          }
             style(Detail_M)
         }
         single-line {
@@ -49,12 +49,9 @@ layout-macro-def (PregnancyStatusLayout) {
                 template ("출처 - 아이사랑")
             }
             style(Detail_M_Soft)
+          }
         }
       }
     }
   }
-
-    
-  }
-
 }
