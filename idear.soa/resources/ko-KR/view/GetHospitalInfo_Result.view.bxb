@@ -43,11 +43,7 @@ result-view {
     } 
   }
     conversation-drivers {
-    if(size(this) == 1){
-      conversation-driver {
-        template ("병원 목록으로 돌아가기")
-      }
-    } else-if(size(this) >=2){
+      if(size(this) >=2){
       conversation-driver {
         template ("#{value(this[0].name)} 검색해줘 ")
       }
