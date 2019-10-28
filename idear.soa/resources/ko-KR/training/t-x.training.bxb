@@ -3,3 +3,8 @@ train (t-x46hvrk1e9evsdi0fk854d2fo) {
   plan (Y2BkEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hAAFGEAEA)
   last-modified (1571906281974)
 }
+train (t-xn823z7ate3uxzgd2rvzyymzj) {
+  utterance ("[g:BabyFoodList] (25)[v:Month]개월(이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepk4EeI+ebnlWQwSOAyhoGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572231540034)
+}

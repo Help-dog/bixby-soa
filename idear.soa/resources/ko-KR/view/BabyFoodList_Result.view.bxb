@@ -27,6 +27,13 @@ result-view {
 		if (size(this) == 1) {
 			conversation-driver {
 				template("이유식 목록으로 돌아가기")
+			} 
+		} else-if(size(this) >= 2){
+      conversation-driver {
+        template ("이유식추천해줘 ")
+      }
+      conversation-driver {
+        template ("#{value(this[0].title)} 레시피 알려줘 ")
 			}
 		}
 	}

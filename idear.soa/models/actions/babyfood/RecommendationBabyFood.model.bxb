@@ -24,7 +24,7 @@ action (RecommendationBabyFood) {
     on-empty{
       halt{
         dialog{
-          template ("검색된 이유식이 없습니다.")
+          template ("검색된 이유식이 없습니다. '4~24개월 이유식 추천해줘' 또는 '이유식 추천해줘'를 다시 말해주세요")
         }
       }
     }
