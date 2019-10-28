@@ -10,7 +10,7 @@ action (VaccineCheck) {
       type (ChoiseVaccine)
       min (Optional) max (One)
     }
-    input (recommendation) { //추천해줘
+    input (recommendation) {
       type (Recommendation)
       min (Optional) max (One)
     }

@@ -12,7 +12,4 @@ structure (ResultsVaccin) {
     type (VaccinInfo2)
     min (Required) max (One)
   }
-
-
- 
 }
