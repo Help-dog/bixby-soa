@@ -1,5 +1,6 @@
 enum  (WhatMonth) {
   description (개월 입력받기)
+  features {transient}
   
   symbol (만 4세)
   symbol (만 6세)

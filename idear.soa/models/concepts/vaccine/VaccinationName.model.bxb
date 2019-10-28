@@ -1,5 +1,6 @@
 enum (VaccinationName) {
   description (예방접종 이름)
+  features {transient}
   
   symbol (결핵)
   symbol (B형간염)

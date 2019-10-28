@@ -1,5 +1,6 @@
 structure (SearchedHospital) {
   description (검색한 병원을 위한 concept)
+  features {transient}
   
   property (phone) {
     type (Phone)

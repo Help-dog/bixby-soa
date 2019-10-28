@@ -1,3 +1,4 @@
 name (Ingredients) {
   description (음식재료이름)
+  features {transient}
 }

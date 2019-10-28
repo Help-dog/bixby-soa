@@ -1,3 +1,4 @@
 text (VaccinInfo) {
   description (백신정보 예방접종 시기)
+  features {transient}
 }
