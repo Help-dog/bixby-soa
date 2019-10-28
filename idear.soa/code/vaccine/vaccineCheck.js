@@ -1,4 +1,3 @@
-
 module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recommendation) {
 
   const console = require('console');

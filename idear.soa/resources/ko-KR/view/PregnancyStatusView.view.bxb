@@ -7,7 +7,6 @@ result-view {
       }
     }
   }
-
   render {
     if (size(result) == 1 ) {
       layout-macro (PregnancyStatusLayout) {
