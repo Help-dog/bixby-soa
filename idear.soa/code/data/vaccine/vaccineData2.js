@@ -1,8 +1,4 @@
 module.exports = [
-  // {
-  //   month:"몇개월",
-  //   info:"받아야할 예방접종 이름" //스플릿시 ',' 
-  // },
   {
     month:"0개월",
     info:"결핵(BCG) 1회. B형간염(HepB) 1차"

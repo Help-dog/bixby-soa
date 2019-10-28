@@ -1,5 +1,5 @@
 layout-macro-def(VaccinSearch) {
-  params {
+  params{
     param (resultData) { //넘겨줄 데아터 네임
       type (VaccinationInfo) //결괏값 출력하는 컨셉 이름
       min (Required)
@@ -7,47 +7,47 @@ layout-macro-def(VaccinSearch) {
     }
   }
 
-content {
-    section {
-      content {
-      image-card {
-        aspect-ratio (Sixteen_Nine)
-        image-background-color (Transparent)
-        image-object-fit (Contain)
-        image-url ("#{value(resultData.imgUrl)}")
-        title-area {
-          halign (Start)
-            slot1 {
-              text {
+  content{
+    section{
+      content{
+        image-card{
+          aspect-ratio (Sixteen_Nine)
+          image-background-color (Transparent)
+          image-object-fit (Contain)
+          image-url ("#{value(resultData.imgUrl)}")
+          title-area{
+            halign (Start)
+            slot1{
+              text{
                 value ("")
                 style (Title_M)
+              }
+            }
+          }
+        }
+        paragraph{
+          value {       
+              template ("#{value(resultData.vaccinationDesc)}")
+          }
+          style(Title_XS)
+        }
+        single-line{
+              text{
+                value{
+                    template ("내용출처 - 질병관리본부(어린이예방접종가이드)")
                 }
+              style(Detail_M_Soft)
             }
         }
-      }
-    paragraph {
-        value {       
-            template ("#{value(resultData.vaccinationDesc)}")
-        }
-        style(Title_XS)
-    }
-    single-line {
-          text {
-            value {
-                template ("내용출처 - 질병관리본부(어린이예방접종가이드)")
-            }
-            style(Detail_M_Soft)
-        }
-    }
-    single-line {
-          text {
-            value {
+        single-line{
+          text{
+            value{
                 template ("Photo by Travis Grossen on Unsplash")
             }
             style(Detail_M_Soft)
+          }
         }
+      }
     }
-   }
-  }
   }
 }

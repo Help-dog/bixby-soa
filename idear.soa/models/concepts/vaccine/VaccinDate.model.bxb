@@ -1,3 +1,3 @@
 text (VaccinDate) {
-  description (__DESCRIPTION__)
+  description (몇개월인지 체크)
 }

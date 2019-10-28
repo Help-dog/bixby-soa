@@ -1,5 +1,5 @@
 structure (ResultsVaccin) {
-  description (X개월에 따른 정보를 담아줌)
+  description (X개월에 따른 정보를 담아서 출력)
   property (vaccinDate) {
     type (VaccinDate)
     min (Required) max (One)
@@ -8,7 +8,7 @@ structure (ResultsVaccin) {
     type (VaccinInfo)
     min (Required) max (One)
   }
-    property (vaccinInfo2) {
+  property (vaccinInfo2) {
     type (VaccinInfo2)
     min (Required) max (One)
   }
@@ -20,7 +20,4 @@ structure (ResultsVaccin) {
     type (ImgUrl)
     min (Required) max (One)
   }
-
-
- 
 }
