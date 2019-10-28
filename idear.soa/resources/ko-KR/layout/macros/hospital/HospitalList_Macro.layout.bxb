@@ -8,12 +8,12 @@ layout-macro-def (HospitalList) {
   content {
     cell-card {
       slot2 {
-          content {
-              order (PrimarySecondary)
-              primary ("#{value(hospital.name)}")
-              secondary ("[#{value(hospital.location)}]")
-            }
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(hospital.name)}")
+          secondary ("[#{value(hospital.location)}]")
         }
-     }
+      }
+    }
   }
 }

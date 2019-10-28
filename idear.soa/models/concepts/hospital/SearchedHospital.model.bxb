@@ -1,12 +1,6 @@
-//phone, place_name, place_url, road_address_name, x, y
-
-  // property (username) {
-  //   type (UserName)
-  //   min (Optional) max (One)
-  // }
-
 structure (SearchedHospital) {
   description (검색한 병원을 위한 concept)
+  
   property (phone) {
     type (Phone)
     min (Required) max (One)
