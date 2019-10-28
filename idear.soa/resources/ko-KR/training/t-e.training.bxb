@@ -8,6 +8,11 @@ train (t-edbpynivp4l0rv3f3ku3esh8e) {
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
   last-modified (1572142527732)
 }
+train (t-ejayi5s9xcs8kgkvv2k79n7ns) {
+  utterance ("[g:BabyFoodList] (3)[v:Month]개월 {[g:BabyFood] (이유식)[v:BabyFood:이유식]} (알려줘)[v:Recommendation:검색]")
+  plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYerEKsaPEPPNzyvJYJDAZTQDKwMjAxMDMwMLkMUAZjOCIQMDDwMEgMRBsiBVQHkA)
+  last-modified (1572229666779)
+}
 train (t-eobulec2frewkm0xdtddsrqot) {
   utterance ("[g:ResultsVaccin] (18개월)[v:WhatMonth:18개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
