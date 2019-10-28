@@ -1,5 +1,6 @@
 result-view{
   match: ResultsVaccin(result)
+
   message{
     template ("#{value(result.vaccinDate)}")
   }
@@ -10,7 +11,8 @@ result-view{
           expression (result) 
         }
       }  
-    }else{
+    }
+    else{
       list-of (result){
         where-each (item){
           layout-macro (VaccinViewLayout){

@@ -5,7 +5,6 @@ result-view {
     template ("아래에 결과를 확인해보세요") {
     }
   }
-
   render {
     layout {
       section {
