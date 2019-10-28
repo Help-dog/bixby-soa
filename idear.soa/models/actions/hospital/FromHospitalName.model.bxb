@@ -1,5 +1,6 @@
 action (FromHospitalName) {
   description (병원 이름으로 빅스비를 호출할 때)
+  
   collect {
     input (hospitalName) {
       type (HospitalName)

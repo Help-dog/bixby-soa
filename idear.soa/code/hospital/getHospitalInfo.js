@@ -1,4 +1,3 @@
-// 참조 (https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula)
 function getDistance(lat1,lon1,lat2,lon2) {
   const R = 6371; // Radius of the earth in km
   const dLat = deg2rad(lat2-lat1);

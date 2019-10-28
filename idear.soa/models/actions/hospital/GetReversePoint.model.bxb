@@ -1,5 +1,5 @@
 action (GetReversePoint) {
-  type(Fetch)
+
   collect {
     computed-input (point){
       type (geo.GeocodedAddress)
@@ -12,6 +12,7 @@ action (GetReversePoint) {
       }
     }
   }
+  type(Fetch)
   output (geo.GeocodedAddress){
     evaluate{
       $expr(point)

@@ -16,7 +16,6 @@ result-view {
       }    
     }   
   }
-
   render {
     if(size(this) == 1){
       layout{
@@ -43,7 +42,6 @@ result-view {
       }
     } 
   }
-
     conversation-drivers {
     if(size(this) == 1){
       conversation-driver {
