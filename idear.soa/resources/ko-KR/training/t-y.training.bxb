@@ -3,3 +3,8 @@ train (t-y0xyez6n1g8jjq315pugujecn) {
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
   last-modified (1572147004020)
 }
+train (t-yb9hxe47bwz3t160uw8ozv9gs) {
+  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhgBmIQXIMAA==)
+  last-modified (1572231844712)
+}

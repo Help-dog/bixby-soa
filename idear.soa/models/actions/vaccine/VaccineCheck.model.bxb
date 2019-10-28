@@ -4,7 +4,7 @@ action (VaccineCheck) {
   collect {
     input (whatMonth) {
       type (WhatMonth)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (choiseVaccine) {
       type (ChoiseVaccine)
@@ -12,7 +12,7 @@ action (VaccineCheck) {
     }
     input (recommendation) {
       type (Recommendation)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   type(Search)
