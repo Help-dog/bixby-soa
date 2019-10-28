@@ -1,4 +1,4 @@
 enum (BabyFood) {
-  description (__DESCRIPTION__)
+  description (이유식)
   symbol (이유식)
 }
