@@ -5,32 +5,25 @@ action (FromHospitalName) {
       type (HospitalName)
       min (Required) max (One)
     }
-
     input (self) {
       type (self.Self)
       min (Required) max (One)
       default-init{
         intent{
-          //goal: self.GetImaginarySelf // 사용자 더미 데이터를 가져오는 함수, 테스트시 사용
-          goal: self.GetSelf // 실제 마켓플레이스 배포시에 사용
+          goal: self.GetSelf
         }
       }
     }
-    
     computed-input (point){
       type (Point)
       min (Optional) max (One)
       compute{
-          // 사용자의 위치를 가져오기 위해서는 동의가 필요
-          // capsule.bxb의 'user-profile-access' 등록
-          // 참조 (https://bixbydevelopers.com/dev/docs/reference/type/capsule.permissions)
           intent{
             goal: Point
             route: geo.CurrentLocation
           }         
       }
     }
-
     input (recommendation) {
       type (Recommendation)
       min (Optional) max (One)
