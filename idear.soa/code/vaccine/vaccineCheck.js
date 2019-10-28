@@ -3,18 +3,16 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
   const console = require('console');
   const nameinfo = require("../data/vaccine/vaccineData.js");
   const datainfo = require("../data/vaccine/vaccineData2.js");
-  whatMonth = ""
-  choiseVaccine = ""
-  vaccinInfo2 = ""
-  recommendation =""
-  url = ""
+
   var check = recommendation;
   var result = [];
   var depdata = ""
   var http = require('http');
   var site = "https://nip.cdc.go.kr/irgd/index.html"
   var imgUrl = "img/vaccineBaby.jpg";
-
+  if(whatMonth == undefined){
+    return  result;
+  }
   for(let i=0; i<datainfo.length; i++){
     if(datainfo[i].month.indexOf(whatMonth.toString())>=0){
       var S= datainfo[i].info.split(',') 
@@ -25,7 +23,6 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
         for(var d in nameinfo){
           if((nameinfo[d].name.indexOf(dataN))>=0){
             depdata = nameinfo[d].info
-            console.log("재확인:"+depdata)
             break;
           }
         }
