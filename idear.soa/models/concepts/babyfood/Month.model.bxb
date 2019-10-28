@@ -1,3 +1,4 @@
 integer (Month) {
   description (개월수)
+  features {transient}
 }

@@ -1,5 +1,6 @@
 structure (Hospital) {
   description (병원 정보를 담는 structure입니다)
+  features {transient}
 
   property (username) {
     type (UserName)

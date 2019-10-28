@@ -1,5 +1,6 @@
 structure (PregnancyStatusResults) {
   description (임신 주 차별 정보를 담는 객체)
+  features {transient}
   
   property (pregnancyStatusResult) {
     type (PregnancyStatusResult)

@@ -1,5 +1,6 @@
 structure (ResultsVaccin) {
   description (X개월에 따른 정보를 담아서 출력)
+  features {transient}
   
   property (vaccinDate) {
     type (VaccinDate)

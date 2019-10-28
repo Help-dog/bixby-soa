@@ -1,3 +1,4 @@
 text (Search) {
   description (병원을 검색할 때 사용합니다.)
+  features {transient}
 }
