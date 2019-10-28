@@ -1,9 +1,7 @@
 module.exports.function = function searchBabyFood(month, ingredients, babyFood, recommendation) {
 
 	const babyfoodlist = require("../data/babyfood/babyfoodRecipe.js");
-	const console = require("console");
 
-	console.log("들어오난: "+month+"개월");
 	let result = [];
 	let realresult = [];
 	let number = [];
@@ -62,7 +60,6 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 		}
 	}
 	else if (month <= 3 || month >= 25){
-		console.log("gg")
 		return null;
 	}
 
