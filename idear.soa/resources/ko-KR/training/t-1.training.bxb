@@ -1,7 +1,7 @@
 train (t-12bgd121rz2yazyyjtb60jmbs) {
   utterance ("[g:SearchVaccine] (b형헤모필루스인플루엔자)[v:VaccinationName:'b형헤모필루스인플루엔자(Hib)'] 알려줘")
   plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173424264)
+  last-modified (1572240523137)
 }
 train (t-16qybsj2wkkdz263y843kzmic) {
   utterance ("[g:PregnancyStatusResults] (아기)[v:TargetOperand] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (상태)[v:StatusOperand:상태] 알려줘")

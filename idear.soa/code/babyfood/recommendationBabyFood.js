@@ -1,5 +1,5 @@
 module.exports.function = function searchBabyFood(month, ingredients, babyFood, recommendation) {
-
+	//달 , 재료이름, 이유식/유아식 , 검색
 	const babyfoodlist = require("../data/babyfood/babyfoodRecipe.js");
 
 	let result = [];
@@ -10,6 +10,9 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 		ingredients = ingredients.replace(/(\s*)/g, "");
 	}
 
+	for (var i = 0; i < babyfoodlist.length; i++) {
+		if()
+	}
 	if (4 <= month && month <= 6) {
 		for (var i = 0; i < babyfoodlist.length; i++) {
 			if (ingredients) {
