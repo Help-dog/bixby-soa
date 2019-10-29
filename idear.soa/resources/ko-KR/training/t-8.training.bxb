@@ -8,11 +8,6 @@ train (t-8kjvlejsd09l0fhic0rs7erbi) {
   plan (Y2BhUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTYGZgZGACkgxAGgQhAMQHiwIA)
   last-modified (1571795321015)
 }
-train (t-8puryun1y6lbci4x4iz0adk8c) {
-  utterance ("[g:FromHospitalName] (세계로 세계 병원)[v:HospitalName] (보여줘)[v:Recommendation:검색]")
-  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
-  last-modified (1571988921917)
-}
 train (t-8r2ts40gjyghzcew1qrrla9qf) {
   utterance ("[g:BabyFoodList] (사과감자 미음)[v:Ingredients] (레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
