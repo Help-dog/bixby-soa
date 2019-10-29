@@ -1,9 +1,8 @@
 # 소중한아기
 
-<p align="center">
-  <img src="./assets/img/bixby_launcher.png"/>
-  <img width="400px" src="./assets/img/bixby_launcher.png"/>
-</p>
+<img width="300px" src="./idear.soa/assets/img/bixby_launcher.png"/>
+
+
 
 ## 목차
 
