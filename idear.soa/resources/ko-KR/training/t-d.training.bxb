@@ -3,11 +3,6 @@ train (t-d2u07alcay5cz7l05qohbqbha) {
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
   last-modified (1571896939925)
 }
-train (t-dlufinj48zuw4i28cmb62qkez) {
-  utterance ("[g:ResultsVaccin] (2개월)[v:WhatMonth:2개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572142726980)
-}
 train (t-dqtwhwzxy3hq74ijre6ionnur) {
   utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원 (찾아줘)[v:Recommendation:검색]")
   plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)

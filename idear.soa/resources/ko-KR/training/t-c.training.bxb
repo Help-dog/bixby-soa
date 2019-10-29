@@ -1,5 +1,10 @@
 train (t-c2z3rkgd602f79kbwzmh1ubu3) {
   utterance ("[g:ResultsVaccin] (만 12세)[v:WhatMonth:'만 12세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572143750569)
+  last-modified (1572238460183)
+}
+train (t-cxth3mt1uh2qvdntiqpgomhmw) {
+  utterance ("[g:ResultsVaccin] (2개월)[v:WhatMonth:2개월] (예방접종)[v:ChoiseVaccine] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572238440655)
 }

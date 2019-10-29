@@ -1,5 +1,5 @@
 capsule {
-  id (idear.soa)
+  id (idear.ssafysoa)
   version (0.1.0)
   format (3)
   targets {
