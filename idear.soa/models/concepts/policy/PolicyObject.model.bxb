@@ -1,0 +1,3 @@
+name (PolicyObject) {
+  description (정책 대상자를 받는 concept)
+}
