@@ -20,7 +20,7 @@ endpoints {
       accepted-inputs (month, ingredients, babyFood, recommendation)
       local-endpoint (babyfood/recommendationBabyFood.js)
     }
-      action-endpoint (VaccineCheck) {
+    action-endpoint (VaccineCheck) {
       accepted-inputs (whatMonth,choiseVaccine,recommendation)
       local-endpoint (vaccine/vaccineCheck.js)
     }
