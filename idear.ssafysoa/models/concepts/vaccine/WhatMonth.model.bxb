@@ -16,4 +16,5 @@ enum  (WhatMonth) {
   symbol (18개월)
   symbol (19개월~23개월)
   symbol (24개월~35개월)
+  symbol (ex)
 }

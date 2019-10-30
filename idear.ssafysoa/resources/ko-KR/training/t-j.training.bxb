@@ -1,3 +1,8 @@
+train (t-j4ly4d4twzen97w01xj4dpsok) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (내)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1571795387289)
+}
 train (t-j6ab8b6917jwakr57vfqa1jcl) {
   utterance ("[g:ResultsVaccin] (19개월)[v:WhatMonth:19개월~23개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)

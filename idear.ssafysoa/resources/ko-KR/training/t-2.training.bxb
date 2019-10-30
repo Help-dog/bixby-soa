@@ -1,22 +1,17 @@
+train (t-27cjlm5cko1cq7fvpzzygmt93) {
+  utterance ("[g:FromHospitalName] (세계로 병원)[v:HospitalName] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1571988643112)
+}
 train (t-2ecedmpzvz1xmxtxaiolmo7py) {
   utterance ("[g:BabyFoodList] (2)[v:Month]개월 (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQz8COEffPzSjIYJHCZzsDKwMjAxMDMwAJkMQDZMIgAIHG4CgA=)
   last-modified (1571637622670)
 }
-train (t-2fqpcxgvchzivcxt5l7blxlfd) {
-  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원을 (찾아줘)[v:Recommendation:검색]")
-  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
-  last-modified (1572241683811)
-}
 train (t-2g6w5oxzudfairx7a609yeho5) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1572087632847)
-}
-train (t-2yo8qth1rnq12h9xlbw4mn0pi) {
-  utterance ("[g:BabyFoodList] (아기 이유식 레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
-  last-modified (1572242271796)
 }
 train (t-2zv22bqmad3h44wjlj39mh9k7) {
   utterance ("[g:SearchVaccine] (디프테리아)[v:VaccinationName:'디프테리아/파상풍/백일해(DTaP)'] 알려줘")

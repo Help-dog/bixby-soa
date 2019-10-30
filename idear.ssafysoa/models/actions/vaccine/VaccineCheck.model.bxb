@@ -6,6 +6,10 @@ action (VaccineCheck) {
       type (WhatMonth)
       min (Optional) max (One)
     }
+    input (month) {
+      type (Month)
+      min (Optional) max (One)
+    }
     input (choiseVaccine) {
       type (ChoiseVaccine)
       min (Required) max (One)
