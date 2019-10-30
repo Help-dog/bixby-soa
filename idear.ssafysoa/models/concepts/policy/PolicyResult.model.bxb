@@ -2,6 +2,10 @@ structure (PolicyResult) {
   description (정책 결과를 위한 concept)
   features {transient}
 
+  property (number) {
+    type (Number)
+    min (Required) max (One)
+  }
   property (name) {
     type (PolicyName)
     min (Required) max (One)
@@ -12,18 +16,18 @@ structure (PolicyResult) {
   }
   property (target) {
     type (Target)
-    min (Required) max (One)
+    min (Required) max (Many)
   }
   property (benefit) {
     type (Benefit)
-    min (Required) max (One)
+    min (Required) max (Many)
   }
   property (tel) {
     type (Tel)
-    min (Required) max (One)
+    min (Required) max (Many)
   }
   property (site) {
     type (Site)
-    min (Required) max (One)
+    min (Required) max (Many)
   }
 }

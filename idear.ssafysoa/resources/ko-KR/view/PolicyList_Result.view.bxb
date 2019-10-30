@@ -1,0 +1,27 @@
+result-view {
+  match: PolicyResult(this)
+  
+	message {
+		template(아래의 정책을 확인해보세요.)
+	}
+  //수정한 날짜 맨위에 작게 쓰기.
+  render {
+		if (size(this) == 1) {
+			layout-macro(PolicyInfo) {
+				param(policy){
+					expression(this)
+				}
+			}
+		} else {
+			list-of(this){
+				where-each(item){
+					layout-macro(PolicyList){
+						param(policy){
+							expression(item)
+						}
+					}
+				}
+			}
+		}
+	}
+}

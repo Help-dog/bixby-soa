@@ -24,6 +24,10 @@ endpoints {
       accepted-inputs (whatMonth,month,choiseVaccine,recommendation)
       local-endpoint (vaccine/vaccineCheck.js)
     }
+    action-endpoint (PolicyInfo) {
+      accepted-inputs (policyObject, policyBenefit, recommendation)
+      local-endpoint (policy/policyInfo.js)
+    }
   }
 }
  

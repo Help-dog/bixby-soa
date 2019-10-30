@@ -18,6 +18,11 @@ train (t-njtl3o2fzrkbtn7nhef0jgt1j) {
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
   last-modified (1572085936482)
 }
+train (t-npty6swt6k0eg0523be9xcwha) {
+  utterance ("[g:PolicyInfo] (출산)[v:PolicyObject] (혜택)[v:PolicyBenefit] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlkM5MSU0s0isuTkyrLM5P1AvIz8lMrgxKLS7NKWGQxCrpmZeWzyCDVcopNS81LbMEh6n+SVmpySUMsmiSQanJ+bm5qXkpiSWZ+XkMLAyMDEwMzECaAciCQBhAkgMA)
+  last-modified (1572399011852)
+}
 train (t-ny7mu35x9yiuhvlc7z4xscibq) {
   utterance ("[g:BabyFoodList] (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
