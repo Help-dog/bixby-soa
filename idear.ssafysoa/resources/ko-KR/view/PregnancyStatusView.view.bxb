@@ -4,7 +4,6 @@ result-view {
   message {
     if (result.weekNumOperand != null && result.targetOperand != null && result.pregnancyStatusResult != null) {
       template ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태에요.") {
-        speech ("#{value(result.weekNumOperand)}주차 #{value(result.targetOperand)}의 상태에요. #{value(result.pregnancyStatusResult)}")
       }
     }
   }

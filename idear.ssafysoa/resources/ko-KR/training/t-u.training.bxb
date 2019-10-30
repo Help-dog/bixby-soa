@@ -3,18 +3,3 @@ train (t-u5zu44xe75huab0ulty34cw16) {
   plan (Y2BiEC/LLNNLT83Xc0/NT85PSU1xTEkpSi0uZpDMTElNLNIrzk8ESpUEpZalFhWnBuRn5pUwMAIhAxQDSQA=)
   last-modified (1571790737238)
 }
-train (t-u8mmpehzi9qweoyqakrusu680) {
-  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 우리 (애)[v:TargetOperand] (어때)[v:StatusOperand:상태]?")
-  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
-  last-modified (1572241043269)
-}
-train (t-uej12znrcqbvty3cjfqxyww8t) {
-  utterance ("[g:FromHospitalName] (세계로 세계 세계 병원)[v:HospitalName] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
-  last-modified (1572241514766)
-}
-train (t-ut0z3xkvoro0cujvezqdhron6) {
-  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (현황)[v:StatusOperand:상태]")
-  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
-  last-modified (1572239456188)
-}

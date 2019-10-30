@@ -1,3 +1,8 @@
+train (t-hf9uxczxm0eg1kddm1kykapbk) {
+  utterance ("[g:FromHospitalName] (일 의원)[v:HospitalName] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1571989011064)
+}
 train (t-himpq6cujmy286445gujvsk2t) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (내)[v:TargetOperand] (상태)[v:StatusOperand:상태]")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
@@ -7,4 +12,9 @@ train (t-hnjlf6kpzr59u4lge4du1k9oc) {
   utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (2개월)[v:WhatMonth:2개월]")
   plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRmEERLhGYklvvl5JRkMzAyMDExAkgFIgyAEgPhgUQA=)
   last-modified (1572143781301)
+}
+train (t-hpccrxugrgi2l8ddsnnpikzjv) {
+  utterance ([g:GetHospitalInfo] 병원 목록으로 돌아가기)
+  plan (Y2BmEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZeMsyy/SKU3PS9IKBBAMTAyMQMwBJRgYGGA0A)
+  last-modified (1571906155590)
 }
