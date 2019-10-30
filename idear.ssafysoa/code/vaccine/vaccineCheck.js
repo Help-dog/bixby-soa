@@ -16,10 +16,11 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
   if(whatMonth == "ex"){
     return  result;
   }
-
-  console.log("데이터입력 확인"+whatMonth)
-  console.log("데이터입력 확인"+month)
-
+  var ex = ["3", "5", "7", "8", "9", "10", "11", "13", "14", "17" ]
+  for(var i = 0; i<ex.length; i++){
+    if(month == ex[i])
+      return result;
+  }
   for(let i=0; i<datainfo.length; i++){
     if(whatMonth != undefined && datainfo[i].month.indexOf(whatMonth.toString())>=0){
       var S= datainfo[i].info.split(',') 
@@ -44,7 +45,7 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
       }
       break;
     }
-    else if(month != undefined && datainfo[i].month.indexOf(month.toString())>=0){
+    else if(month != undefined && datainfo[i].check.indexOf(month.toString())>=0){
       var S= datainfo[i].info.split(',') 
       var data = [];
       for(var s in S){
@@ -57,7 +58,7 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
           }
         }
         data = {
-          vaccinDate: month+"개월에"+" "+"접종해야 할 백신 정보입니다.",
+          vaccinDate: datainfo[i].month+"에"+" "+"접종해야 할 백신 정보입니다.",
           vaccinInfo: S[s],
           vaccinInfo2: depdata,
           url: site,

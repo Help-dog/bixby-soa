@@ -4,7 +4,7 @@ train (t-c2z3rkgd602f79kbwzmh1ubu3) {
   last-modified (1572238460183)
 }
 train (t-cxth3mt1uh2qvdntiqpgomhmw) {
-  utterance ("[g:ResultsVaccin] (2개월)[v:WhatMonth:2개월] (예방접종)[v:ChoiseVaccine] (보여줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572238440655)
+  utterance ("[g:ResultsVaccin] (2)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (보여줘)[v:Recommendation:검색]")
+  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572412128990)
 }

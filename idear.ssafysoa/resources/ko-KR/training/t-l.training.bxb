@@ -19,9 +19,9 @@ train (t-l9a4qi3k0yggy0th6v7hy24af) {
   last-modified (1572173422280)
 }
 train (t-lkd5f031aewqlpmttgya84ruv) {
-  utterance ("[g:ResultsVaccin] (1개월)[v:WhatMonth:1개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572146671441)
+  utterance ("[g:ResultsVaccin] (1)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572412234543)
 }
 train (t-lki5wrknlxc5xrq8bocn6d4dj) {
   utterance ("[g:SearchVaccine] (인플루엔자)[v:VaccinationName:인플루엔자(IIV)] 알려줘")

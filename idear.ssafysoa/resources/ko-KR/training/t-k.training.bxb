@@ -9,7 +9,7 @@ train (t-kge96rdlj48721jde2qvxjw6h) {
   last-modified (1572075686994)
 }
 train (t-ktrndyzu1e5zzhf21iohqqsqh) {
-  utterance ("[g:ResultsVaccin] (0개월)[v:WhatMonth:0개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572146622333)
+  utterance ("[g:ResultsVaccin] (0)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572412244849)
 }
