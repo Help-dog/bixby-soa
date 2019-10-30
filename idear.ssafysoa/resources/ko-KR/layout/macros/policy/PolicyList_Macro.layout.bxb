@@ -1,0 +1,19 @@
+layout-macro-def (PolicyList) {
+  params {
+    param (policy) {
+      type (PolicyResult)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(policy.name)}")
+          secondary ("[#{value(policy.content)}]")
+        }
+      }
+    }
+  }
+}

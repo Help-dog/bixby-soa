@@ -12,18 +12,18 @@ structure (PolicyResult) {
   }
   property (target) {
     type (Target)
-    min (Required) max (One)
+    min (Optional) max (Many)
   }
   property (benefit) {
     type (Benefit)
-    min (Required) max (One)
+    min (Optional) max (Many)
   }
   property (tel) {
     type (Tel)
-    min (Required) max (One)
+    min (Optional) max (Many)
   }
   property (site) {
     type (Site)
-    min (Required) max (One)
+    min (Optional) max (Many)
   }
 }

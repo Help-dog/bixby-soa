@@ -21,8 +21,12 @@ endpoints {
       local-endpoint (babyfood/recommendationBabyFood.js)
     }
     action-endpoint (VaccineCheck) {
-      accepted-inputs (whatMonth,choiseVaccine,recommendation)
+      accepted-inputs (whatMonth, choiseVaccine, recommendation)
       local-endpoint (vaccine/vaccineCheck.js)
+    }
+    action-endpoint (PolicyInfo) {
+      accepted-inputs (policyObject, policyBenefit, recommendation)
+      local-endpoint (policy/policyInfo.js)
     }
   }
 }

@@ -1,3 +1,0 @@
-module.exports.function = function __FUNCTION_NAME__ (arg1, arg2, ...) {
-  return {}
-}
