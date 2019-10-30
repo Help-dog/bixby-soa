@@ -17,10 +17,10 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	if(month){ //달이있다
 		for(var i =0; i< babyfoodlist.length; i++){
 			if(ingredients){ // 재료가 있다
-				if (babyfoodlist[i].foodIngredients.indexOf(ingredients.toString()) != -1 && babyfoodlist[i].category.indexOf(month.toString()) != -1)
+				if (babyfoodlist[i].foodIngredients.indexOf(ingredients.toString()) != -1 && babyfoodlist[i].check.indexOf(month.toString()) != -1)
 					result.push(babyfoodlist[i]);
 			}else{ //재료가 없다
-				if(babyfoodlist[i].category.indexOf(month.toString()) != -1)
+				if(babyfoodlist[i].check.indexOf(month.toString()) != -1)
 					result.push(babyfoodlist[i]);
 			}
 		}

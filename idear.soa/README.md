@@ -1,1 +1,1 @@
-# idear.soa
+# idear.ssafysoa
