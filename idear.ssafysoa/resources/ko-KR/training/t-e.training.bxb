@@ -14,7 +14,7 @@ train (t-ejayi5s9xcs8kgkvv2k79n7ns) {
   last-modified (1572229666779)
 }
 train (t-eobulec2frewkm0xdtddsrqot) {
-  utterance ("[g:ResultsVaccin] (18개월)[v:WhatMonth:18개월] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572147029884)
+  utterance ("[g:ResultsVaccin] (18)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
+  last-modified (1572412130938)
 }
