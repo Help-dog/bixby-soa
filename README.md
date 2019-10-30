@@ -1,6 +1,6 @@
 # 소중한아기
 
-<img width="300px" src="./idear.soa/assets/img/bixby_launcher.png"/>
+<img width="300px" src="./idear.ssafysoa/assets/img/bixby_launcher.png"/>
 
 
 
@@ -28,7 +28,7 @@
 
 캡슐의 구조는 모델링, 비즈니스 로직, UI/UX, 트레이닝으로 구성되어 있습니다.
 
-<img src="./idear.soa/assets/img/bixby_capsule2.png"/>
+<img src="./idear.ssafysoa/assets/img/bixby_capsule.png"/>
 
 ### 2.1 scenario
 
@@ -210,10 +210,13 @@ hints {
 > 설명
 
 `Type: ` Action의 종류 설정하는 부분
+
 `Input: ` Action 실행에 필요한 인력 값을 지정하는 부분
-	-변수명: Action에서 해당 Concept이 사용되는 이름
-	-Concept명: Concept의 이름
-	-Min&MAX: 발화로부터 input이 몇 개 받아들이지 결정
+
+	-	변수명: Action에서 해당 Concept이 사용되는 이름
+	-	Concept명: Concept의 이름
+	-	Min&MAX: 발화로부터 input이 몇 개 받아들이지 결정
+
 `Output:` Action 실행의 결과
 
 ```
