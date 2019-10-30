@@ -1,0 +1,101 @@
+layout-macro-def (PolicyInfo) {
+  params {
+    param (policy) {
+      type (PolicyResult)
+      min (Required) max (One)
+    }
+  }
+	content {
+		section {
+			content {
+        paragraph {
+					value("#{value(policy.name)}")
+					style(Title_M)
+				}
+        paragraph {
+					value("#{value(policy.content)}")
+					style(Detail_L)
+				}
+				spacer
+				divider
+				spacer
+        single-line {
+					text {
+						value {
+							template("대상")
+						}
+						style(Title_S)
+					}
+				}
+				spacer
+        for-each (policy.target) {
+          as (i) {
+				    paragraph {
+					    value("- #{value(policy.target[i])}")
+					    style(Detail_L)
+				    }
+            spacer
+          }
+        }
+				divider
+				spacer
+				single-line {
+					text {
+						value {
+							template("지원내용")
+						}
+						style(Title_S)
+					}
+				}
+				spacer
+        for-each (policy.benefit) {
+          as (i) {
+				    paragraph {
+					    value("- #{value(policy.benefit[i])}")
+					    style(Detail_L)
+				    }
+            spacer
+          }
+        }
+        divider
+				spacer
+				single-line {
+					text {
+						value {
+							template("Tel")
+						}
+						style(Title_S)
+					}
+				}
+				spacer
+        for-each (policy.tel) {
+          as (i) {
+				    paragraph {
+					    value("- #{value(policy.tel[i])}")
+					    style(Detail_L)
+				    }
+						spacer
+          }
+        }
+        divider
+        for-each (policy.site) {
+          as (i) {
+				    cell-card {
+					    slot2 {
+						    content {
+							  primary("#{value(policy.site[i])}")
+						    }
+					    }
+					    on-click {
+						    intent {
+							    goal: OpenBrowser
+							    value: $expr(policy.site[i])
+						    }
+					    }
+				    }
+          }
+        }
+			}
+		}
+	}
+}

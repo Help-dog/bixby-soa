@@ -10,7 +10,7 @@ layout-macro-def (PolicyList) {
       slot2 {
         content {
           order (PrimarySecondary)
-          primary ("#{value(policy.name)}")
+          primary ("#{value(policy.number)}.#{value(policy.name)}")
           secondary ("[#{value(policy.content)}]")
         }
       }
