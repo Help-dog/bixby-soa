@@ -1,4 +1,4 @@
-# 소중한아기
+# 소중한아기(SOA)
 
 <img width="300px" src="./idear.ssafysoa/assets/img/bixby_launcher.png"/>
 
