@@ -8,28 +8,18 @@ train (t-n3vwfaap7hcglpw074c6li3dk) {
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1572087302667)
 }
-train (t-ni5j960wwmigmiu59j3rigab7) {
-  utterance ("[g:SearchVaccine] (폴리오)[v:VaccinationName:폴리오] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572172874159)
+train (t-nd0t7peft77jug0005ypostd1) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (상황)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572239520547)
 }
 train (t-njtl3o2fzrkbtn7nhef0jgt1j) {
   utterance ("[g:BabyFoodList] (닭고기 비트 고구마죽)[v:Ingredients] (레시피)[v:BabyFood:이유식] (보여줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
   last-modified (1572085936482)
 }
-train (t-npty6swt6k0eg0523be9xcwha) {
-  utterance ("[g:PolicyInfo] (출산)[v:PolicyObject] (혜택)[v:PolicyBenefit] (보여줘)[v:Recommendation:검색]")
-  plan (Y2BlkM5MSU0s0isuTkyrLM5P1AvIz8lMrgxKLS7NKWGQxCrpmZeWzyCDVcopNS81LbMEh6n+SVmpySUMsmiSQanJ+bm5qXkpiSWZ+XkMLAyMDEwMzECaAciCQBhAkgMA)
-  last-modified (1572399011852)
-}
 train (t-ny7mu35x9yiuhvlc7z4xscibq) {
   utterance ("[g:BabyFoodList] (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
   last-modified (1571710367982)
-}
-train (t-nzkzn9rnwmo24l97yjsjjt96f) {
-  utterance ("[g:SearchVaccine] (홍역 유행성이하선염 풍진)[v:VaccinationName:'홍역/유행성이하선염/풍진(MMR)'] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173423069)
 }

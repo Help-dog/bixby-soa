@@ -8,6 +8,14 @@ layout-macro-def (PolicyInfo) {
 	content {
 		section {
 			content {
+				single-line {
+          text {
+          value {
+            template ("업데이트 날짜 : 2019-10-31")
+          }
+          style(Detail_M_Soft)
+          }
+        }
         paragraph {
 					value("#{value(policy.name)}")
 					style(Title_M)
@@ -93,6 +101,15 @@ layout-macro-def (PolicyInfo) {
 						    }
 					    }
 				    }
+          }
+        }
+				divider
+				single-line {
+          text {
+          value {
+            template ("출처 : 아이사랑")
+          }
+          style(Detail_M_Soft)
           }
         }
 			}

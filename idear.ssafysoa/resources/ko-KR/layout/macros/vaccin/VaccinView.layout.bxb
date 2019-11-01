@@ -1,7 +1,7 @@
-layout-macro-def(VaccinViewLayout) { //메크로 이름
+layout-macro-def(VaccinViewLayout) {
   params {
-    param (resultData) { //넘겨줄 데아터 네임
-      type (ResultsVaccin) //결괏값 출력하는 컨셉 이름
+    param (resultData) {
+      type (ResultsVaccin) 
       min (Required)
       max (One)
     }
@@ -12,7 +12,7 @@ layout-macro-def(VaccinViewLayout) { //메크로 이름
         content {
           order (PrimarySecondary)
           primary ("#{value(resultData.vaccinInfo)}") 
-          secondary ("자세한 정보를 보시려면 클릭하세요") 
+          secondary ("자세한 정보를 보시려면 클릭하세요")
         }
       }
     }

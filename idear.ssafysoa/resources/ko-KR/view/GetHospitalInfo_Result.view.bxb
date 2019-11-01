@@ -4,13 +4,13 @@ result-view {
   message {
     if(size(this) == 1){
       if(this.flag){
-        template ("[#{value(this.username)} 님,] 주변 2km이내의 병원을 확인해보세요!")
+        template ("[#{value(this.username)} 님,] 주변 4km이내의 병원을 확인해보세요!")
       }else{
         template ("선택하신 병원을 확인해보세요!")
       }     
     }else{     
       if(this.flag){
-        template ("[#{value(this.username)} 님,] 주변 2km이내의 병원들을 가져와 보았어요!")
+        template ("[#{value(this.username)} 님,] 주변 4km이내의 병원들을 가져와 보았어요!")
       }else{
         template ("병원들을 가져와 보았어요.")
       }    
@@ -43,16 +43,12 @@ result-view {
     } 
   }
     conversation-drivers {
-    if(size(this) == 1){
+      if(size(this) >=2){
       conversation-driver {
-        template ("병원 목록으로 돌아가기")
-      }
-    } else-if(size(this) >=2){
-      conversation-driver {
-        template ("#{value(this[0].name)} 검색해줘 ")
+        template ("#{value(this[0].name)} 찾아줘")
       }
       conversation-driver {
-        template ("#{value(this[1].name)} 검색해줘 ")
+        template ("#{value(this[1].name)} 찾아줘")
       }
     }
   }

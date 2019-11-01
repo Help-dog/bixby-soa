@@ -1,8 +1,3 @@
-train (t-e44tuzkrn3mkk44i2ovbvsvkl) {
-  utterance ("[g:FromHospitalName] (세계로병원)[v:HospitalName] (보여줘)[v:Recommendation:검색]")
-  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
-  last-modified (1571972708249)
-}
 train (t-edbpynivp4l0rv3f3ku3esh8e) {
   utterance ("[g:ResultsVaccin] (육 새)[v:WhatMonth:'만 6세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
@@ -13,8 +8,18 @@ train (t-ejayi5s9xcs8kgkvv2k79n7ns) {
   plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYerEKsaPEPPNzyvJYJDAZTQDKwMjAxMDMwMLkMUAZjOCIQMDDwMEgMRBsiBVQHkA)
   last-modified (1572229666779)
 }
+train (t-ek8d6h8aj9lmwfjwbt3w7gte2) {
+  utterance ("[g:PolicyInfo] (아기)[v:PolicyObject] (혜택)[v:PolicyBenefit]에 대해서 (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
+  last-modified (1572512190455)
+}
+train (t-elzcatsoxit9v89yv86ntsxf8) {
+  utterance ("[g:FromHospitalName] (일 의원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572249647437)
+}
 train (t-eobulec2frewkm0xdtddsrqot) {
   utterance ("[g:ResultsVaccin] (18)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
-  last-modified (1572412130938)
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572481417248)
 }

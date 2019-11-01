@@ -2,12 +2,12 @@ action (VaccineCheck) {
   description (예방접종 체크)
 
   collect {
-    input (whatMonth) {
-      type (WhatMonth)
-      min (Optional) max (One)
-    }
     input (month) {
       type (Month)
+      min (Optional) max (One)
+    }
+    input (whatMonth) {
+      type (WhatMonth)
       min (Optional) max (One)
     }
     input (choiseVaccine) {
@@ -20,11 +20,24 @@ action (VaccineCheck) {
     }
   }
   type(Search)
-  output (ResultsVaccin ){
-    on-empty{
-      halt{
-        dialog{
-          template("없는 개월입니다.'0개월 예방접종 알려줘' 또는 '만 4세 예방접종 알려줘' 라고 말씀해 주세요. 개월은 0, 1, 2 ,4, 6, 12 ,15, 18, 19~35개월 까지 있고, 연령은 4세 6세 11세 12세 가 있습니다. ")                  
+  output (ResultsVaccin){
+    throws{
+      error(NOT_FOUND_VACCINEDATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_vaccinedata)
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch{
+          halt{
+            dialog{
+              template-macro (unknown_error)
+            }
+          }
         }
       }
     }

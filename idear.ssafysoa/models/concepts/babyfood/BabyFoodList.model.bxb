@@ -22,12 +22,16 @@ structure (BabyFoodList) {
     type (URL)
     min (Required) max (One)
   }
-  property (href) {
-    type (Href)
-    min (Required) max (One)
-  }
   property (category) {
     type (Category)
     min (Required) max (One)
+  }
+  property (source) {
+    type (Source)
+    min (Required) max (One)
+  }
+  property (flag) {
+    type (Flag)
+    min (Optional) max (One)
   }
 }

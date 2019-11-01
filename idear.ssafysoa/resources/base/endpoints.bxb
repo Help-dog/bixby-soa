@@ -12,21 +12,21 @@ endpoints {
       accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
       local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
     }
-    action-endpoint (SearchVaccine){
-      accepted-inputs (vaccinationName)
-      local-endpoint (vaccine/searchVaccine.js)
-    }
     action-endpoint (RecommendationBabyFood){
       accepted-inputs (month, ingredients, babyFood, recommendation)
       local-endpoint (babyfood/recommendationBabyFood.js)
     }
       action-endpoint (VaccineCheck) {
-      accepted-inputs (whatMonth,month,choiseVaccine,recommendation)
+      accepted-inputs (month,whatMonth,choiseVaccine,recommendation)
       local-endpoint (vaccine/vaccineCheck.js)
     }
     action-endpoint (PolicyInfo) {
       accepted-inputs (policyObject, policyBenefit, recommendation)
       local-endpoint (policy/policyInfo.js)
+    }
+    action-endpoint (SearchPolicy) {
+      accepted-inputs (policyName, policyBenefit, recommendation)
+      local-endpoint (policy/searchPolicy.js)
     }
   }
 }

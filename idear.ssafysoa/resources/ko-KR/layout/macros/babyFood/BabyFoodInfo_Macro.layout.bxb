@@ -27,23 +27,28 @@ layout-macro-def(BabyFoodInfo) {
 						style(Title_S)
 					}
 				}
-				divider
-				single-line {
-					text {
-						value("대상 : #{value(info.category)}")
-						style(Detail_L)
+          divider
+          single-line {
+            text  {
+              value ("대상 : #{value(info.category)}")
+              style (Detail_L)
+            }
+          }
+          divider
+          paragraph {
+            value ("재료 : #{value(info.foodIngredients)}")
+            style (Detail_L)
+          }
+          divider
+          paragraph {
+            value ("#{value(info.content)}")
+            style (Detail_L)
+          }
+          divider
+          paragraph {
+            value ("출처: #{value(info.source)}")
+            style (Detail_L)
 					}
-				}
-				divider
-				paragraph {
-					value("재료 : #{value(info.foodIngredients)}")
-					style(Detail_L)
-				}
-				divider
-				paragraph {
-					value("#{value(info.content)}")
-					style(Detail_L)
-				}
 				cell-card {
 					slot1 {
 						image {

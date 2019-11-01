@@ -1,12 +1,7 @@
-train (t-q9aospmc5csxn1l4pla431izq) {
-  utterance ("[g:SearchVaccine] (A형간염)[v:VaccinationName:A형간염] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173421695)
-}
-train (t-qugeq3i5d2ddxcyyq6e91cjte) {
-  utterance ("[g:SearchVaccine] (사람유두종바이러스감염증)[v:VaccinationName:'사람유두종바이러스감염증(HPV)'] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173421115)
+train (t-q332qyc1sa5mua9vearr1jucb) {
+  utterance ("[g:FromHospitalName] (세계로병원)[v:HospitalName] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572241732172)
 }
 train (t-qx80jvz12vww5yhkbcsgy2uhz) {
   utterance ("[g:BabyFoodList] (새송이 비타민 소고기 죽)[v:Ingredients] (이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")

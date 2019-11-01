@@ -1,3 +1,8 @@
+train (t-a3pd4maseoyx83ksguz2oetlw) {
+  utterance ("[g:PregnancyStatusResults] (산모)[v:TargetOperand] (4)[v:WeekNumOperand](주차)[v:WeekOperand:주] (정보)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572510238525)
+}
 train (t-a5khzt463rzkwxnezzihudc6f) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (아가)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)

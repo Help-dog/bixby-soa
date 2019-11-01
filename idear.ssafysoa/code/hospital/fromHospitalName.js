@@ -3,7 +3,7 @@ module.exports.function = function fromHospitalName (hospitalName, self, point, 
   const console = require('console');
 
   var rec = recommendation;
-  var response = http.getUrl('https://dapi.kakao.com/v2/local/search/keyword.json?y='+point.point.latitude+'&x='+point.point.longitude+'&radius=2000', {
+  var response = http.getUrl('https://dapi.kakao.com/v2/local/search/keyword.json?y='+point.point.latitude+'&x='+point.point.longitude+'&radius=4000', {
     format: 'json',
     query: {
       query: hospitalName
