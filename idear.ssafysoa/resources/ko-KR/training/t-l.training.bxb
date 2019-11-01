@@ -1,30 +1,20 @@
+train (t-l0j17icwoyp70ig0ej9i0j8q4) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (산모)[v:TargetOperand]의 (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572239706659)
+}
 train (t-l1yhrqt1meluape3cfs4j7dha) {
   utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1571795266044)
-}
-train (t-l47xja5vya1e3426wyyn5r1lt) {
-  utterance ("[g:SearchVaccine] (수두)[v:VaccinationName:수두] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572172856183)
 }
 train (t-l89qijl0prctkp1g1f8udkssy) {
   utterance ("[g:BabyFoodList] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
   plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571637879591)
 }
-train (t-l9a4qi3k0yggy0th6v7hy24af) {
-  utterance ("[g:SearchVaccine] (일본뇌염)[v:VaccinationName:'일본뇌염 불활성화(IJEV)/약독화(LJEV) 백신'] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173422280)
-}
 train (t-lkd5f031aewqlpmttgya84ruv) {
   utterance ("[g:ResultsVaccin] (1)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYRBBk/XNzyvJYJDFsC45Pzc3NS8lsSQzP4+BhYGRgYmBGUgzAFkQCAMgMagcAA==)
-  last-modified (1572412234543)
-}
-train (t-lki5wrknlxc5xrq8bocn6d4dj) {
-  utterance ("[g:SearchVaccine] (인플루엔자)[v:VaccinationName:인플루엔자(IIV)] 알려줘")
-  plan (Y2BmkMxMSU0s0ivOT9QLS0xOzsxLLMnMz/PMS8tnEEdIBQMZyRkQBak49Pgl5qYyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1572173419995)
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572481508668)
 }

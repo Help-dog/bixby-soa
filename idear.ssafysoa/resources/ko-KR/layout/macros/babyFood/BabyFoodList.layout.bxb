@@ -30,13 +30,13 @@ layout-macro-def(BabyFoodList) {
 					}
 				}
 				single-line {
-					text {
-						value {
-							template("#{value(babyFood.content)}")
-						}
-						style(Detail_M_Soft)
-					}
-				}
+          text {
+            value {
+                template ("출처: #{value(babyFood.source)}")
+            }
+            style(Detail_M_Soft)
+          }
+        }
 			}
 		}
 	}

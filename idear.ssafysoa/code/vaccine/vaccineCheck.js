@@ -3,23 +3,25 @@ module.exports.function = function vaccineCheck (whatMonth,choiseVaccine,recomme
   const console = require('console');
   const nameinfo = require("../data/vaccine/vaccineData.js");
   const datainfo = require("../data/vaccine/vaccineData2.js");
-
+  
+  var fail = require('fail')
   var check = recommendation;
   var result = [];
   var depdata = ""
   var http = require('http');
   var site = "https://nip.cdc.go.kr/irgd/index.html"
   var imgUrl = "img/vaccineBaby.jpg";
+  var ex = ["1","3", "5", "7", "8", "9", "10", "11", "13", "14", "17" ]
+
   if(whatMonth == undefined && month == undefined){
+    throw fail.checkedError('범위를 벗어난 데이터가 들어옴','NOT_FOUND_VACCINEDATA', null)
     return  result;
   }
-  if(whatMonth == "ex"){
-    return  result;
-  }
-  var ex = ["3", "5", "7", "8", "9", "10", "11", "13", "14", "17" ]
   for(var i = 0; i<ex.length; i++){
-    if(month == ex[i])
+    if(month == ex[i] || whatMonth == "ex"){
+      throw fail.checkedError('범위를 벗어난 데이터가 들어옴','NOT_FOUND_VACCINEDATA', null)
       return result;
+    }
   }
   for(let i=0; i<datainfo.length; i++){
     if(whatMonth != undefined && datainfo[i].month.indexOf(whatMonth.toString())>=0){

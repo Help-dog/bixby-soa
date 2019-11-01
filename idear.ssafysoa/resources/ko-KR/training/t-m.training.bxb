@@ -1,5 +1,5 @@
-train (t-mubkysmoid2ec77yiwaz2w3zx) {
-  utterance ("[g:FromHospitalName] (일 이삼 사 의원)[v:HospitalName] (보여줘)[v:Recommendation:검색]")
-  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
-  last-modified (1571989092432)
+train (t-mjv7p14qbkfw7uf7udkviw6oj) {
+  utterance ("[g:SearchPolicy] (아이돌봄서비스)[v:PolicyName] (혜택)[v:PolicyBenefit] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlBFg8GMpIzILIM4ujqnVLzUtMySxhE0CX8EnNTGSQQokGpyfm5ual5KYklmfl5DCwMjAxMDMxAmgHIgkAYQJIDAA==)
+  last-modified (1572503570069)
 }

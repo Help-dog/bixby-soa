@@ -1,0 +1,40 @@
+action (SearchPolicy) {
+  description (정책명으로 검색하기 위한 action)
+  collect {
+    input (policyName) {
+      type (PolicyName)
+      min (Required) max (One)
+    }
+    input (policyBenefit) {
+      type (PolicyBenefit)
+      min (Optional) max (One)
+    }
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (PolicyResult){
+   throws{
+      error(NOT_FOUND_SEARCHPOLICYDATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_searchpolicydata)
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch{
+          halt{
+            dialog{
+              template-macro (unknown_error)
+            }
+          }
+        }
+      }
+    }
+  }
+}

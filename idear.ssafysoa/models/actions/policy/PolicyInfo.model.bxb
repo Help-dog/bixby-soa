@@ -16,10 +16,23 @@ action (PolicyInfo) {
   }
   type(Search)
   output (PolicyResult){
-    on-empty{
-      halt{
-        dialog{
-          template ("정보없음. 다시다시")
+    throws{
+      error(NOT_FOUND_POLICYINFODATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_policyinfodata)
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch{
+          halt{
+            dialog{
+              template-macro (unknown_error)
+            }
+          }
         }
       }
     }

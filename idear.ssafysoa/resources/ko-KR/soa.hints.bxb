@@ -4,7 +4,10 @@ hints {
       preferred-hint ("아기 이유식 추천해줘")
     }
     hint ("소중한아기에서 예방접종 정보를 얻고 싶다면") {
-      preferred-hint ("6세 예방접종 알려줘")
+      preferred-hint ("4개월 예방접종 알려줘")
+    }
+    hint ("소중한아기에서 출산 혜택 정보를 얻고 싶다면") {
+      preferred-hint ("출산 혜택 알려줘")
     }
     hint ("소중한아기에서 병원 위치 정보를 얻고 싶다면") {
       preferred-hint ("근처 병원 보여줘")
@@ -15,11 +18,8 @@ hints {
     hint ("소중한아기에서 산모, 아기의 정보를 얻고 싶다면") {
       preferred-hint ("20주차 산모 정보 알려줘")
     }
-    hint ("소중한아기에서 아기 질병에 대한 정보를 얻고 싶다면") {
-      preferred-hint ("수두 알려줘")
-    }
-    hint ("소중한아기에서 아기 예방접종에 대한 정보를 얻고 싶다면") {
-      preferred-hint ("4개월 예방접종 알려줘")
+    hint ("소중한아기에서 아기 정책에 대한 정보를 얻고 싶다면") {
+      preferred-hint ("아기 정책 알려줘")
     }
   }
 }

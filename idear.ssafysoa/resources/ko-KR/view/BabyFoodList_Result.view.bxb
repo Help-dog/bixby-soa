@@ -6,11 +6,19 @@ result-view {
 	}
 	render {
 		if (size(this) == 1) {
-			layout-macro(BabyFoodInfo) {
-				param(info){
-					expression(this)
+			if(this.flag) {
+				layout-macro(BabyFoodInfo2) {
+					param(info){
+						expression(this)
+					}
 				}
-			}
+			} else {
+					layout-macro(BabyFoodInfo) {
+						param(info){
+							expression(this)
+						}
+					}
+				}
 		} else {
 			list-of(this){
 				where-each(item){
@@ -24,13 +32,9 @@ result-view {
 		}
 	}
 	conversation-drivers {
-		if (size(this) == 1) {
-			conversation-driver {
-				template("이유식 목록으로 돌아가기")
-			} 
-		} else-if(size(this) >= 2){
+			if(size(this) >= 2){
       conversation-driver {
-        template ("이유식추천해줘 ")
+        template ("이유식 추천해줘")
       }
       conversation-driver {
         template ("#{value(this[0].title)} 레시피 알려줘 ")

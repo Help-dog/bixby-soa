@@ -1,0 +1,23 @@
+template-macro-def (not_found_vaccinedata) {
+  content: template ("예방접종 받는 개월은 0, 1, 2, 4, 6, 12, 15, 18, 19~23, 24~35개월 그리고 4세 6세 11세 12세가 있습니다.")
+}
+
+template-macro-def (unknown_error) {
+  content: template ("'0개월 예방접종 알려줘' 또는 '만 4세 예방접종 알려줘' 라고 말씀해 주세요.")
+}
+
+template-macro-def (not_found_fooddata) {
+  content: template ("4~24개월 사이로 말씀해 주세요.")
+}
+
+template-macro-def (not_found_ingredientsdata) {
+  content: template ("선택하신 재료가 들어간 이유식이 없습니다 다른 재료를 골라주세요")
+}
+
+template-macro-def (not_found_policyinfodata) {
+  content: template ("찾으시는 대상이나 정책이 없습니다 다른 대상으로 검색해 주세요")
+}
+
+template-macro-def (not_found_searchpolicydata) {
+  content: template ("찾으시는 대상이나 정책이 없습니다 다른 대상으로 검색해 주세요")
+}
