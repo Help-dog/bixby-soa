@@ -9,12 +9,13 @@
 1. [Bixby Capsule란?](#Bixby-Capsule란?)
 2. [캡슐구조](#캡슐구조)
 3. [캡슐설정](#캡슐설정)
-4. [모델링_Conecepts&Actions](#모델링-Conecepts&Actions)
-5. [비니지스로직_JS.Code](#비지니스로직-JS.Code)
-6. [트레이닝_Test&Debug](#트레이닝-Test&Debug)
-7. [UI/UX](#UI/UX)
-8. [외부 어플리케이션 실행](#외부-어플리케이션-실행)
-9. [부록](#부록)  
+4. [Scenario](#Scenario)
+5. [Models](#Models)
+6. [비니지스로직](#비지니스로직-JS.Code)
+7. [Resources](#Resources)
+8. [UI/UX](#UI/UX)
+9. [외부 어플리케이션 실행](#외부-어플리케이션-실행)
+10. [부록](#부록)  
 
 
 
@@ -30,89 +31,45 @@
 
 <img src="./idear.ssafysoa/assets/img/bixby_capsule.png"/>
 
-### 2.1 scenario
 
-> 설명
 
-캡슐 기능을 구현하기 전, 기능을 기획하는 단계에서 작성하는 것
+### 2.1 모델링
 
-- 구현할 캡슐의 목적
-- 사용자가 입력할 말
-- 발화함수
-- 발화변수
-  - Input Concept
-  - Output Concept
+**Concepts**: 발화 인식 및 발화 결과를 리턴할 때 필요한 값
 
-```
-# [목적]
-# 근처 병원 및 보건소 정보 제공
+예)"4개월 이유식 추천해줘"
+	  4 -> Month, 이유식 -> BabyFood , 추천해줘 -> Recommendation
 
-# [사용자가 입력할 말]
-# 근처 보건소 어디야?
-# 근처 병원 어디야?
-# 00병원 정보 보여줘
+**Actions**: 캡슐이 사용자가 원하는 작업을 이해하도록 수행할 동작을 정의
 
-# [발화함수이름 : Action]
-# Hospital
 
-# [발화변수이름 : Input Concept]
-# 보건소 ==> InputPublicHealth
-# 병원 ==> InputHospital
 
-# [발화변수이름 : Output Concept]
-# NearHospital
-```
+### 2.2 비즈니스 로직
 
-### 2.2 models
+**Javascript Code**: 사용자가 원하는 작업을 실제 수행하는 코드로서 이 단계에서 서비스 API를 연동
 
-> 설명
 
-`Concepts` 발화 인식 및 발화 결과를 리턴할 때 필요한 값
 
-`Actions` 사용자가 원하는 작업을 이해하도록 수행할 동작을 정의
+### 2.3 UI/UX
 
-```
-Input Concept과 Output Concept, type를 설정
-```
+**Bixby Views**: 최종 결과를 사용자에게 보여주는 레이아웃 작업
 
-> 디렉토리 상세
+**Dialog**: 사용자에게 되묻거나 결과를 응답해주는 응답문을 생성
 
-- actions : /babyfood, /hospital, /pregnancyStatus, /vaccine
-- concepts : /babyfood, /base, /hosptial, /pregancyStatus, /vaccine
 
-### 2.3 Code
 
-> 설명
+### 2.4 트레이닝
 
-`javaScript `  사용자가 원하는 작업을 실제 수행
+**발화 Training**: Capsule이 잘 동작하도록, 처리할 수 있는 발화를 생성하고 자연어 트레이닝을 진행
 
-### 2.4 resources
-
-> 설명
-
-`base` 폴더의 `endpoints.bxb`
-
-`ko-KR` 폴더는 한국어와 관련된 resources를 모아놓은 폴더
-
-- training: 캡슐의 기능에 대한 발화를 생성 및 학습하고 디버깅 할 수 있는 파일
-- layout과 view 폴더: 캡슐의 결과 화면의 UI/UX를 구성하는 폴더
-- vocab폴더: 동의어 처리, 특정 단어를 처리하는 폴더
-- capsule-info.bxb: 마켓 플레이스에 등록할 때 사용하는 파일
-- soa.hints.bxb: 캡슐의 사용 예시를 알려주는 파일
-
-> 디렉토리 상세
-
-- base : endpoints.bxb
-- ko-KR : training,  /layouts,  /views, /vocab, capsule-info.bxb, soa.hints.bxb
+**Debugging**: 개발한 캡슐이 구현한대로 동작하는지 확인
 
 
 
 ## 캡슐설정
 
 빅스비 캡슐 개발 진행하면서 설정해야되는 부분에 대한 설명하도록 하겠습니다.
-이는 빅스비 캡슐을 마켓플레이스에 등록할 때 사용하는 체크리스트를 보면서 진행하면 더 수월합니다.
-
-**빅스비 캡슐 체크리스트:  https://drive.google.com/file/d/1oPZ2hY1X2EKgyWcsPU3VZ-DgC4t2_njT/view**
+이는 빅스비 캡슐을 마켓플레이스에 등록할 때 사용하는 [체크리스트]( https://drive.google.com/file/d/1oPZ2hY1X2EKgyWcsPU3VZ-DgC4t2_njT/view)를 보면서 진행하면 더 수월합니다.
 
 ### 3.1 Capsule.bxb 파일 업데이트
 
@@ -190,16 +147,66 @@ hints {
 
 
 
-## 모델링 Conecepts&Actions
+## Scenario
 
-> 사용자가 원하는 작업을 이해하도록 수행할 동작  actions과 발화 인식 및 발화 결과를 리턴할 때 필요한 값 concents로 구성되어 있습니다.
+> 설명
+
+캡슐 기능을 구현하기 전, 기능을 기획하는 단계에서 작성하는 것
+
+- 구현할 캡슐의 목적
+- 사용자가 입력할 말
+- 발화함수
+- 발화변수
+  - Input Concept
+  - Output Concept
+
+```
+# [목적]
+# 근처 병원 및 보건소 정보 제공
+
+# [사용자가 입력할 말]
+# 근처 보건소 어디야?
+# 근처 병원 어디야?
+# 00병원 정보 보여줘
+
+# [발화함수이름 : Action]
+# Hospital
+
+# [발화변수이름 : Input Concept]
+# 보건소 ==> InputPublicHealth
+# 병원 ==> InputHospital
+
+# [발화변수이름 : Output Concept]
+# NearHospital
+```
+
+
+
+## Models
+
+> 설명
+
+`Concepts` 발화 인식 및 발화 결과를 리턴할 때 필요한 값
+
+`Actions` 사용자가 원하는 작업을 이해하도록 수행할 동작을 정의
+
+```
+Input Concept과 Output Concept, type를 설정
+```
+
+
+
+> 디렉토리 상세
+
+- actions : /babyfood, /hospital, /pregnancyStatus, /vaccine
+- concepts : /babyfood, /base, /hosptial, /pregancyStatus, /vaccine
+
+
 
 |    분야    | Concept | Action |
 | :--------: | :-----: | :----: |
 |    언어    |  명사   |  동사  |
 | 프로그래밍 |  변수   |  함수  |
-
-
 
 ### 4.1 Concepts
 
@@ -256,10 +263,38 @@ action (RecommendationBabyFood) {
 
 
 
-## 비니지스로직_JS.Code
+## 비니지스로직
 
-## 트레이닝_Test&Debug
+> 설명
 
-## UI/UX
+`javaScript `  사용자가 원하는 작업을 실제 수행  
+
+
+
+## Resources
+
+> 설명
+
+`base` 폴더의 `endpoints.bxb`
+
+`ko-KR` 폴더는 한국어와 관련된 resources를 모아놓은 폴더
+
+- training: 캡슐의 기능에 대한 발화를 생성 및 학습하고 디버깅 할 수 있는 파일
+- layout과 view 폴더: 캡슐의 결과 화면의 UI/UX를 구성하는 폴더
+- vocab폴더: 동의어 처리, 특정 단어를 처리하는 폴더
+- capsule-info.bxb: 마켓 플레이스에 등록할 때 사용하는 파일
+- soa.hints.bxb: 캡슐의 사용 예시를 알려주는 파일
+
+> 디렉토리 상세
+
+- base : endpoints.bxb
+- ko-KR : training,  /layouts,  /views, /vocab, capsule-info.bxb, soa.hints.bxb
+
+### 7.1 Test&Debug
+
+### 7.2 UI/UX
+
+
 
 ## 외부 어플리케이션 실행
+
