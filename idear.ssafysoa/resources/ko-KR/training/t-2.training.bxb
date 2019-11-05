@@ -18,6 +18,11 @@ train (t-2g6w5oxzudfairx7a609yeho5) {
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1572087632847)
 }
+train (t-2t7ufo9t4xpur811moh099oha) {
+  utterance ("[g:ResultsMedicine] 아기 (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1572966536498)
+}
 train (t-2yo8qth1rnq12h9xlbw4mn0pi) {
   utterance ("[g:BabyFoodList] (아기 이유식 레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
   plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)

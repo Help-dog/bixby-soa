@@ -1,0 +1,6 @@
+enum (Medicine) {
+  description (상비약 명령어)
+  features {transient}
+
+  symbol (상비약)
+}
