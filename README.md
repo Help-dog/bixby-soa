@@ -292,9 +292,12 @@ action (RecommendationBabyFood) {
 
 ### 7.1 Test&Debug
 
-### 7.2 UI/UX
+## 8. UI/UX
 
 
 
-## 외부 어플리케이션 실행
+## 9. 외부 어플리케이션 실행
 
+
+
+## 10. 부록
