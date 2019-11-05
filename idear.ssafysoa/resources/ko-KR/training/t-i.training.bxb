@@ -23,3 +23,8 @@ train (t-imvn0c8q5ifmgv5yrlf19fi72) {
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
   last-modified (1572249479302)
 }
+train (t-ix4v4ne1mcioo1ifhrf4ua8lq) {
+  utterance ("[g:ResultsMedicine] 아이 (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1572997306214)
+}

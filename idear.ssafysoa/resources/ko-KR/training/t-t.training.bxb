@@ -1,0 +1,5 @@
+train (t-t6uod6s7ru5bjqf854xvox633) {
+  utterance ("[g:ResultsMedicine] (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1572997004778)
+}
