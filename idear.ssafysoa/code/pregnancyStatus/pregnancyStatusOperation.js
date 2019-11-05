@@ -14,7 +14,7 @@ module.exports.function = function pregnancyStatusOperation (weekNumOperand, wee
   let momImg = [1, 2, 3, 4, 5, 11, 15, 18, 27, 31, 33, 40];
 
   let result = null;
-
+ 
   if(target == "나" || target == "내" || target == "나의" || target == "산모" || target == "임산부" || target == "모체") {
     if(weekNum == null || week == null) {
       return null;
