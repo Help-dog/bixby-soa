@@ -8,3 +8,8 @@ train (t-yb9hxe47bwz3t160uw8ozv9gs) {
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhgBmIQXIMAA==)
   last-modified (1572231844712)
 }
+train (t-yywpq1z7pv58qtm1u3c4wfp8q) {
+  utterance ("[g:BabyFoodList] (소고기 밤 대추 영양 진밥)[v:Ingredients] (레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkM5MSU0s0isuTkyrLM5P1HNKTKp0y89P8cksLmFQRZMMSk3Oz81NzUtJLMnMz4MpZRDHYQaDFJqEZ156UWpKZmpeSTGDLF6zGVgYGBmYGJiBNAOQBYEwABKDygEA)
+  last-modified (1572931729267)
+}

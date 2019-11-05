@@ -4,7 +4,7 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	const console = require('console');
 	var fail = require('fail')
 
-
+	console.log("재료: "+ingredients);
 	let result = [];
 	let realresult = [];
 	let number = [];
@@ -12,7 +12,7 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	if (ingredients) {
 		ingredients = ingredients.replace(/(\s*)/g, "");
 	}
-	
+	console.log("재료2: "+ingredients);
 	if (month <= 3 || month >= 25){
 		throw fail.checkedError('범위를 벗어난 데이터가 들어옴','NOT_FOUND_FOODDATA', null)
 		return null;
@@ -47,11 +47,6 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 			}
 		}
 	}
-	if(!check){
-		throw fail.checkedError('없는 재료의 데이터가 들어옴','NOT_FOUND_INGREDIENTSDATA', null)
-	}
-
-
 
 	if (result.length > 6) {
 		number = randomNum(result.length);
@@ -63,11 +58,16 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	if (result.length != 0) {
 		return result;
 	}
+
 	for (var i = 0; i < babyfoodlist.length; i++) {
-		if (babyfoodlist[i].title.indexOf(ingredients.toString()) != -1) {
+		if (babyfoodlist[i].titlecheck.indexOf(ingredients.toString()) != -1) {
 			realresult.push(babyfoodlist[i]);
 			return realresult;
 		}
+	}
+
+	if(!check){
+		throw fail.checkedError('없는 재료의 데이터가 들어옴','NOT_FOUND_INGREDIENTSDATA', null)
 	}
 }
 function randomNum(num) {
