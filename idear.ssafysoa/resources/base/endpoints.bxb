@@ -28,6 +28,10 @@ endpoints {
       accepted-inputs (policyName, policyBenefit, recommendation)
       local-endpoint (policy/searchPolicy.js)
     }
+    action-endpoint (BabyMedicine) {
+      accepted-inputs (medicine, recommendation)
+      local-endpoint (medicine/babyMedicine.js)
+    }
   }
 }
  

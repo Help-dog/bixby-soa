@@ -1,0 +1,15 @@
+action (BabyMedicine) {
+  description (__DESCRIPTION__)
+  collect {
+    input (medicine) {
+      type (Medicine)
+      min (Required) max (One)
+    }
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (ResultsMedicine)
+}

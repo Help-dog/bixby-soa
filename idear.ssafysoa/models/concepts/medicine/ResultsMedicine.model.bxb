@@ -1,0 +1,13 @@
+structure (ResultsMedicine) {
+  description (상비약 결과)
+  features {transient}
+  
+  property (medicineName) {
+    type (MedicineName)
+    min (Required) max (One)
+  }
+  property (medicineUse) {
+    type (MedicineUse)
+    min (Required) max (One)
+  }
+}
