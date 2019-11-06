@@ -14,8 +14,20 @@ structure (BabyFoodList) {
     type (Title)
     min (Required) max (One)
   }
+  property (titlecheck) {
+    type (Titlecheck)
+    min (Required) max (One)
+  }
+  property (href) {
+    type (Href)
+    min (Required) max (One)
+  }  
   property (content) {
     type (Content)
+    min (Required) max (One)
+  }
+  property (check) {
+    type (Check)
     min (Required) max (One)
   }
   property (url) {

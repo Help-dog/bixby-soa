@@ -55,12 +55,16 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 		}
 		return realresult;
 	}
+	console.log("3333");
 	if (result.length != 0) {
 		return result;
 	}
 
+	console.log("4444");
+	
 	for (var i = 0; i < babyfoodlist.length; i++) {
 		if (babyfoodlist[i].titlecheck.indexOf(ingredients.toString()) != -1) {
+			console.log("555")
 			realresult.push(babyfoodlist[i]);
 			return realresult;
 		}
