@@ -13,6 +13,11 @@ train (t-dbjedljvtre9nwi5cgpe61qye) {
   plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
   last-modified (1572239165388)
 }
+train (t-det8zulo6nvzc98qo63iyl4xb) {
+  utterance ("[g:BabyFoodList] (대구살 양배추 무른밥)[v:Ingredients] (레시피)[v:BabyFood:이유식] (검색해줘)[v:Recommendation:검색]")
+  plan (Y2BlkM5MSU0s0isuTkyrLM5P1HNKTKp0y89P8cksLmFQRZMMSk3Oz81NzUtJLMnMz4MpZRDHYQaDFJqEZ156UWpKZmpeSTGDLF6zGVgYGBmYGJiBNAOQBYEwABKDygEA)
+  last-modified (1572931286467)
+}
 train (t-dlufinj48zuw4i28cmb62qkez) {
   utterance ("[g:ResultsVaccin] (2)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
