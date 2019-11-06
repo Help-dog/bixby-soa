@@ -10,4 +10,8 @@ structure (ResultsMedicine) {
     type (MedicineUse)
     min (Required) max (One)
   }
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
 }

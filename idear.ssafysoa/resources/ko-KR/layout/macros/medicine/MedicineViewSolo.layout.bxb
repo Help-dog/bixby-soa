@@ -9,16 +9,38 @@ layout-macro-def(MedicineViewSolo) {
   content {    
     section {      
       content {
+        image-card {
+          aspect-ratio (Sixteen_Nine)
+          image-background-color (Transparent)
+          image-object-fit (Contain)
+          image-url ("#{value(resultData.imgUrl)}")
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
+            }
+          }
+        }
         paragraph{
             value{
               template ("#{value(resultData.medicineName)}")  
             }
-            style(Title_XS)
+            style(Title_S)
         }
         spacer
         paragraph {
               value {       
                 template ("#{value(resultData.medicineUse)}")   
+              }
+              style(Title_S)
+        }
+        spacer
+        paragraph {
+              value {       
+                template ("약의 상세사용법,용량등 문의사항은 의사,약사와 상의하세요 ^^")   
               }
               style(Title_XS)
         }
