@@ -4,7 +4,6 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	const console = require('console');
 	var fail = require('fail')
 
-	console.log("재료: "+ingredients);
 	let result = [];
 	let realresult = [];
 	let number = [];
@@ -12,7 +11,6 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 	if (ingredients) {
 		ingredients = ingredients.replace(/(\s*)/g, "");
 	}
-	console.log("재료2: "+ingredients);
 	if (month <= 3 || month >= 25){
 		throw fail.checkedError('범위를 벗어난 데이터가 들어옴','NOT_FOUND_FOODDATA', null)
 		return null;
@@ -55,16 +53,13 @@ module.exports.function = function searchBabyFood(month, ingredients, babyFood, 
 		}
 		return realresult;
 	}
-	console.log("3333");
 	if (result.length != 0) {
 		return result;
 	}
 
-	console.log("4444");
-	
+
 	for (var i = 0; i < babyfoodlist.length; i++) {
 		if (babyfoodlist[i].titlecheck.indexOf(ingredients.toString()) != -1) {
-			console.log("555")
 			realresult.push(babyfoodlist[i]);
 			return realresult;
 		}
