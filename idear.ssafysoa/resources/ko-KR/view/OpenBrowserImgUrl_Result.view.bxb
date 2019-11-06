@@ -1,0 +1,9 @@
+result-view {
+  match: ImgUrl (this)
+
+  message()
+  
+  app-launch {
+    payload-uri ("#{value(this)}")
+  }
+}

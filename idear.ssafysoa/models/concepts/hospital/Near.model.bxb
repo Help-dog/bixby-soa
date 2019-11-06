@@ -1,0 +1,4 @@
+enum (Near){
+  features {transient}
+  symbol (Nearby)
+}

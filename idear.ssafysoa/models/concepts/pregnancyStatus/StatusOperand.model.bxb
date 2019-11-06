@@ -1,0 +1,5 @@
+enum (StatusOperand) {
+  description ('임신'과 같은 사용자의 상태 변수)
+  features {transient}
+  symbol (상태)
+}

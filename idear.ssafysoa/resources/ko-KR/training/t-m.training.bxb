@@ -1,0 +1,5 @@
+train (t-mjv7p14qbkfw7uf7udkviw6oj) {
+  utterance ("[g:SearchPolicy] (아이돌봄서비스)[v:PolicyName] (혜택)[v:PolicyBenefit] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlBFg8GMpIzILIM4ujqnVLzUtMySxhE0CX8EnNTGSQQokGpyfm5ual5KYklmfl5DCwMjAxMDMxAmgHIgkAYQJIDAA==)
+  last-modified (1572503570069)
+}

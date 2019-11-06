@@ -1,0 +1,30 @@
+train (t-234apieb4u0d1faawz6hoii56) {
+  utterance ("[g:PolicyInfo] (출산)[v:PolicyObject]에 대한 (혜택)[v:PolicyBenefit]을 (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
+  last-modified (1572503343768)
+}
+train (t-2ecedmpzvz1xmxtxaiolmo7py) {
+  utterance ("[g:BabyFoodList] (2)[v:Month]개월 (우유)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BjEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQz8COEffPzSjIYJHCZzsDKwMjAxMDMwAJkMQDZMIgAIHG4CgA=)
+  last-modified (1571637622670)
+}
+train (t-2fqpcxgvchzivcxt5l7blxlfd) {
+  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원을 (찾아줘)[v:Recommendation:검색]")
+  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
+  last-modified (1572241683811)
+}
+train (t-2g6w5oxzudfairx7a609yeho5) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572087632847)
+}
+train (t-2t7ufo9t4xpur811moh099oha) {
+  utterance ("[g:ResultsMedicine] 아기 (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1572966536498)
+}
+train (t-2yo8qth1rnq12h9xlbw4mn0pi) {
+  utterance ("[g:BabyFoodList] (아기 이유식 레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1572242271796)
+}

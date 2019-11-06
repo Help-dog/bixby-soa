@@ -1,0 +1,20 @@
+train (t-bh4p4ibleluktmxma67wts6e9) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1571795486730)
+}
+train (t-biu8oo5i5gq9rnoifvwwl8c4l) {
+  utterance ("[g:FromHospitalName] (일의원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572249648995)
+}
+train (t-bmctwlft3npsbts14smfpp1b0) {
+  utterance ("[g:PregnancyStatusResults] (내)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BhUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1571795584810)
+}
+train (t-btq4yu8h8tqs853p2wd1hq4kb) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 우리 (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572075637356)
+}

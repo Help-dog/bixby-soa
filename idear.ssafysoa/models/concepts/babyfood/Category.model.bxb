@@ -1,0 +1,4 @@
+text (Category) {
+  description (개월수)
+  features {transient}
+}

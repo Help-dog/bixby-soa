@@ -1,0 +1,45 @@
+action (VaccineCheck) {
+  description (예방접종 체크)
+
+  collect {
+    input (month) {
+      type (Month)
+      min (Optional) max (One)
+    }
+    input (whatMonth) {
+      type (WhatMonth)
+      min (Optional) max (One)
+    }
+    input (choiseVaccine) {
+      type (ChoiseVaccine)
+      min (Required) max (One)
+    }
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (ResultsVaccin){
+    throws{
+      error(NOT_FOUND_VACCINEDATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_vaccinedata)
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch{
+          halt{
+            dialog{
+              template-macro (unknown_error)
+            }
+          }
+        }
+      }
+    }
+  }
+}

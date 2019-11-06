@@ -1,0 +1,55 @@
+result-view {
+  match: Hospital(this)
+
+  message {
+    if(size(this) == 1){
+      if(this.flag){
+        template ("[#{value(this.username)} 님,] 주변 4km이내의 병원을 확인해보세요!")
+      }else{
+        template ("선택하신 병원을 확인해보세요!")
+      }     
+    }else{     
+      if(this.flag){
+        template ("[#{value(this.username)} 님,] 주변 4km이내의 병원들을 가져와 보았어요!")
+      }else{
+        template ("병원들을 가져와 보았어요.")
+      }    
+    }   
+  }
+  render {
+    if(size(this) == 1){
+      layout{
+        layout-macro (HospitalMap){
+          param(info){
+            expression (this)
+          }
+        }
+        layout-macro (HospitalInfo){
+          param(info){
+            expression (this)
+          }
+        }
+      }
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (HospitalList){
+            param(hospital){
+              expression (item)
+            }
+          }
+        }
+      }
+    } 
+  }
+    conversation-drivers {
+      if(size(this) >=2){
+      conversation-driver {
+        template ("#{value(this[0].name)} 찾아줘")
+      }
+      conversation-driver {
+        template ("#{value(this[1].name)} 찾아줘")
+      }
+    }
+  }
+}

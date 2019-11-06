@@ -1,0 +1,15 @@
+train (t-vc0z5sqopfmklgapw3vo9s0g8) {
+  utterance ("[g:BabyFoodList] (4)[v:Month]개월차 (이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepk4EeI+ebnlWQwSOAyhoGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572245375017)
+}
+train (t-viyrcpi0w0ntbzqt0icz3s448) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] 우리 (아가)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572240463001)
+}
+train (t-vq67naqth5w72m8te74z1pgk3) {
+  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572147077841)
+}

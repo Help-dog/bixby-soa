@@ -1,0 +1,49 @@
+structure (BabyFoodList) {
+  description (아이이유식 리스트)
+  features {transient}
+
+  property (img) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
+  property (foodIngredients) {
+    type (FoodIngredients)
+    min (Required) max (One)
+  }
+  property (title) {
+    type (Title)
+    min (Required) max (One)
+  }
+  property (titlecheck) {
+    type (Titlecheck)
+    min (Required) max (One)
+  }
+  property (href) {
+    type (Href)
+    min (Required) max (One)
+  }  
+  property (content) {
+    type (Content)
+    min (Required) max (One)
+  }
+  property (check) {
+    type (Check)
+    min (Required) max (One)
+  }
+  property (url) {
+    type (URL)
+    min (Required) max (One)
+  }
+  property (category) {
+    type (Category)
+    min (Required) max (One)
+  }
+  property (source) {
+    type (Source)
+    min (Required) max (One)
+  }
+  property (flag) {
+    type (Flag)
+    min (Optional) max (One)
+  }
+}

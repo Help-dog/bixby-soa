@@ -1,0 +1,20 @@
+train (t-r5kcw0mp9zmhjplk3f29zqcwv) {
+  utterance ("[g:ResultsVaccin] (4)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572481507557)
+}
+train (t-rjc6delnwryt5u89eee2x7swa) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애)[v:TargetOperand] (현황)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572239355037)
+}
+train (t-rlq2lhfdfk6avme2tudztfaur) {
+  utterance ("[g:BabyFoodList] (이유식)[v:BabyFood:이유식]을 (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1572245320210)
+}
+train (t-rseu5y6a3wf1nrzqn9l5on1ms) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (아기)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572087531140)
+}

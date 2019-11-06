@@ -1,0 +1,32 @@
+action (PregnancyStatusAction) {
+  description (임신중일 때의 정보 액션)
+
+  collect {
+    input (weekNumOperand) {
+      type (WeekNumOperand)
+      min (Optional) max (One)
+    }
+    input (weekOperand) {
+      type (WeekOperand)
+      min (Optional) max (One)
+    }
+    input (targetOperand) {
+      type (TargetOperand)
+      min (Required) max (One)
+    }
+    input (statusOperand) {
+      type (StatusOperand)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (PregnancyStatusResults) {
+    on-empty{
+      halt{
+        dialog{
+          template ("죄송해요. '(1 ~ 40)주차 아기 또는 산모 상태 알려줘'라고 다시 말해보세요.")
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+action (RecommendationBabyFood) {
+  description (아기이유식 추천 및 검색)
+
+  collect {
+    input (month) {
+      type (Month)
+      min (Optional) max (One)
+    }
+    input (ingredients) { 
+      type (Ingredients)
+      min (Optional) max (One)
+    }
+    input (babyFood) {
+      type (BabyFood)
+      min (Required) max (One)
+    }
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (BabyFoodList){
+    throws{
+      error(NOT_FOUND_FOODDATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_fooddata)
+            }
+          }
+        }
+      }error(NOT_FOUND_INGREDIENTSDATA){
+        on-catch{
+          halt{
+            dialog{
+              template-macro (not_found_ingredientsdata)
+            }
+          }
+        }
+      }
+    }
+  }
+}

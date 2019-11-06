@@ -1,0 +1,4 @@
+name (TargetOperand) {
+  description ('나, 아기'와 같은 대상)
+  features {transient}
+}

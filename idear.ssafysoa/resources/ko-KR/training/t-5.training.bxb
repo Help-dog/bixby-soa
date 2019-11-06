@@ -1,0 +1,10 @@
+train (t-5jkmh8vme5zpujyaksirkpf3l) {
+  utterance ("[g:PolicyInfo] (출산)[v:PolicyObject]에 대한 (혜택)[v:PolicyBenefit] 좀 (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
+  last-modified (1572503513249)
+}
+train (t-5mtfgqhz3a61mkpwk9xsq2r3r) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572087608655)
+}

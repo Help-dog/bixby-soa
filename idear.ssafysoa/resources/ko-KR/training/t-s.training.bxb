@@ -1,0 +1,5 @@
+train (t-sqbad2lluv5wgxxpdzr31xlfn) {
+  utterance ("[g:ResultsVaccin] (12)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572481522435)
+}

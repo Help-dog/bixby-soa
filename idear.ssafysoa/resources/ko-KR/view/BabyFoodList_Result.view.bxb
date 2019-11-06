@@ -1,0 +1,44 @@
+result-view {
+	match: BabyFoodList(this)
+
+	message {
+		template("아래의 이유식은 어떠세요?")
+	}
+	render {
+		if (size(this) == 1) {
+			if(this.flag) {
+				layout-macro(BabyFoodInfo2) {
+					param(info){
+						expression(this)
+					}
+				}
+			} else {
+					layout-macro(BabyFoodInfo) {
+						param(info){
+							expression(this)
+						}
+					}
+				}
+		} else {
+			list-of(this){
+				where-each(item){
+					layout-macro(BabyFoodList){
+						param(babyFood){
+							expression(item)
+						}
+					}
+				}
+			}
+		}
+	}
+	conversation-drivers {
+			if(size(this) >= 2){
+      conversation-driver {
+        template ("이유식 추천해줘")
+      }
+      conversation-driver {
+        template ("#{value(this[0].title)} 레시피 알려줘 ")
+			}
+		}
+	}
+}

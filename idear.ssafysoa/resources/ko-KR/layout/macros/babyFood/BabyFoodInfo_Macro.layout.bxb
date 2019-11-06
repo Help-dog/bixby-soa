@@ -1,0 +1,74 @@
+layout-macro-def(BabyFoodInfo) {
+	params {
+		param(info) {
+			type(BabyFoodList)
+			min(Required) max(One)
+		}
+	}
+	content {
+		section {
+			content {
+				image-card {
+					aspect-ratio (1:1)
+					image-url("#{value(info.img)}")
+					title-area {
+						halign(Start)
+						slot1 {
+							text {
+								value("")
+								style(Title_M)
+							}
+						}
+					}
+				}
+				single-line {
+					text {
+						value("#{value(info.title)}")
+						style(Title_S)
+					}
+				}
+          divider
+          single-line {
+            text  {
+              value ("대상 : #{value(info.category)}")
+              style (Detail_L)
+            }
+          }
+          divider
+          paragraph {
+            value ("재료 : #{value(info.foodIngredients)}")
+            style (Detail_L)
+          }
+          divider
+          paragraph {
+            value ("#{value(info.content)}")
+            style (Detail_L)
+          }
+          divider
+          paragraph {
+            value ("출처: #{value(info.source)}")
+            style (Detail_L)
+					}
+				cell-card {
+					slot1 {
+						image {
+							url("/img/youtube.png")
+							shape(Circle)
+						}
+					}
+					slot2 {
+						content {
+							primary("Youtube에서 동영상 보기")
+						}
+					}
+					on-click {
+						intent {
+							goal: OpenBrowser
+							value: $expr(info.url)
+						}
+					}
+				}
+			}
+		}
+	}
+}

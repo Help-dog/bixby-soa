@@ -1,0 +1,4 @@
+text (FoodIngredients) {
+  description (INPUT_음식재료)
+  features {transient}
+}

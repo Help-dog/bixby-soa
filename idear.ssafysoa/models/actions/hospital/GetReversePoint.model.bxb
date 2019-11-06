@@ -1,0 +1,22 @@
+action (GetReversePoint) {
+
+  collect {
+    computed-input (point){
+      type (geo.GeocodedAddress)
+      min (Optional) max (One)
+      compute{
+        intent{
+          goal: geo.GeocodedAddress
+          route: geo.CurrentLocation
+        }         
+      }
+    }
+  }
+  type(Fetch)
+  output (geo.GeocodedAddress){
+    evaluate{
+      $expr(point)
+    }
+  }
+}
+    

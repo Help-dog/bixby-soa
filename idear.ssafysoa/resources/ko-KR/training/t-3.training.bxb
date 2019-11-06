@@ -1,0 +1,10 @@
+train (t-381b8ravktxjw07dv0lju5mfr) {
+  utterance ("[g:SearchPolicy] (아이 돌봄 서비스)[v:PolicyName] (혜택)[v:PolicyBenefit] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlBFg8GMpIzILIM4ujqnVLzUtMySxhE0CX8EnNTGSQQokGpyfm5ual5KYklmfl5DCwMjAxMDMxAmgHIgkAYQJIDAA==)
+  last-modified (1572503621606)
+}
+train (t-3mzkrqaqu2u42htyxkqegwtzf) {
+  utterance ("[g:BabyFoodList] (고구마)[v:Ingredients] (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1571809752642)
+}

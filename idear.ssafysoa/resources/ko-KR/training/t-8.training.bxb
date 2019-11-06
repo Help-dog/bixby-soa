@@ -1,0 +1,15 @@
+train (t-889a2t8ex5f1etshz0q7t8mf6) {
+  utterance ("[g:PregnancyStatusResults] (1)[v:WeekNumOperand](주차)[v:WeekOperand:주] (모체)[v:TargetOperand] (정보)[v:StatusOperand:상태]")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1572087462431)
+}
+train (t-8kjvlejsd09l0fhic0rs7erbi) {
+  utterance ("[g:PregnancyStatusResults] (아기)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BhUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1571795321015)
+}
+train (t-8r2ts40gjyghzcew1qrrla9qf) {
+  utterance ("[g:BabyFoodList] (사과감자 미음)[v:Ingredients] (레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)
+  last-modified (1572085666733)
+}

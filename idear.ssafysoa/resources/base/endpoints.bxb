@@ -1,0 +1,37 @@
+endpoints {  
+  action-endpoints {
+    action-endpoint (GetHospitalInfo) {
+      accepted-inputs (near, point, self, recommendation)
+      local-endpoint (hospital/getHospitalInfo.js)
+    }
+    action-endpoint (FromHospitalName){
+      accepted-inputs (hospitalName, self, point, recommendation)
+      local-endpoint (hospital/fromHospitalName.js)
+    }
+    action-endpoint (PregnancyStatusAction) {
+      accepted-inputs (statusOperand, weekNumOperand, weekOperand, targetOperand)
+      local-endpoint (pregnancyStatus/pregnancyStatusOperation.js)
+    }
+    action-endpoint (RecommendationBabyFood){
+      accepted-inputs (month, ingredients, babyFood, recommendation)
+      local-endpoint (babyfood/recommendationBabyFood.js)
+    }
+      action-endpoint (VaccineCheck) {
+      accepted-inputs (month,whatMonth,choiseVaccine,recommendation)
+      local-endpoint (vaccine/vaccineCheck.js)
+    }
+    action-endpoint (PolicyInfo) {
+      accepted-inputs (policyObject, policyBenefit, recommendation)
+      local-endpoint (policy/policyInfo.js)
+    }
+    action-endpoint (SearchPolicy) {
+      accepted-inputs (policyName, policyBenefit, recommendation)
+      local-endpoint (policy/searchPolicy.js)
+    }
+    action-endpoint (BabyMedicine) {
+      accepted-inputs (medicine, recommendation)
+      local-endpoint (medicine/babyMedicine.js)
+    }
+  }
+}
+ 

@@ -1,0 +1,72 @@
+layout-macro-def(VaccinViewSolo) {
+  params {
+    param (resultData) { 
+      type (ResultsVaccin) 
+      min (Required)
+      max (One)
+    }
+  }
+  content {    
+    section {      
+      content {
+        paragraph{
+            value{
+              template ("#{value(resultData.vaccinInfo)}")  
+            }
+            style(Title_XS)
+        }
+        image-card {
+          aspect-ratio (Sixteen_Nine)
+          image-background-color (Transparent)
+          image-object-fit (Contain)
+          image-url ("#{value(resultData.imgUrl)}")
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
+            }
+          }
+        }
+        spacer
+        paragraph {
+              value {       
+                template ("#{value(resultData.vaccinInfo2)}")   
+              }
+              style(Title_XS)
+        }
+        cell-card{
+          slot2{
+            content{
+              primary("질병관리본부로 바로가기")
+            }
+          }
+          on-click {
+            intent {
+              goal: OpenBrowser
+              value: $expr(resultData.url)
+            }
+          }
+        }
+        single-line {
+          text {
+            value {
+                template ("정보출처 - 질병관리본부(어린이예방접종가이드)")
+            }
+            style(Detail_M_Soft)
+          }
+        }
+        single-line {
+          text {
+            value {
+                template ("사진출처-Photo by The Honest Company on Unsplash")
+            }
+            style(Detail_M_Soft)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+train (t-i69fj9l0bwrlsap73fzrkcuc7) {
+  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1572143794408)
+}
+train (t-i6d0485tt2j5lvwv6ltb0cwzt) {
+  utterance ("[g:FromHospitalName] (세계로 세계 병원)[v:HospitalName] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572241613997)
+}
+train (t-ifciwjl3hfnuvuuz6esvtrbxw) {
+  utterance ("[g:ResultsVaccin] (2)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
+  last-modified (1572481467040)
+}
+train (t-ih5zohm5eeq7slwrmxsp3zmdl) {
+  utterance ("[g:FromHospitalName] (일 이삼 사 병원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572249693118)
+}
+train (t-imvn0c8q5ifmgv5yrlf19fi72) {
+  utterance ("[g:FromHospitalName] (세계로병원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
+  plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
+  last-modified (1572249479302)
+}
+train (t-ix4v4ne1mcioo1ifhrf4ua8lq) {
+  utterance ("[g:ResultsMedicine] 아이 (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1572997306214)
+}

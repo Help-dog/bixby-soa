@@ -1,0 +1,25 @@
+structure (SearchedHospital) {
+  description (검색한 병원을 위한 concept)
+  features {transient}
+  
+  property (phone) {
+    type (Phone)
+    min (Required) max (One)
+  }
+   property (placeName) {
+    type (PlaceName)
+    min (Required) max (One)
+  }
+   property (url) {
+    type (URL)
+    min (Required) max (One)
+  }
+   property (roadAddressName) {
+    type (RoadAddressName)
+    min (Required) max (One)
+  }
+  property (point) {
+    type (Point)
+    min (Required) max (One)
+  }
+}

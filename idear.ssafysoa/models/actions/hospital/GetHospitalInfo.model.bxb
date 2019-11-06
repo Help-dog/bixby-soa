@@ -1,0 +1,45 @@
+action (GetHospitalInfo) {
+  description (병원의 데이터를 가져옵니다. 전체 병원의 리스트 또는 주변의 병원의 리스트를 가져올 수 있습니다) 
+  
+  collect {
+    input (self) {
+      type (self.Self)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: self.GetSelf 
+        }
+      }
+    }
+    input (near) {
+      type (Near)
+      min (Optional) max (One)
+    }
+    computed-input (point){
+      type (Point)
+      min (Optional) max (One)
+      compute{
+        if(exists(near)){
+          intent{
+            goal: Point
+            route: geo.CurrentLocation
+          }         
+        }
+      }
+    }
+    input (recommendation) { 
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (Hospital){
+    on-empty{
+      halt{
+        dialog{
+          template ("[#{value(self.nameInfo.structuredName)} 님,]현재 주변에 검색되는 병원이 없습니다")
+        }
+      }
+    }
+  }
+}

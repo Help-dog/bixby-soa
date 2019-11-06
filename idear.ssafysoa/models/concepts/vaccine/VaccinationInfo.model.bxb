@@ -1,0 +1,17 @@
+structure (VaccinationInfo) {
+  description (검색된 시간에 맞는 예방접종 주사 알림)
+  features {transient}
+
+  property (vaccinationName) {
+    type (VaccinationName)
+    min (Required) max (One)
+  }
+  property (vaccinationDesc) {
+    type (VaccinationDesc)
+    min (Required) max (One)
+  }
+  property (imgUrl) {
+    type (ImgUrl)
+    min (Required) max (One)
+  }
+}

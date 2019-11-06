@@ -1,0 +1,43 @@
+action (FromHospitalName) {
+  description (병원 이름으로 빅스비를 호출할 때)
+  
+  collect {
+    input (hospitalName) {
+      type (HospitalName)
+      min (Required) max (One)
+    }
+    input (self) {
+      type (self.Self)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal: self.GetSelf
+        }
+      }
+    }
+    computed-input (point){
+      type (Point)
+      min (Optional) max (One)
+      compute{
+          intent{
+            goal: Point
+            route: geo.CurrentLocation
+          }         
+      }
+    }
+    input (recommendation) {
+      type (Recommendation)
+      min (Optional) max (One)
+    }
+  }
+  type(Search)
+  output (SearchedHospital){
+    on-empty{
+      halt{
+        dialog{
+          template ("[#{value(self.nameInfo.structuredName)} 님,]현재 주변에 검색되는 병원이 없습니다")
+        }
+      }
+    }
+  }
+}

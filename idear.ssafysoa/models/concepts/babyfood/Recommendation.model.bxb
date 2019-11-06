@@ -1,0 +1,5 @@
+enum (Recommendation) {
+  description (검색and추천)
+  features {transient}
+  symbol (검색)
+}

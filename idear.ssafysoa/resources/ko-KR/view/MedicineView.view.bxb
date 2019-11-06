@@ -1,0 +1,27 @@
+result-view{
+  match: ResultsMedicine(result)
+
+  message{
+    template ("상비약 목록 입니다.")
+  }
+  render {
+    if(size(result) == 1){ 
+      layout-macro (MedicineViewSolo) {
+        param (resultData){ 
+          expression (result) 
+        }
+      }  
+    }
+    else{
+      list-of (result){
+        where-each (item){
+          layout-macro (MedicineViews){
+            param(resultData){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+  }
+}

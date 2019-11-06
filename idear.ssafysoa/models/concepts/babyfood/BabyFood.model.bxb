@@ -1,0 +1,5 @@
+enum (BabyFood) {
+  description (이유식)
+  features {transient}
+  symbol (이유식)
+}

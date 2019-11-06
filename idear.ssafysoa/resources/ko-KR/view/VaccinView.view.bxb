@@ -1,0 +1,27 @@
+result-view{
+  match: ResultsVaccin(result)
+
+  message{
+    template ("#{value(result.vaccinDate)}")
+  }
+  render {
+    if(size(result) == 1){ 
+      layout-macro (VaccinViewSolo) {
+        param (resultData){ 
+          expression (result) 
+        }
+      }  
+    }
+    else{
+      list-of (result){
+        where-each (item){
+          layout-macro (VaccinViewLayout){
+            param(resultData){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+  }
+}
