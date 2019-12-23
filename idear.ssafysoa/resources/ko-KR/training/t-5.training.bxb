@@ -1,3 +1,8 @@
+train (t-5bzyrueefg0z2p5lw44ly0725) {
+  utterance ("[g:PolicyInfo] 소중한 아기에서 (출산)[v:PolicyObject] (혜택)[v:PolicyBenefit] (알려주세요)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
+  last-modified (1577078845783)
+}
 train (t-5jkmh8vme5zpujyaksirkpf3l) {
   utterance ("[g:PolicyInfo] (출산)[v:PolicyObject]에 대한 (혜택)[v:PolicyBenefit] 좀 (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)

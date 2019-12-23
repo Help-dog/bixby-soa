@@ -3,6 +3,11 @@ train (t-q332qyc1sa5mua9vearr1jucb) {
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
   last-modified (1572241732172)
 }
+train (t-q88nmpd72npgwylhhpjq0s7tw) {
+  utterance ("[g:BabyFoodList] (아이 이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1577079888456)
+}
 train (t-qx80jvz12vww5yhkbcsgy2uhz) {
   utterance ("[g:BabyFoodList] (새송이 비타민 소고기 죽)[v:Ingredients] (이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkEEWIeealF6WmZKbmlRQzSOAyjIGFgZGBiYEZSDMAWRAIAyAxqBwA)

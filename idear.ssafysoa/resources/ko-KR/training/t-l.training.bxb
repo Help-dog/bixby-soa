@@ -13,10 +13,15 @@ train (t-l89qijl0prctkp1g1f8udkssy) {
   plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571637879591)
 }
+train (t-lbazs6mdksq6lq36lnqw5jucg) {
+  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원들을 (찾아줘)[v:Recommendation:검색]")
+  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
+  last-modified (1577079412096)
+}
 train (t-lkd5f031aewqlpmttgya84ruv) {
-  utterance ("[g:ResultsVaccin] (1)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (1)[v:Month]개월 (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572481508668)
+  last-modified (1577078249200)
 }
 train (t-lqve6ok6faqhefa1dbg6dlyed) {
   utterance ("[g:ResultsMedicine] (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")

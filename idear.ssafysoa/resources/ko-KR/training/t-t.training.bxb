@@ -1,3 +1,8 @@
+train (t-t21rnaze300dstteyi2zztqie) {
+  utterance ("[g:PregnancyStatusResults] 소중한 아기에서 (5)[v:WeekNumOperand](주차)[v:WeekOperand:주] (애기)[v:TargetOperand] (상태)[v:StatusOperand:상태] 알려줘")
+  plan (Y2BjUMhMSU0s0ivOT9QLKEpNz0vMS64MLkksKS0OSi0uzSkpZpDHqcIxuSQzP49BHKEAIu5fkFqUmJeCLBGSWJSeWgKTkEBIhKemZvuV5sJkRFFlYMKsDIwMTAzMDCxAFgOQDYMIABKHqwAA)
+  last-modified (1577083358243)
+}
 train (t-t6uod6s7ru5bjqf854xvox633) {
   utterance ("[g:ResultsMedicine] (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
   plan (Y2BhkMtMSU0s0isuTkyrLM5P1AtKLS7NKSn2TU3JTM7MS2WQRpN3SkyqhEuKo0nCJWQxTE3Oz81NzUtJLMnMz2NgZmBkYAKSDEAaBCEAxAeLAgA=)

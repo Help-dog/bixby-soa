@@ -4,9 +4,14 @@ train (t-himpq6cujmy286445gujvsk2t) {
   last-modified (1571638300305)
 }
 train (t-hnjlf6kpzr59u4lge4du1k9oc) {
-  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (2)[v:Month]개월")
+  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine:예방접종] (2)[v:Month]개월")
   plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQzMDIwMTECSAUiDIASA+GBRAA==)
-  last-modified (1572481453319)
+  last-modified (1577078216631)
+}
+train (t-hp7ocehdmuap10atq6ryyt293) {
+  utterance ("[g:BabyFoodList] 소중한 아기에서 (이유식)[v:BabyFood:이유식] (추천해줘)[v:Recommendation:검색]")
+  plan (Y2BhEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepkkMCli4GZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1577079622840)
 }
 train (t-htmrldx2z89enedpgqlsm09s4) {
   utterance ("[g:FromHospitalName] (세계로 병원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")

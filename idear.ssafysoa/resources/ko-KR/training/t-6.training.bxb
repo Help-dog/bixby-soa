@@ -1,3 +1,8 @@
+train (t-6bobyloydzm4xspfu8gwy0a4a) {
+  utterance ("[g:PolicyInfo] 소중한 아기에서 (아가)[v:PolicyObject] (혜택)[v:PolicyBenefit] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
+  last-modified (1577081478776)
+}
 train (t-6c0hrun85txn9ryem404c8uyk) {
   utterance ("[g:FromHospitalName] (일 이삼 사의원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
@@ -12,6 +17,11 @@ train (t-6fxwp8y80almaqq2ea83exban) {
   utterance ("[g:PolicyInfo] (출산)[v:PolicyObject] (혜택)[v:PolicyBenefit] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlhEEEX98xLy2cQRxd1Ss1LTcsswTTGPykrNbmEQQIhHpSanJ+bm5qXkliSmZ/HwMLAyMDEwAykGYAsCIQBJDkA)
   last-modified (1572503209756)
+}
+train (t-6mhse9ejb1usxkv27to5awe4w) {
+  utterance ("[g:ResultsMedicine] 소중한 아기에서 (상비약)[v:Medicine:상비약] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhkMxMSU0s0ivOT9QLSi0uzSkp9k1NyUzOzEtlEENIOSUmVcLFhRDicDEJZGOS83NzU/NSEksy8/MYmBkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1577080827425)
 }
 train (t-6r5c1txw4cd35j1a96gif7aej) {
   utterance ("[g:PolicyInfo] (출산)[v:PolicyObject] (혜택)[v:PolicyBenefit]을 (알려줘)[v:Recommendation:검색]")
