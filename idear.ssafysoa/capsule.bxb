@@ -10,20 +10,22 @@ capsule{
       allow (KR)
     }
   }
-  runtime-flags {
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-    no-filtering-with-validation
-    modern-default-view-behavior
-    use-input-views-for-selection-list-detail
-  }
+   runtime-version (2) {
+    //  overrides {
+    //   concepts-inherit-super-type-features (true)
+    //   modern-prompt-rejection (true)
+    //   support-halt-effect-in-computed-inputs (true)
+    //   no-filtering-with-validation (true)
+    //   modern-default-view-behavior (true)
+    //   use-input-views-for-selection-list-detail (true)
+    //  }
+   }
   capsule-imports {
-    import (viv.entity){as (entity) version(3.21.0)}
+    import (viv.entity){as (entity) version(4.0.2)}
     import (viv.core){ as (core) version-from (entity)}
     import (viv.common) { as (common) version-from (entity)}
     import (viv.geo) { as (geo) version-from (entity) }
-    import (viv.self) {as (self) version(3.5.154)}
+    import (viv.self) {as (self) version(3.5.169)}
   }
   permissions {
     user-profile-access
