@@ -9,9 +9,9 @@ train (t-x6r5znxec7wmkzrkdw2nlbfti) {
   last-modified (1572239230489)
 }
 train (t-xd4y4w0ldy1xiexmgf7fnfkwr) {
-  utterance ("[g:ResultsVaccin] (1만 4세)[v:WhatMonth:'만 4세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlkMlMSU0s0isuTkyrLM5P1AtKLS7NKSkOS0xOzsxjkEaThQinOmekJmdjaHXOyM8sToUqYZDFMDg5Pzc3NS8lsSQzP49BAk06PCOxxDc/rySDgYWBkYGJgRlIMwBZEAgDIDGoHAA=)
-  last-modified (1572595082064)
+  utterance ("[g:ResultsVaccin] (1만 4세)[v:WhatMonth:'만 4세'] (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
+  last-modified (1577078286127)
 }
 train (t-xn823z7ate3uxzgd2rvzyymzj) {
   utterance ("[g:BabyFoodList] (25)[v:Month]개월(이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")

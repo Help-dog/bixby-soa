@@ -1,6 +1,6 @@
 capsule{
   id (idear.soa)
-  version (1.5.0)
+  version (1.6.0)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

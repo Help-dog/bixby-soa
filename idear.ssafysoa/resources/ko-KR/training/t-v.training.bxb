@@ -1,3 +1,8 @@
+train (t-v0ij9x5wo6ria4eu2i74f5i95) {
+  utterance ("[g:Hospital] (주변)[v:Near:Nearby] 병원을 (찾아줘)[v:Recommendation:검색]")
+  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
+  last-modified (1577079437968)
+}
 train (t-vc0z5sqopfmklgapw3vo9s0g8) {
   utterance ("[g:BabyFoodList] (4)[v:Month]개월차 (이유식)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEMtMSU0s0ivOT9RzSkyqdMvPT/HJLC5hUECIB6Um5+fmpualJJZk5ufBVDEIYepk4EeI+ebnlWQwSOAyhoGFgZGBiYEZSDMAWRAIAyAxqBwA)
@@ -9,7 +14,7 @@ train (t-viyrcpi0w0ntbzqt0icz3s448) {
   last-modified (1572240463001)
 }
 train (t-vq67naqth5w72m8te74z1pgk3) {
-  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572147077841)
+  last-modified (1577078271392)
 }

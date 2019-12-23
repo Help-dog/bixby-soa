@@ -1,7 +1,12 @@
+train (t-e1i5vncvjk0x2fy1ts3x5lg1c) {
+  utterance ("[g:SearchPolicy] (아이 돌봄 서비스)[v:PolicyName]의 (혜택)[v:PolicyBenefit]을 (알려주겠니)[v:Recommendation:검색]")
+  plan (Y2BlEMtMSU0s0ivOT9QLyM/JTK4MSi0uzSlBFg8GMpIzILIM4ujqnVLzUtMySxhE0CX8EnNTGSQQokGpyfm5ual5KYklmfl5DCwMjAxMDMxAmgHIgkAYQJIDAA==)
+  last-modified (1577084070259)
+}
 train (t-edbpynivp4l0rv3f3ku3esh8e) {
-  utterance ("[g:ResultsVaccin] (육 새)[v:WhatMonth:'만 6세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (육 새)[v:WhatMonth:'만 6세'] (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572142527732)
+  last-modified (1577078177591)
 }
 train (t-ejayi5s9xcs8kgkvv2k79n7ns) {
   utterance ("[g:BabyFoodList] (3)[v:Month]개월 {[g:BabyFood] (이유식)[v:BabyFood:이유식]} (알려줘)[v:Recommendation:검색]")
@@ -19,7 +24,7 @@ train (t-elzcatsoxit9v89yv86ntsxf8) {
   last-modified (1572249647437)
 }
 train (t-eobulec2frewkm0xdtddsrqot) {
-  utterance ("[g:ResultsVaccin] (18)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (18)[v:Month]개월 (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572481417248)
+  last-modified (1577078331750)
 }

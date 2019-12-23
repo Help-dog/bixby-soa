@@ -1,12 +1,12 @@
 train (t-y0xyez6n1g8jjq315pugujecn) {
-  utterance ("[g:ResultsVaccin] (6)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (6)[v:Month]개월 (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572481547483)
+  last-modified (1577078294000)
 }
 train (t-yb9hxe47bwz3t160uw8ozv9gs) {
-  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
-  plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhgBmIQXIMAA==)
-  last-modified (1572231844712)
+  utterance ("[g:ResultsVaccin] (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
+  plan (Y2BhEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jYGZgZGACkgxAGgQhAMQHiwIA)
+  last-modified (1577078308647)
 }
 train (t-yywpq1z7pv58qtm1u3c4wfp8q) {
   utterance ("[g:BabyFoodList] (소고기 밤 대추 영양 진밥)[v:Ingredients] (레시피)[v:BabyFood:이유식] (알려줘)[v:Recommendation:검색]")

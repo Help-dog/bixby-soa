@@ -1,7 +1,7 @@
 train (t-i69fj9l0bwrlsap73fzrkcuc7) {
-  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (만 11세)[v:WhatMonth:'만 11세'] (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRkkkE1Kzs/NTc1LSSzJzM9jEEbIhGcklvjm55VkMLAwMDIwMTADaQYgCwJhACQGlQMA)
-  last-modified (1572143794408)
+  last-modified (1577078215991)
 }
 train (t-i6d0485tt2j5lvwv6ltb0cwzt) {
   utterance ("[g:FromHospitalName] (세계로 세계 병원)[v:HospitalName] (알려줘)[v:Recommendation:검색]")
@@ -9,14 +9,19 @@ train (t-i6d0485tt2j5lvwv6ltb0cwzt) {
   last-modified (1572241613997)
 }
 train (t-ifciwjl3hfnuvuuz6esvtrbxw) {
-  utterance ("[g:ResultsVaccin] (2)[v:Month]개월 (예방접종)[v:ChoiseVaccine] (알려줘)[v:Recommendation:검색]")
+  utterance ("[g:ResultsVaccin] (2)[v:Month]개월 (예방접종)[v:ChoiseVaccine:예방접종] (알려줘)[v:Recommendation:검색]")
   plan (Y2BlEM9MSU0s0ivOT9QLSi0uzSkpDktMTs7MYxBDSEBEUp0zUpOzkTU4Z+RnFqdCZRn4ERK++XklGQwSyEYn5+fmpualJJZk5ucxsDAwMjAxMANpBiALAmEAJAaVAwA=)
-  last-modified (1572481467040)
+  last-modified (1577078352911)
 }
 train (t-ih5zohm5eeq7slwrmxsp3zmdl) {
   utterance ("[g:FromHospitalName] (일 이삼 사 병원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")
   plan (Y2BlkMpMSU0s0ivOT9QLBjKSM1JTPPKLCzJLEnOQ5dyK8nNh4n6JuakMYgg5FHEJhHhQanJ+bm5qXkpiSWZ+HgNvWWaZXnFqThrQopw0BhYGRgYmBmYgzQBkQSAMMEPlGAA=)
   last-modified (1572249693118)
+}
+train (t-ilmh6gk01vqiwt4nzrz8nbydi) {
+  utterance ("[g:Hospital] 소중한 아기에서 (주변)[v:Near:Nearby] 병원 (알려줘)[v:Recommendation:검색]")
+  plan (Y2BlEMpMSU0s0ivOT9TzyC8uyCxJzGGQRIi5p5bAhD3z0vIZ+BBSfkAGgwSCH5SanJ+bm5qXkliSmZ/HwFuWWaZXnJqTphcMJBhYGBgZmBiYgTQDkAWBMMAMxCA5BgA=)
+  last-modified (1577078992280)
 }
 train (t-imvn0c8q5ifmgv5yrlf19fi72) {
   utterance ("[g:FromHospitalName] (세계로병원)[v:HospitalName] (검색해줘)[v:Recommendation:검색]")

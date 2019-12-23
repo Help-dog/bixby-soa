@@ -1,4 +1,6 @@
-name (ChoiseVaccine) {
+enum (ChoiseVaccine) {
   description (예방접종인지 아닌지 체크)
   features {transient}
+
+  symbol (예방접종)
 }
